@@ -7,7 +7,7 @@ from archilog.models import create_entry,delete_entry,init_db,update_entry
 from archilog.services import export_to_csv,import_from_csv
 import click
 
-
+"""
 app = Flask(__name__)
 init_db() #Initialisation de la bd
 
@@ -104,7 +104,7 @@ def import_csv():
 
 @app.route('/export_csv')
 def export_csv():
-    """Génère le CSV et permet le téléchargement"""
+    Génère le CSV et permet le téléchargement
     filename = "exported_users.csv"
     filepath = os.path.join(os.getcwd(), filename)
 
@@ -126,6 +126,7 @@ def export_csv():
 if __name__ == '__main__':
     app.run(debug=True)
 
+"""
 
 @click.group()
 def cli():
@@ -168,7 +169,7 @@ def import_csv(csv_file):
 
 @cli.command()
 def export_to_csv():
-    services.export_to_csv()
+    services.export_to_csv(True)
 
 
 @cli.command()

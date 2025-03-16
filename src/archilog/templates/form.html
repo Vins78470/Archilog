@@ -72,15 +72,15 @@
             {% endif %}
             
             <label for="category">Catégorie :</label>
-            {{ form.category(class="form-control") }}
-            {% if form.category.errors %}
-                <ul>
-                    {% for error in form.category.errors %}
-                        <li style="color: red;">{{ error }}</li>
-                    {% endfor %}
-                </ul>
-            {% endif %}
-            
+                <input type="text" name="category" class="form-control" value="{{ form.category.data or '' }}">
+                {% if form.category.errors %}
+                    <ul>
+                        {% for error in form.category.errors %}
+                            <li style="color: red;">{{ error }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+                            
             <button type="submit">Créer</button>
         </form>
     </div>

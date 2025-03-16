@@ -6,6 +6,8 @@ from archilog.services import export_to_csv, import_from_csv
 from flask_wtf import FlaskForm
 from wtforms import StringField, FloatField, SelectField
 from wtforms.validators import DataRequired, Optional
+import io
+
 
 
 # Chemin absolu vers le dossier templates
@@ -131,31 +133,33 @@ def import_csv():
     return "Importation réussie", 200  # Retourne une réponse HTTP valide
 
 # Route pour exporter les données en CSV
+
+
 @web_ui.route('/export_csv')
 def export_csv():
-    """Génère le CSV et permet le téléchargement"""
-    filename = "exported_users.csv"
-    filepath = os.path.join(os.getcwd(), filename)
+    """Génère le CSV et l'envoie directement en téléchargement sans l'écrire sur disque."""
 
-    # Récupérer le CSV généré sous forme de StringIO
+    # Récupérer le CSV sous forme de StringIO
     csv_content = export_to_csv()
 
-    # Écrire ce contenu dans un vrai fichier
-    with open(filepath, "w", newline="", encoding="utf-8") as f:
-        f.write(csv_content.getvalue())
+    # Convertir StringIO en BytesIO pour send_file
+    output = io.BytesIO(csv_content.getvalue().encode("utf-8"))
+    output.seek(0)  # Remettre le curseur au début du fichier
 
-    # Vérifier que le fichier a bien été écrit
-    if not os.path.exists(filepath):
-        return "Erreur : Le fichier CSV n'a pas été généré.", 404
+    return send_file(
+        output,
+        as_attachment=True,
+        download_name="exported_users.csv",
+        mimetype="text/csv"
+    )
 
-    # Envoyer le fichier en téléchargement
-    return send_file(filepath, as_attachment=True, download_name=filename, mimetype="text/csv")
 
 
 class CreateUserForm(FlaskForm):
     name = StringField('Nom', validators=[DataRequired()])
     amount = FloatField('Montant', validators=[DataRequired()])
-    category = SelectField('Catégorie', choices=[('cat1', 'Catégorie 1'), ('cat2', 'Catégorie 2')], validators=[Optional()])
+    category = StringField('Catégorie', validators=[Optional()])
+
     
 class DeleteUserForm(FlaskForm):
     user_id = StringField('ID Utilisateur', validators=[DataRequired()])

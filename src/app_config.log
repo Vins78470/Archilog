@@ -1,0 +1,118 @@
+2025-03-16 17:26:26,141 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-16 17:26:26,306 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-16 17:26:26,309 [INFO] BEGIN (implicit)
+2025-03-16 17:26:26,309 [INFO] PRAGMA main.table_info("profile")
+2025-03-16 17:26:26,309 [INFO] [raw sql] ()
+2025-03-16 17:26:26,309 [INFO] PRAGMA temp.table_info("profile")
+2025-03-16 17:26:26,309 [INFO] [raw sql] ()
+2025-03-16 17:26:26,310 [INFO] 
+CREATE TABLE profile (
+	id VARCHAR NOT NULL, 
+	name VARCHAR, 
+	amount FLOAT, 
+	category VARCHAR, 
+	PRIMARY KEY (id)
+)
+
+
+2025-03-16 17:26:26,310 [INFO] [no key 0.00018s] ()
+2025-03-16 17:26:26,326 [INFO] COMMIT
+2025-03-16 17:26:26,333 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-16 17:26:26,333 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-16 17:26:28,242 [INFO] 127.0.0.1 - - [16/Mar/2025 17:26:28] "GET / HTTP/1.1" 200 -
+2025-03-16 17:26:30,975 [INFO] BEGIN (implicit)
+2025-03-16 17:26:30,975 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-03-16 17:26:30,975 [INFO] [generated in 0.00027s] ()
+2025-03-16 17:26:30,976 [INFO] ROLLBACK
+2025-03-16 17:26:30,982 [INFO] 127.0.0.1 - - [16/Mar/2025 17:26:30] "GET /export_csv HTTP/1.1" 200 -
+2025-03-16 17:26:39,431 [INFO] BEGIN (implicit)
+2025-03-16 17:26:39,431 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-03-16 17:26:39,431 [INFO] [cached since 8.456s ago] ()
+2025-03-16 17:26:39,431 [INFO] ROLLBACK
+2025-03-16 17:26:39,433 [INFO] 127.0.0.1 - - [16/Mar/2025 17:26:39] "GET /export_csv HTTP/1.1" 200 -
+2025-03-16 17:26:55,192 [INFO] BEGIN (implicit)
+2025-03-16 17:26:55,192 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-03-16 17:26:55,192 [INFO] [cached since 24.22s ago] ()
+2025-03-16 17:26:55,193 [INFO] ROLLBACK
+2025-03-16 17:26:55,194 [INFO] 127.0.0.1 - - [16/Mar/2025 17:26:55] "GET /export_csv HTTP/1.1" 200 -
+2025-03-16 17:28:53,953 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-16 17:28:54,119 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-16 17:28:54,121 [INFO] BEGIN (implicit)
+2025-03-16 17:28:54,121 [INFO] PRAGMA main.table_info("profile")
+2025-03-16 17:28:54,121 [INFO] [raw sql] ()
+2025-03-16 17:28:54,122 [INFO] COMMIT
+2025-03-16 17:28:54,129 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-16 17:28:54,129 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-16 17:28:56,231 [INFO] 127.0.0.1 - - [16/Mar/2025 17:28:56] "GET / HTTP/1.1" 200 -
+2025-03-16 17:29:04,413 [INFO] BEGIN (implicit)
+2025-03-16 17:29:04,413 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-03-16 17:29:04,414 [INFO] [generated in 0.00031s] ()
+2025-03-16 17:29:04,414 [INFO] ROLLBACK
+2025-03-16 17:29:04,416 [INFO] 127.0.0.1 - - [16/Mar/2025 17:29:04] "GET /export_csv HTTP/1.1" 200 -
+2025-03-16 17:29:23,580 [INFO] 127.0.0.1 - - [16/Mar/2025 17:29:23] "GET / HTTP/1.1" 200 -
+2025-03-16 17:29:23,644 [INFO] 127.0.0.1 - - [16/Mar/2025 17:29:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-16 17:29:25,194 [INFO] BEGIN (implicit)
+2025-03-16 17:29:25,194 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-03-16 17:29:25,194 [INFO] [cached since 20.78s ago] ()
+2025-03-16 17:29:25,194 [INFO] ROLLBACK
+2025-03-16 17:29:25,196 [INFO] 127.0.0.1 - - [16/Mar/2025 17:29:25] "GET /export_csv HTTP/1.1" 200 -
+2025-03-16 17:29:37,710 [INFO] BEGIN (implicit)
+2025-03-16 17:29:37,710 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-03-16 17:29:37,710 [INFO] [cached since 33.3s ago] ()
+2025-03-16 17:29:37,710 [INFO] ROLLBACK
+2025-03-16 17:29:37,712 [INFO] 127.0.0.1 - - [16/Mar/2025 17:29:37] "GET /export_csv HTTP/1.1" 200 -
+2025-03-16 17:31:35,014 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-16 17:31:35,184 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-16 17:31:35,186 [INFO] BEGIN (implicit)
+2025-03-16 17:31:35,186 [INFO] PRAGMA main.table_info("profile")
+2025-03-16 17:31:35,186 [INFO] [raw sql] ()
+2025-03-16 17:31:35,187 [INFO] COMMIT
+2025-03-16 17:31:35,194 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-16 17:31:35,194 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-16 17:31:52,179 [INFO] 127.0.0.1 - - [16/Mar/2025 17:31:52] "GET / HTTP/1.1" 200 -
+2025-03-16 17:31:52,974 [INFO] 127.0.0.1 - - [16/Mar/2025 17:31:52] "[33mGET /export_csv HTTP/1.1[0m" 404 -
+2025-03-16 17:34:26,257 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-16 17:34:26,421 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-16 17:34:26,423 [INFO] BEGIN (implicit)
+2025-03-16 17:34:26,423 [INFO] PRAGMA main.table_info("profile")
+2025-03-16 17:34:26,423 [INFO] [raw sql] ()
+2025-03-16 17:34:26,423 [INFO] COMMIT
+2025-03-16 17:34:26,431 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-16 17:34:26,431 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-16 17:34:28,555 [INFO] 127.0.0.1 - - [16/Mar/2025 17:34:28] "GET / HTTP/1.1" 200 -
+2025-03-16 17:34:31,550 [INFO] BEGIN (implicit)
+2025-03-16 17:34:31,550 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-03-16 17:34:31,551 [INFO] [generated in 0.00036s] ()
+2025-03-16 17:34:31,551 [INFO] ROLLBACK
+2025-03-16 17:34:31,551 [INFO] 127.0.0.1 - - [16/Mar/2025 17:34:31] "GET /export_csv HTTP/1.1" 200 -
+2025-03-16 17:34:46,755 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-16 17:34:47,051 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-16 17:34:47,054 [INFO] BEGIN (implicit)
+2025-03-16 17:34:47,054 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-03-16 17:34:47,054 [INFO] [generated in 0.00019s] ()
+2025-03-16 17:34:47,054 [INFO] ROLLBACK
+2025-03-16 17:37:32,433 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-16 17:37:32,729 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-16 17:37:36,340 [INFO] BEGIN (implicit)
+2025-03-16 17:37:36,340 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-03-16 17:37:36,341 [INFO] [generated in 0.00030s] ('6ff8f27ecbc54279a364895e57e7a5e5', 'lol', 500.0, 'zz')
+2025-03-16 17:37:36,341 [INFO] COMMIT
+2025-03-16 17:37:43,862 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-16 17:37:44,155 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-16 17:37:44,158 [INFO] BEGIN (implicit)
+2025-03-16 17:37:44,158 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-03-16 17:37:44,158 [INFO] [generated in 0.00026s] ()
+2025-03-16 17:37:44,159 [INFO] ROLLBACK
