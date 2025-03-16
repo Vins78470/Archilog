@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mettre à jour un utilisateur</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        input, button {
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            border: 1px solid #ccc;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        input:focus, button:focus {
+            outline: none;
+            border-color: #007bff;
+            box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            transition: 0.3s;
+            border: none;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 5px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mettre à jour un utilisateur</h1>
+        <form method="POST" action="{{ url_for('web_ui.display_update_user_page') }}">
+            {{ form.hidden_tag() }} <!-- CSRF token -->
+
+            <div class="form-group">
+                <label for="id">ID de l'utilisateur :</label>
+                {{ form.id(class="form-control", placeholder="ID de l'utilisateur", required=True) }}
+            </div>
+
+            <div class="form-group">
+                <label for="name">Nouveau nom :</label>
+                {{ form.name(class="form-control", placeholder="Nouveau nom", required=True) }}
+            </div>
+
+            <div class="form-group">
+                <label for="amount">Nouveau montant :</label>
+                {{ form.amount(class="form-control", placeholder="Nouveau montant", required=True) }}
+            </div>
+
+            <div class="form-group">
+                <label for="category">Nouvelle catégorie :</label>
+                {{ form.category(class="form-control", placeholder="Nouvelle catégorie", required=True) }}
+            </div>
+
+            <button type="submit">Mettre à jour</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+[project]
+name = "archilog"
+version = "0.1"
+description = "A simple project for educational purpose."
+readme = "README.md"
+dependencies = [
+    "click>=8.1.8",
+    "sqlalchemy>=2.0.38",
+    "flask>=3.1.0",
+    "flask-wtf>=1.2.2",
+]
+requires-python = ">=3.10"
+
+[project.license]
+text = "MIT"
+
+[project.scripts]
+archilog = "archilog.views:cli"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.scripts]
+_.env_file = "dev.env"
+start = "flask --app archilog.views --debug run"

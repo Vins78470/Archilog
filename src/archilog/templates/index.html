@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des utilisateurs</title>
+    <style>
+        /* Réinitialisation des styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Mise en page */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+
+        .actions {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .btn {
+            background-color: #007bff;
+            color: white;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            text-decoration: none;
+            text-align: center;
+            transition: 0.3s;
+            cursor: pointer;
+            display: block;
+            border: none;
+            width: 100%;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Style du bouton d'importation CSV */
+        .upload-btn {
+            background-color: #007bff;
+            color: white;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            text-align: center;
+            cursor: pointer;
+            display: block;
+            border: none;
+            transition: 0.3s;
+            width: 100%;
+        }
+
+        .upload-btn:hover {
+            background-color: #0056b3;
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Gestion des utilisateurs</h1>
+        <p>Choisissez une action :</p>
+
+        <div class="actions">
+            <a href="{{ url_for('web_ui.display_create_user') }}" class="btn">Créer un utilisateur</a>
+            <a href="{{ url_for('web_ui.display_delete_user_page') }}" class="btn">Supprimer un utilisateur</a>
+            <a href="{{ url_for('web_ui.display_update_user_page') }}" class="btn">Mettre a jour un utilisateur</a>
+
+            <!-- Bouton d'importation CSV -->
+            <form action="{{ url_for('web_ui.import_csv') }}" method="POST" enctype="multipart/form-data">
+                <label for="csv_file" class="upload-btn">Importer un fichier CSV</label>
+                <input type="file" id="csv_file" name="csv_file" accept=".csv" required>
+                <button type="submit" class="btn">Envoyer</button>
+            </form>
+            
+           
+            
+            <a href="{{ url_for('web_ui.export_csv') }}" class="btn">Exporter au format CSV</a>
+        </div>
+
+        <p>Gérez vos utilisateurs facilement.</p>
+        
+        <!-- Iframe caché pour éviter la redirection -->
+        <iframe name="hidden_iframe" style="display:none;"></iframe>
+    </div>
+
+</body>
+</html>

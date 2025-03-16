@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'enregistrement</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        label {
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+        input, select, button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Formulaire d'enregistrement</h1>
+        <form method="POST">
+            {{ form.hidden_tag() }} <!-- Pour le CSRF Token -->
+            
+            <label for="name">Nom :</label>
+            {{ form.name(class="form-control") }}  <!-- Ajoute la classe CSS pour un meilleur rendu -->
+            {% if form.name.errors %}
+                <ul>
+                    {% for error in form.name.errors %}
+                        <li style="color: red;">{{ error }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+            
+            <label for="amount">Montant :</label>
+            {{ form.amount(class="form-control") }}
+            {% if form.amount.errors %}
+                <ul>
+                    {% for error in form.amount.errors %}
+                        <li style="color: red;">{{ error }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+            
+            <label for="category">Catégorie :</label>
+            {{ form.category(class="form-control") }}
+            {% if form.category.errors %}
+                <ul>
+                    {% for error in form.category.errors %}
+                        <li style="color: red;">{{ error }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+            
+            <button type="submit">Créer</button>
+        </form>
+    </div>
+</body>
+</html>
