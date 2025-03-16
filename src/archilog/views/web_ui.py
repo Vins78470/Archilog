@@ -1,8 +1,6 @@
 import os
-from flask import Blueprint, render_template
-from flask import Blueprint, request, send_file
+from flask import Blueprint, render_template, request, send_file
 import uuid
-import os
 from archilog.models import create_entry, delete_entry, update_entry,CreateUserForm,DeleteUserForm,UpdateUserForm
 from archilog.services import export_to_csv, import_from_csv
 from flask_wtf import FlaskForm

@@ -1,14 +1,11 @@
-from flask import Flask, render_template, request, redirect, url_for
-from flask import send_file
+from flask import Flask, render_template, request, send_file
 import uuid
 import os
+import archilog.models as models
+import archilog.services as services
 from archilog.models import create_entry,delete_entry,init_db,update_entry
 from archilog.services import export_to_csv,import_from_csv
 import click
-import uuid
-import archilog.models as models
-import archilog.services as services
-
 
 
 app = Flask(__name__)

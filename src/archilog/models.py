@@ -5,6 +5,7 @@ from sqlalchemy import create_engine, Column, String, Float, MetaData, Table, in
 from flask_wtf import FlaskForm
 from wtforms import StringField, FloatField, SelectField
 from wtforms.validators import DataRequired, Optional
+
 # Initialize global metadata
 metadata = MetaData()
 
@@ -77,8 +78,6 @@ def delete_entry(id: uuid.UUID) -> None:
     with engine.connect() as conn:
         conn.execute(stmt)
         conn.commit()
-
-
 
 
 class CreateUserForm(FlaskForm):
