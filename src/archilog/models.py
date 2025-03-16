@@ -2,7 +2,9 @@ import uuid
 from dataclasses import dataclass
 from archilog import config
 from sqlalchemy import create_engine, Column, String, Float, MetaData, Table, insert, update, delete
-
+from flask_wtf import FlaskForm
+from wtforms import StringField, FloatField, SelectField
+from wtforms.validators import DataRequired, Optional
 # Initialize global metadata
 metadata = MetaData()
 
@@ -77,9 +79,7 @@ def delete_entry(id: uuid.UUID) -> None:
         conn.commit()
 
 
-from flask_wtf import FlaskForm
-from wtforms import StringField, FloatField, SelectField
-from wtforms.validators import DataRequired, Optional
+
 
 class CreateUserForm(FlaskForm):
     name = StringField('Nom', validators=[DataRequired()])
