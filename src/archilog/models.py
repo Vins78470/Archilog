@@ -80,6 +80,8 @@ def delete_entry(id: uuid.UUID) -> None:
         conn.commit()
 
 
+
+
 class CreateUserForm(FlaskForm):
     name = StringField('Nom', validators=[DataRequired()])
     amount = FloatField('Montant', validators=[DataRequired()])

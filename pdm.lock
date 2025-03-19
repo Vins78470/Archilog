@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:f8293ee4afab11e42717b71cec8126a96159f71eea1918122fe346df0feb1d2f"
+content_hash = "sha256:b78e812bf42ea8ce6a352cd82d20078a766edbeb55629ea13c25cb00d38fbc08"
 
 [[metadata.targets]]
 requires_python = ">=3.10"
@@ -65,6 +65,19 @@ dependencies = [
 files = [
     {file = "flask-3.1.0-py3-none-any.whl", hash = "sha256:d667207822eb83f1c4b50949b1623c8fc8d51f2341d65f72e1a1815397551136"},
     {file = "flask-3.1.0.tar.gz", hash = "sha256:5f873c5184c897c8d9d1b05df1e3d01b14910ce69607a117bd3277098a5836ac"},
+]
+
+[[package]]
+name = "flask-httpauth"
+version = "4.8.0"
+summary = "HTTP authentication for Flask routes"
+groups = ["default"]
+dependencies = [
+    "flask",
+]
+files = [
+    {file = "Flask-HTTPAuth-4.8.0.tar.gz", hash = "sha256:66568a05bc73942c65f1e2201ae746295816dc009edd84b482c44c758d75097a"},
+    {file = "Flask_HTTPAuth-4.8.0-py3-none-any.whl", hash = "sha256:a58fedd09989b9975448eef04806b096a3964a7feeebc0a78831ff55685b62b0"},
 ]
 
 [[package]]
