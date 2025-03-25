@@ -4,12 +4,14 @@ from archilog.views.error_handler import register_error_handlers
 from archilog.models import init_db
 from archilog.__init__ import config  # Assure-toi d'importer la bonne config
 from archilog.cli import cli  # 🔹 Ajout de l'import du CLI
+from flask_wtf import CSRFProtect
 
 def create_app():
     # Création de l'instance de l'application Flask
     app = Flask(__name__)
     app.config['SECRET_KEY'] = config.SECRET_KEY 
 
+    csrf = CSRFProtect(app)
     # 🔹 Enregistrer les handlers d'erreur
     register_error_handlers(app)  
     

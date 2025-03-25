@@ -85,7 +85,8 @@ def delete_entry(id: uuid.UUID) -> None:
 class CreateUserForm(FlaskForm):
     name = StringField('Nom', validators=[DataRequired()])
     amount = FloatField('Montant', validators=[DataRequired()])
-    category = SelectField('Catégorie', choices=[('cat1', 'Catégorie 1'), ('cat2', 'Catégorie 2')], validators=[Optional()])
+    category = StringField('Catégorie', validators=[Optional()])
+
     
 class DeleteUserForm(FlaskForm):
     user_id = StringField('ID Utilisateur', validators=[DataRequired()])

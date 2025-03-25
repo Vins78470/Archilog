@@ -9,10 +9,13 @@
 </head>
 <body class="container mt-5">
     <h2>Supprimer un élément</h2>
-    <form action="{{ url_for('web_ui.delete_user') }}" method="POST">
+
+    <form action="{{ url_for('web_ui.display_delete_user_page') }}" method="POST">
+        {{ form.hidden_tag() }}  <!--  Ajout du token CSRF -->
+
         <div class="mb-3">
-            <label for="id" class="form-label">ID de l'élément (UUID) :</label>
-            <input type="text" id="id" name="id" class="form-control" required>
+            <label for="user_id" class="form-label">ID de l'élément (UUID) :</label>
+            {{ form.user_id(class="form-control") }}  <!-- Utilisation du champ WTForms -->
         </div>
         <button type="submit" class="btn btn-danger">Supprimer</button>
     </form>
