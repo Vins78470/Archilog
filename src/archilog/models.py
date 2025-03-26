@@ -6,6 +6,10 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, FloatField, SelectField
 from wtforms.validators import DataRequired, Optional
 
+
+from wtforms import FileField
+from wtforms.validators import DataRequired
+
 # Initialize global metadata
 metadata = MetaData()
 
@@ -83,16 +87,28 @@ def delete_entry(id: uuid.UUID) -> None:
 
 
 class CreateUserForm(FlaskForm):
+    class Meta:
+        csrf = False  # Désactive la protection CSRF
     name = StringField('Nom', validators=[DataRequired()])
     amount = FloatField('Montant', validators=[DataRequired()])
     category = StringField('Catégorie', validators=[Optional()])
 
     
 class DeleteUserForm(FlaskForm):
+    class Meta:
+        csrf = False  # Désactive la protection CSRF
     user_id = StringField('ID Utilisateur', validators=[DataRequired()])
 
 class UpdateUserForm(FlaskForm):
+    class Meta:
+        csrf = False  # Désactive la protection CSRF
     id = StringField('ID de l\'utilisateur', validators=[DataRequired()])
     name = StringField('Nouveau nom', validators=[DataRequired()])
     amount = FloatField('Nouveau montant', validators=[DataRequired()])
     category = StringField('Nouvelle catégorie', validators=[DataRequired()])
+
+
+class ImportCSVForm(FlaskForm):
+    class Meta:
+        csrf = False  # Désactive la protection CSRF
+    csv_file = FileField('Fichier CSV', validators=[DataRequired()])

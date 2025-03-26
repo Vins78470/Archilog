@@ -101,6 +101,7 @@
 
             <!-- Bouton d'importation CSV -->
             <form action="{{ url_for('web_ui.import_csv') }}" method="POST" enctype="multipart/form-data">
+    
                 <label for="csv_file" class="upload-btn">Importer un fichier CSV</label>
                 <input type="file" id="csv_file" name="csv_file" accept=".csv" required>
                 <button type="submit" class="btn">Envoyer</button>

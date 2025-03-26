@@ -1,12 +1,15 @@
 import os
 import uuid
 import io
-from flask import Flask, Blueprint, render_template, request, send_file, redirect, url_for, flash
+from flask import Flask, Blueprint, render_template, request, send_file, redirect, url_for, flash,jsonify
 from flask_httpauth import HTTPBasicAuth
 from werkzeug.security import generate_password_hash, check_password_hash
-from archilog.models import create_entry, delete_entry, update_entry, CreateUserForm, DeleteUserForm, UpdateUserForm
+from archilog.models import create_entry, delete_entry, update_entry, CreateUserForm, DeleteUserForm, UpdateUserForm,ImportCSVForm
 from archilog.services import export_to_csv, import_from_csv
 from flask import request
+from flask_wtf import CSRFProtect
+from spectree import SpecTree
+
 
 auth = HTTPBasicAuth()  
 
@@ -28,6 +31,8 @@ web_ui = Blueprint(
     url_prefix='/',
     template_folder=template_path
 )
+
+
 
 # Helper function to check admin role
 def check_admin():
@@ -148,25 +153,30 @@ def display_update_user_page():
 
     return render_template('update_user.html', form=form)
 
-# Route: Import CSV (Admin only)
 @web_ui.route('/import_csv', methods=['POST'])
 @auth.login_required
 def import_csv():
     if not check_admin():
         return "Accès refusé - Réservé aux administrateurs", 403
 
-    file = request.files.get('csv_file')
-    if not file:
-        flash("Aucun fichier envoyé.", "danger")
-        return redirect(url_for('web_ui.admin'))
+    form = ImportCSVForm()
+    if form.validate_on_submit():
+        file = form.csv_file.data
+        if not file:
+            flash("Aucun fichier envoyé.", "danger")
+            return redirect(url_for('web_ui.admin'))
 
-    try:
-        import_from_csv(file, True)
-        flash("Importation réussie !", "success")
-    except Exception as e:
-        flash(f"Erreur lors de l'importation : {str(e)}", "danger")
-
+        try:
+            import_from_csv(file, True)
+            flash("Importation réussie !", "success")
+        except Exception as e:
+            flash(f"Erreur lors de l'importation : {str(e)}", "danger")
+    else:
+        flash("Erreur dans le formulaire.", "danger")
+    
     return redirect(url_for('web_ui.admin'))
+
+
 
 # Route: Export CSV
 @web_ui.route('/export_csv')
@@ -186,3 +196,39 @@ def export_csv():
         download_name="exported_users.csv",
         mimetype="text/csv"
     )
+
+
+
+from spectree import SpecTree, Response
+from flask import Flask, Blueprint, jsonify
+from pydantic import ValidationError
+
+from pydantic import BaseModel, Field
+
+class UserData(BaseModel):
+    id: int
+    name: str = Field(..., min_length=2, max_length=40)
+    age: int = Field(..., gt=0, lt=150)
+    role: str = Field(..., min_length=2, max_length=20)
+
+
+spec = SpecTree("flask")
+
+api = Blueprint('api', __name__, url_prefix='/api')
+
+@api.route("/users/<int:user_id>", methods=["GET"])
+@spec.validate(tags=["api"], resp=Response(HTTP_200=UserData))
+def get_user(user_id: int):
+    """
+    Récupère un utilisateur depuis la base de données par ID.
+    """
+    user = UserData.query.get(user_id)
+    if user:
+        # Valider les données avec Pydantic avant de renvoyer la réponse
+        try:
+            user_data = UserData(id=user.id, name=user.name, age=user.age, role=user.role)
+            return jsonify(user_data.dict())
+        except ValidationError as e:
+            return jsonify({"error": e.errors()}), 400
+    else:
+        return jsonify({"error": "Utilisateur non trouvé"}), 404

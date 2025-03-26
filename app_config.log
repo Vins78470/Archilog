@@ -1294,3 +1294,48 @@ FROM profile
 2025-03-22 21:01:24,422 [INFO] 127.0.0.1 - - [22/Mar/2025 21:01:24] "[31m[1mGET / HTTP/1.1[0m" 401 -
 2025-03-22 21:01:24,721 [INFO] 127.0.0.1 - - [22/Mar/2025 21:01:24] "[31m[1mGET /visitor HTTP/1.1[0m" 401 -
 2025-03-22 21:01:24,723 [INFO] 127.0.0.1 - - [22/Mar/2025 21:01:24] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:39:31,864 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:39:33,779 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:39:33,794 [INFO] BEGIN (implicit)
+2025-03-26 13:39:33,794 [INFO] PRAGMA main.table_info("profile")
+2025-03-26 13:39:33,794 [INFO] [raw sql] ()
+2025-03-26 13:39:33,794 [INFO] COMMIT
+2025-03-26 13:39:33,831 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-26 13:39:33,831 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-26 13:40:57,842 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:41:00,125 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:41:00,156 [INFO] BEGIN (implicit)
+2025-03-26 13:41:00,156 [INFO] PRAGMA main.table_info("profile")
+2025-03-26 13:41:00,162 [INFO] [raw sql] ()
+2025-03-26 13:41:00,162 [INFO] COMMIT
+2025-03-26 13:41:00,487 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-26 13:41:00,488 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-26 13:41:00,598 [INFO]  * Restarting with stat
+2025-03-26 13:41:02,116 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:41:03,320 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:41:03,336 [INFO] BEGIN (implicit)
+2025-03-26 13:41:03,336 [INFO] PRAGMA main.table_info("profile")
+2025-03-26 13:41:03,336 [INFO] [raw sql] ()
+2025-03-26 13:41:03,336 [INFO] COMMIT
+2025-03-26 13:41:03,399 [WARNING]  * Debugger is active!
+2025-03-26 13:41:03,415 [INFO]  * Debugger PIN: 113-308-523
+2025-03-26 13:43:16,999 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:43:18,620 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:43:18,635 [INFO] BEGIN (implicit)
+2025-03-26 13:43:18,636 [INFO] PRAGMA main.table_info("profile")
+2025-03-26 13:43:18,636 [INFO] [raw sql] ()
+2025-03-26 13:43:18,636 [INFO] COMMIT
+2025-03-26 13:43:18,719 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-26 13:43:18,719 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-26 13:43:18,746 [INFO]  * Restarting with stat
+2025-03-26 13:43:19,687 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:43:20,879 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:43:20,895 [INFO] BEGIN (implicit)
+2025-03-26 13:43:20,895 [INFO] PRAGMA main.table_info("profile")
+2025-03-26 13:43:20,895 [INFO] [raw sql] ()
+2025-03-26 13:43:20,895 [INFO] COMMIT
+2025-03-26 13:43:20,963 [WARNING]  * Debugger is active!
+2025-03-26 13:43:20,975 [INFO]  * Debugger PIN: 113-308-523

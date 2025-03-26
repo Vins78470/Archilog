@@ -1144,3 +1144,764 @@ FROM profile
 2025-03-19 15:23:00,942 [INFO] 127.0.0.1 - - [19/Mar/2025 15:23:00] "GET /export_csv HTTP/1.1" 200 -
 2025-03-19 15:23:08,428 [INFO] 127.0.0.1 - - [19/Mar/2025 15:23:08] "[32mGET / HTTP/1.1[0m" 302 -
 2025-03-19 15:23:08,753 [INFO] 127.0.0.1 - - [19/Mar/2025 15:23:08] "GET /visitor HTTP/1.1" 200 -
+2025-03-19 15:25:04,294 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-19 15:25:06,848 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-19 15:25:06,868 [INFO] BEGIN (implicit)
+2025-03-19 15:25:06,868 [INFO] PRAGMA main.table_info("profile")
+2025-03-19 15:25:06,868 [INFO] [raw sql] ()
+2025-03-19 15:25:06,868 [INFO] COMMIT
+2025-03-19 15:25:06,887 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 15:25:06,887 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-19 15:25:11,375 [INFO] 127.0.0.1 - - [19/Mar/2025 15:25:11] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-19 15:25:11,446 [INFO] 127.0.0.1 - - [19/Mar/2025 15:25:11] "GET /admin HTTP/1.1" 200 -
+2025-03-26 13:05:31,258 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:05:38,562 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:06:13,735 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:06:16,423 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:06:16,439 [INFO] BEGIN (implicit)
+2025-03-26 13:06:16,439 [INFO] PRAGMA main.table_info("profile")
+2025-03-26 13:06:16,439 [INFO] [raw sql] ()
+2025-03-26 13:06:16,455 [INFO] COMMIT
+2025-03-26 13:06:16,488 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-26 13:06:16,488 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-26 13:06:18,999 [INFO] 127.0.0.1 - - [26/Mar/2025 13:06:18] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:06:22,115 [INFO] 127.0.0.1 - - [26/Mar/2025 13:06:22] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 13:06:22,398 [INFO] 127.0.0.1 - - [26/Mar/2025 13:06:22] "GET /admin HTTP/1.1" 200 -
+2025-03-26 13:06:23,157 [INFO] 127.0.0.1 - - [26/Mar/2025 13:06:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-26 13:07:11,112 [INFO] 127.0.0.1 - - [26/Mar/2025 13:07:11] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:07:14,517 [INFO] 127.0.0.1 - - [26/Mar/2025 13:07:14] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 13:07:14,583 [INFO] 127.0.0.1 - - [26/Mar/2025 13:07:14] "GET /visitor HTTP/1.1" 200 -
+2025-03-26 13:07:14,946 [INFO] 127.0.0.1 - - [26/Mar/2025 13:07:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-26 13:07:27,150 [INFO] 127.0.0.1 - - [26/Mar/2025 13:07:27] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 13:07:27,453 [INFO] 127.0.0.1 - - [26/Mar/2025 13:07:27] "GET /visitor HTTP/1.1" 200 -
+2025-03-26 13:07:33,210 [INFO] 127.0.0.1 - - [26/Mar/2025 13:07:33] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:07:33,233 [INFO] 127.0.0.1 - - [26/Mar/2025 13:07:33] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:07:37,515 [INFO] 127.0.0.1 - - [26/Mar/2025 13:07:37] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:07:37,829 [INFO] 127.0.0.1 - - [26/Mar/2025 13:07:37] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:07:40,266 [INFO] 127.0.0.1 - - [26/Mar/2025 13:07:40] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:07:40,266 [INFO] 127.0.0.1 - - [26/Mar/2025 13:07:40] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:07:43,659 [INFO] 127.0.0.1 - - [26/Mar/2025 13:07:43] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:07:43,961 [INFO] 127.0.0.1 - - [26/Mar/2025 13:07:43] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:07:45,680 [INFO] 127.0.0.1 - - [26/Mar/2025 13:07:45] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:07:45,683 [INFO] 127.0.0.1 - - [26/Mar/2025 13:07:45] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:07:47,514 [INFO] 127.0.0.1 - - [26/Mar/2025 13:07:47] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:07:47,826 [INFO] 127.0.0.1 - - [26/Mar/2025 13:07:47] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:07:50,908 [INFO] 127.0.0.1 - - [26/Mar/2025 13:07:50] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:07:50,908 [INFO] 127.0.0.1 - - [26/Mar/2025 13:07:50] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:07:52,608 [INFO] 127.0.0.1 - - [26/Mar/2025 13:07:52] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:07:52,914 [INFO] 127.0.0.1 - - [26/Mar/2025 13:07:52] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:07:58,330 [INFO] 127.0.0.1 - - [26/Mar/2025 13:07:58] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:08:01,284 [INFO] 127.0.0.1 - - [26/Mar/2025 13:08:01] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 13:08:01,367 [INFO] 127.0.0.1 - - [26/Mar/2025 13:08:01] "GET /admin HTTP/1.1" 200 -
+2025-03-26 13:08:44,040 [INFO] 127.0.0.1 - - [26/Mar/2025 13:08:44] "GET /display_create_user HTTP/1.1" 200 -
+2025-03-26 13:08:56,586 [INFO] 127.0.0.1 - - [26/Mar/2025 13:08:56] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 13:08:56,659 [INFO] 127.0.0.1 - - [26/Mar/2025 13:08:56] "GET /admin HTTP/1.1" 200 -
+2025-03-26 13:08:58,883 [INFO] 127.0.0.1 - - [26/Mar/2025 13:08:58] "GET /display_create_user HTTP/1.1" 200 -
+2025-03-26 13:09:00,202 [INFO] 127.0.0.1 - - [26/Mar/2025 13:09:00] "GET /display_delete_user_page HTTP/1.1" 200 -
+2025-03-26 13:09:01,860 [INFO] 127.0.0.1 - - [26/Mar/2025 13:09:01] "GET /display_update_user_page HTTP/1.1" 200 -
+2025-03-26 13:09:13,551 [INFO] 127.0.0.1 - - [26/Mar/2025 13:09:13] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 13:09:13,838 [INFO] 127.0.0.1 - - [26/Mar/2025 13:09:13] "GET /admin HTTP/1.1" 200 -
+2025-03-26 13:09:19,607 [INFO] 127.0.0.1 - - [26/Mar/2025 13:09:19] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 13:09:19,678 [INFO] 127.0.0.1 - - [26/Mar/2025 13:09:19] "GET /admin HTTP/1.1" 200 -
+2025-03-26 13:09:24,072 [INFO] 127.0.0.1 - - [26/Mar/2025 13:09:24] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:09:24,374 [INFO] 127.0.0.1 - - [26/Mar/2025 13:09:24] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:09:27,492 [INFO] 127.0.0.1 - - [26/Mar/2025 13:09:27] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:09:27,492 [INFO] 127.0.0.1 - - [26/Mar/2025 13:09:27] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:09:30,080 [INFO] 127.0.0.1 - - [26/Mar/2025 13:09:30] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:09:30,393 [INFO] 127.0.0.1 - - [26/Mar/2025 13:09:30] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:09:35,314 [INFO] 127.0.0.1 - - [26/Mar/2025 13:09:35] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:09:35,314 [INFO] 127.0.0.1 - - [26/Mar/2025 13:09:35] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:09:36,645 [INFO] 127.0.0.1 - - [26/Mar/2025 13:09:36] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:09:36,956 [INFO] 127.0.0.1 - - [26/Mar/2025 13:09:36] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:09:38,298 [INFO] 127.0.0.1 - - [26/Mar/2025 13:09:38] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:09:40,568 [INFO] 127.0.0.1 - - [26/Mar/2025 13:09:40] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 13:09:40,634 [INFO] 127.0.0.1 - - [26/Mar/2025 13:09:40] "GET /visitor HTTP/1.1" 200 -
+2025-03-26 13:09:46,950 [INFO] 127.0.0.1 - - [26/Mar/2025 13:09:46] "[31m[1mGET /display_create_user HTTP/1.1[0m" 403 -
+2025-03-26 13:09:48,882 [INFO] 127.0.0.1 - - [26/Mar/2025 13:09:48] "GET /display_delete_user_page HTTP/1.1" 200 -
+2025-03-26 13:09:51,228 [INFO] 127.0.0.1 - - [26/Mar/2025 13:09:51] "[31m[1mPOST /display_delete_user_page HTTP/1.1[0m" 400 -
+2025-03-26 13:09:53,594 [INFO] 127.0.0.1 - - [26/Mar/2025 13:09:53] "[31m[1mGET /display_update_user_page HTTP/1.1[0m" 403 -
+2025-03-26 13:09:59,649 [INFO] The CSRF token is missing.
+2025-03-26 13:09:59,649 [INFO] 127.0.0.1 - - [26/Mar/2025 13:09:59] "[31m[1mPOST /import_csv HTTP/1.1[0m" 400 -
+2025-03-26 13:10:02,179 [INFO] 127.0.0.1 - - [26/Mar/2025 13:10:02] "GET /visitor HTTP/1.1" 200 -
+2025-03-26 13:17:16,975 [INFO] 127.0.0.1 - - [26/Mar/2025 13:17:16] "[31m[1mGET /display_update_user_page HTTP/1.1[0m" 403 -
+2025-03-26 13:24:21,727 [INFO] 127.0.0.1 - - [26/Mar/2025 13:24:21] "[33mGET /egeg HTTP/1.1[0m" 404 -
+2025-03-26 13:24:23,135 [INFO] 127.0.0.1 - - [26/Mar/2025 13:24:23] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 13:24:23,202 [INFO] 127.0.0.1 - - [26/Mar/2025 13:24:23] "GET /visitor HTTP/1.1" 200 -
+2025-03-26 13:30:30,714 [INFO] 127.0.0.1 - - [26/Mar/2025 13:30:30] "[31m[1mGET /export_csv HTTP/1.1[0m" 403 -
+2025-03-26 13:37:13,909 [INFO] 127.0.0.1 - - [26/Mar/2025 13:37:13] "GET /visitor HTTP/1.1" 200 -
+2025-03-26 13:37:32,008 [INFO] 127.0.0.1 - - [26/Mar/2025 13:37:32] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:37:32,013 [INFO] 127.0.0.1 - - [26/Mar/2025 13:37:32] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:37:38,772 [INFO] 127.0.0.1 - - [26/Mar/2025 13:37:38] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:37:38,774 [INFO] 127.0.0.1 - - [26/Mar/2025 13:37:38] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:38:15,807 [INFO] 127.0.0.1 - - [26/Mar/2025 13:38:15] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:38:15,815 [INFO] 127.0.0.1 - - [26/Mar/2025 13:38:15] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:38:18,216 [INFO] 127.0.0.1 - - [26/Mar/2025 13:38:18] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:38:18,521 [INFO] 127.0.0.1 - - [26/Mar/2025 13:38:18] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:38:23,255 [INFO] 127.0.0.1 - - [26/Mar/2025 13:38:23] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:38:23,255 [INFO] 127.0.0.1 - - [26/Mar/2025 13:38:23] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:38:23,554 [INFO] 127.0.0.1 - - [26/Mar/2025 13:38:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-26 13:38:27,758 [INFO] 127.0.0.1 - - [26/Mar/2025 13:38:27] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:38:50,987 [INFO] 127.0.0.1 - - [26/Mar/2025 13:38:50] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:39:35,504 [INFO] 127.0.0.1 - - [26/Mar/2025 13:39:35] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 13:39:35,587 [INFO] 127.0.0.1 - - [26/Mar/2025 13:39:35] "GET /admin HTTP/1.1" 200 -
+2025-03-26 13:39:46,768 [INFO] 127.0.0.1 - - [26/Mar/2025 13:39:46] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:39:49,203 [INFO] 127.0.0.1 - - [26/Mar/2025 13:39:49] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 13:39:49,336 [INFO] 127.0.0.1 - - [26/Mar/2025 13:39:49] "GET /admin HTTP/1.1" 200 -
+2025-03-26 13:39:49,379 [INFO] 127.0.0.1 - - [26/Mar/2025 13:39:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-26 13:40:13,062 [INFO] The CSRF token is missing.
+2025-03-26 13:40:13,062 [INFO] 127.0.0.1 - - [26/Mar/2025 13:40:13] "[31m[1mPOST /import_csv HTTP/1.1[0m" 400 -
+2025-03-26 13:40:17,150 [INFO] 127.0.0.1 - - [26/Mar/2025 13:40:17] "GET /display_create_user HTTP/1.1" 200 -
+2025-03-26 13:40:18,192 [INFO] 127.0.0.1 - - [26/Mar/2025 13:40:18] "GET /display_delete_user_page HTTP/1.1" 200 -
+2025-03-26 13:40:19,819 [INFO] BEGIN (implicit)
+2025-03-26 13:40:19,819 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-03-26 13:40:19,819 [INFO] [generated in 0.00356s] ()
+2025-03-26 13:40:19,819 [INFO] ROLLBACK
+2025-03-26 13:40:19,835 [INFO] 127.0.0.1 - - [26/Mar/2025 13:40:19] "GET /export_csv HTTP/1.1" 200 -
+2025-03-26 13:40:23,811 [INFO] The CSRF token is missing.
+2025-03-26 13:40:23,816 [INFO] 127.0.0.1 - - [26/Mar/2025 13:40:23] "[31m[1mPOST /import_csv HTTP/1.1[0m" 400 -
+2025-03-26 13:41:02,104 [INFO] The CSRF token is missing.
+2025-03-26 13:41:02,106 [INFO] 127.0.0.1 - - [26/Mar/2025 13:41:02] "[31m[1mPOST /import_csv HTTP/1.1[0m" 400 -
+2025-03-26 13:41:04,746 [INFO] 127.0.0.1 - - [26/Mar/2025 13:41:04] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 13:41:04,857 [INFO] 127.0.0.1 - - [26/Mar/2025 13:41:04] "GET /admin HTTP/1.1" 200 -
+2025-03-26 13:41:09,315 [INFO] The CSRF token is missing.
+2025-03-26 13:41:09,317 [INFO] 127.0.0.1 - - [26/Mar/2025 13:41:09] "[31m[1mPOST /import_csv HTTP/1.1[0m" 400 -
+2025-03-26 13:43:21,270 [INFO] 127.0.0.1 - - [26/Mar/2025 13:43:21] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 13:43:21,384 [INFO] 127.0.0.1 - - [26/Mar/2025 13:43:21] "GET /admin HTTP/1.1" 200 -
+2025-03-26 13:43:24,259 [INFO] The CSRF token is missing.
+2025-03-26 13:43:24,260 [INFO] 127.0.0.1 - - [26/Mar/2025 13:43:24] "[31m[1mPOST /import_csv HTTP/1.1[0m" 400 -
+2025-03-26 13:45:00,109 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:45:02,003 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:45:02,003 [INFO] BEGIN (implicit)
+2025-03-26 13:45:02,003 [INFO] PRAGMA main.table_info("profile")
+2025-03-26 13:45:02,003 [INFO] [raw sql] ()
+2025-03-26 13:45:02,003 [INFO] COMMIT
+2025-03-26 13:45:02,035 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-26 13:45:02,035 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-26 13:45:03,659 [INFO] 127.0.0.1 - - [26/Mar/2025 13:45:03] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-03-26 13:45:06,335 [INFO] 127.0.0.1 - - [26/Mar/2025 13:45:06] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 13:45:06,469 [ERROR] Exception on /admin [GET]
+Traceback (most recent call last):
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask_httpauth.py", line 174, in decorated
+    return self.ensure_sync(f)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\192.168.24.10\STUDENTS\22304035\Archilog\src\archilog\views\web_ui.py", line 88, in admin
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "U:\Archilog\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "\\192.168.24.10\STUDENTS\22304035\Archilog\src\archilog\templates\index.html", line 104, in top-level template code
+    {{ form.hidden_tag() }} <!-- CSRF token -->
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'form' is undefined
+2025-03-26 13:45:06,629 [INFO] 127.0.0.1 - - [26/Mar/2025 13:45:06] "[35m[1mGET /admin HTTP/1.1[0m" 500 -
+2025-03-26 13:45:06,708 [INFO] 127.0.0.1 - - [26/Mar/2025 13:45:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-26 13:45:06,742 [ERROR] Error on request:
+Traceback (most recent call last):
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask_httpauth.py", line 174, in decorated
+    return self.ensure_sync(f)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\192.168.24.10\STUDENTS\22304035\Archilog\src\archilog\views\web_ui.py", line 88, in admin
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "U:\Archilog\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "\\192.168.24.10\STUDENTS\22304035\Archilog\src\archilog\templates\index.html", line 104, in top-level template code
+    {{ form.hidden_tag() }} <!-- CSRF token -->
+  File "U:\Archilog\.venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'form' is undefined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "U:\Archilog\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "U:\Archilog\.venv\Lib\site-packages\werkzeug\serving.py", line 331, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 860, in handle_exception
+    server_error = self.ensure_sync(handler)(server_error)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\192.168.24.10\STUDENTS\22304035\Archilog\src\archilog\views\error_handler.py", line 21, in handle_internal_error
+    return redirect(url_for("index.html"))  # Redirection vers la page d'accueil
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\helpers.py", line 232, in url_for
+    return current_app.url_for(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'index.html'. Did you mean 'web_ui.index' instead?
+2025-03-26 13:45:20,393 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:45:22,073 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:45:22,085 [INFO] BEGIN (implicit)
+2025-03-26 13:45:22,086 [INFO] PRAGMA main.table_info("profile")
+2025-03-26 13:45:22,086 [INFO] [raw sql] ()
+2025-03-26 13:45:22,087 [INFO] COMMIT
+2025-03-26 13:45:22,107 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-26 13:45:22,108 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-26 13:45:26,400 [INFO] 127.0.0.1 - - [26/Mar/2025 13:45:26] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 13:45:26,484 [ERROR] Exception on /admin [GET]
+Traceback (most recent call last):
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask_httpauth.py", line 174, in decorated
+    return self.ensure_sync(f)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\192.168.24.10\STUDENTS\22304035\Archilog\src\archilog\views\web_ui.py", line 88, in admin
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "U:\Archilog\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "\\192.168.24.10\STUDENTS\22304035\Archilog\src\archilog\templates\index.html", line 104, in top-level template code
+    {{ form.hidden_tag() }} <!-- CSRF token -->
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'form' is undefined
+2025-03-26 13:45:26,573 [INFO] 127.0.0.1 - - [26/Mar/2025 13:45:26] "[35m[1mGET /admin HTTP/1.1[0m" 500 -
+2025-03-26 13:45:26,685 [ERROR] Error on request:
+Traceback (most recent call last):
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask_httpauth.py", line 174, in decorated
+    return self.ensure_sync(f)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\192.168.24.10\STUDENTS\22304035\Archilog\src\archilog\views\web_ui.py", line 88, in admin
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "U:\Archilog\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "\\192.168.24.10\STUDENTS\22304035\Archilog\src\archilog\templates\index.html", line 104, in top-level template code
+    {{ form.hidden_tag() }} <!-- CSRF token -->
+  File "U:\Archilog\.venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'form' is undefined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "U:\Archilog\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "U:\Archilog\.venv\Lib\site-packages\werkzeug\serving.py", line 331, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 860, in handle_exception
+    server_error = self.ensure_sync(handler)(server_error)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\192.168.24.10\STUDENTS\22304035\Archilog\src\archilog\views\error_handler.py", line 21, in handle_internal_error
+    return redirect(url_for("index.html"))  # Redirection vers la page d'accueil
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\helpers.py", line 232, in url_for
+    return current_app.url_for(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'index.html'. Did you mean 'web_ui.index' instead?
+2025-03-26 13:45:57,336 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:45:59,113 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:45:59,129 [INFO] BEGIN (implicit)
+2025-03-26 13:45:59,129 [INFO] PRAGMA main.table_info("profile")
+2025-03-26 13:45:59,129 [INFO] [raw sql] ()
+2025-03-26 13:45:59,129 [INFO] COMMIT
+2025-03-26 13:45:59,145 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-26 13:45:59,145 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-26 13:46:00,317 [INFO] 127.0.0.1 - - [26/Mar/2025 13:46:00] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 13:46:00,396 [ERROR] Exception on /admin [GET]
+Traceback (most recent call last):
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask_httpauth.py", line 174, in decorated
+    return self.ensure_sync(f)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\192.168.24.10\STUDENTS\22304035\Archilog\src\archilog\views\web_ui.py", line 88, in admin
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "U:\Archilog\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "\\192.168.24.10\STUDENTS\22304035\Archilog\src\archilog\templates\index.html", line 104, in top-level template code
+    {{ form.hidden_tag() }} <!-- CSRF token -->
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'form' is undefined
+2025-03-26 13:46:00,489 [INFO] 127.0.0.1 - - [26/Mar/2025 13:46:00] "[35m[1mGET /admin HTTP/1.1[0m" 500 -
+2025-03-26 13:46:00,595 [ERROR] Error on request:
+Traceback (most recent call last):
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask_httpauth.py", line 174, in decorated
+    return self.ensure_sync(f)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\192.168.24.10\STUDENTS\22304035\Archilog\src\archilog\views\web_ui.py", line 88, in admin
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "U:\Archilog\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "\\192.168.24.10\STUDENTS\22304035\Archilog\src\archilog\templates\index.html", line 104, in top-level template code
+    {{ form.hidden_tag() }} <!-- CSRF token -->
+  File "U:\Archilog\.venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'form' is undefined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "U:\Archilog\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "U:\Archilog\.venv\Lib\site-packages\werkzeug\serving.py", line 331, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 860, in handle_exception
+    server_error = self.ensure_sync(handler)(server_error)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\192.168.24.10\STUDENTS\22304035\Archilog\src\archilog\views\error_handler.py", line 21, in handle_internal_error
+    return redirect(url_for("index.html"))  # Redirection vers la page d'accueil
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\helpers.py", line 232, in url_for
+    return current_app.url_for(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "U:\Archilog\.venv\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'index.html'. Did you mean 'web_ui.index' instead?
+2025-03-26 13:47:30,882 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:47:32,653 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:47:32,669 [INFO] BEGIN (implicit)
+2025-03-26 13:47:32,669 [INFO] PRAGMA main.table_info("profile")
+2025-03-26 13:47:32,669 [INFO] [raw sql] ()
+2025-03-26 13:47:32,669 [INFO] COMMIT
+2025-03-26 13:47:32,691 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-26 13:47:32,691 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-26 13:47:36,020 [INFO] 127.0.0.1 - - [26/Mar/2025 13:47:36] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 13:47:36,110 [INFO] 127.0.0.1 - - [26/Mar/2025 13:47:36] "GET /admin HTTP/1.1" 200 -
+2025-03-26 13:47:39,623 [INFO] The CSRF token is missing.
+2025-03-26 13:47:39,625 [INFO] 127.0.0.1 - - [26/Mar/2025 13:47:39] "[31m[1mPOST /import_csv HTTP/1.1[0m" 400 -
+2025-03-26 13:52:06,923 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:52:08,954 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:52:08,967 [INFO] BEGIN (implicit)
+2025-03-26 13:52:08,968 [INFO] PRAGMA main.table_info("profile")
+2025-03-26 13:52:08,968 [INFO] [raw sql] ()
+2025-03-26 13:52:08,970 [INFO] COMMIT
+2025-03-26 13:52:08,986 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-26 13:52:08,986 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-26 13:52:09,186 [INFO] 127.0.0.1 - - [26/Mar/2025 13:52:09] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 13:52:09,435 [INFO] 127.0.0.1 - - [26/Mar/2025 13:52:09] "GET /admin HTTP/1.1" 200 -
+2025-03-26 13:52:12,388 [INFO] The CSRF token is missing.
+2025-03-26 13:52:12,390 [INFO] 127.0.0.1 - - [26/Mar/2025 13:52:12] "[31m[1mPOST /import_csv HTTP/1.1[0m" 400 -
+2025-03-26 13:53:31,655 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:53:35,102 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:53:35,113 [INFO] BEGIN (implicit)
+2025-03-26 13:53:35,114 [INFO] PRAGMA main.table_info("profile")
+2025-03-26 13:53:35,115 [INFO] [raw sql] ()
+2025-03-26 13:53:35,116 [INFO] COMMIT
+2025-03-26 13:53:35,136 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-26 13:53:35,136 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-26 13:53:36,800 [INFO] 127.0.0.1 - - [26/Mar/2025 13:53:36] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 13:53:36,879 [INFO] 127.0.0.1 - - [26/Mar/2025 13:53:36] "GET /admin HTTP/1.1" 200 -
+2025-03-26 13:53:41,466 [INFO] 127.0.0.1 - - [26/Mar/2025 13:53:41] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 13:53:41,545 [INFO] 127.0.0.1 - - [26/Mar/2025 13:53:41] "GET /admin HTTP/1.1" 200 -
+2025-03-26 13:53:44,597 [INFO] The CSRF token is missing.
+2025-03-26 13:53:44,600 [INFO] 127.0.0.1 - - [26/Mar/2025 13:53:44] "[31m[1mPOST /import_csv HTTP/1.1[0m" 400 -
+2025-03-26 13:55:32,576 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:55:34,329 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 13:55:34,344 [INFO] BEGIN (implicit)
+2025-03-26 13:55:34,344 [INFO] PRAGMA main.table_info("profile")
+2025-03-26 13:55:34,344 [INFO] [raw sql] ()
+2025-03-26 13:55:34,344 [INFO] COMMIT
+2025-03-26 13:55:34,367 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-26 13:55:34,367 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-26 13:55:35,801 [INFO] 127.0.0.1 - - [26/Mar/2025 13:55:35] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 13:55:35,881 [INFO] 127.0.0.1 - - [26/Mar/2025 13:55:35] "GET /admin HTTP/1.1" 200 -
+2025-03-26 13:55:38,434 [INFO] 127.0.0.1 - - [26/Mar/2025 13:55:38] "[32mPOST /import_csv HTTP/1.1[0m" 302 -
+2025-03-26 13:55:38,500 [INFO] 127.0.0.1 - - [26/Mar/2025 13:55:38] "GET /admin HTTP/1.1" 200 -
+2025-03-26 13:56:58,009 [INFO] BEGIN (implicit)
+2025-03-26 13:56:58,011 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-03-26 13:56:58,012 [INFO] [generated in 0.00246s] ('c8f63e08917a496c991ae1b5eb216a82', 'amir', 500.0, 'esclave')
+2025-03-26 13:56:58,017 [INFO] COMMIT
+2025-03-26 13:56:58,035 [INFO] 127.0.0.1 - - [26/Mar/2025 13:56:58] "[32mPOST /import_csv HTTP/1.1[0m" 302 -
+2025-03-26 13:56:58,150 [INFO] 127.0.0.1 - - [26/Mar/2025 13:56:58] "GET /admin HTTP/1.1" 200 -
+2025-03-26 13:57:08,816 [INFO] 127.0.0.1 - - [26/Mar/2025 13:57:08] "[32mPOST /import_csv HTTP/1.1[0m" 302 -
+2025-03-26 13:57:08,951 [INFO] 127.0.0.1 - - [26/Mar/2025 13:57:08] "GET /admin HTTP/1.1" 200 -
+2025-03-26 13:57:17,467 [INFO] 127.0.0.1 - - [26/Mar/2025 13:57:17] "[32mPOST /import_csv HTTP/1.1[0m" 302 -
+2025-03-26 13:57:17,580 [INFO] 127.0.0.1 - - [26/Mar/2025 13:57:17] "GET /admin HTTP/1.1" 200 -
+2025-03-26 13:57:49,530 [INFO] BEGIN (implicit)
+2025-03-26 13:57:49,530 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-03-26 13:57:49,530 [INFO] [cached since 51.52s ago] ('5b7171bd0c64448683ed8e80ec212033', 'amir', 500.0, 'esclave')
+2025-03-26 13:57:49,530 [INFO] COMMIT
+2025-03-26 13:57:49,546 [INFO] 127.0.0.1 - - [26/Mar/2025 13:57:49] "[32mPOST /import_csv HTTP/1.1[0m" 302 -
+2025-03-26 13:57:49,673 [INFO] 127.0.0.1 - - [26/Mar/2025 13:57:49] "GET /admin HTTP/1.1" 200 -
+2025-03-26 13:58:10,914 [INFO] 127.0.0.1 - - [26/Mar/2025 13:58:10] "GET /display_delete_user_page HTTP/1.1" 200 -
+2025-03-26 13:58:16,374 [INFO] BEGIN (implicit)
+2025-03-26 13:58:16,374 [INFO] DELETE FROM profile WHERE profile.id = ?
+2025-03-26 13:58:16,374 [INFO] [generated in 0.00145s] ('5b7171bd0c64448683ed8e80ec212033',)
+2025-03-26 13:58:16,393 [INFO] COMMIT
+2025-03-26 13:58:16,401 [INFO] 127.0.0.1 - - [26/Mar/2025 13:58:16] "[32mPOST /display_delete_user_page HTTP/1.1[0m" 302 -
+2025-03-26 13:58:16,468 [INFO] 127.0.0.1 - - [26/Mar/2025 13:58:16] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 13:58:16,535 [INFO] 127.0.0.1 - - [26/Mar/2025 13:58:16] "GET /admin HTTP/1.1" 200 -
+2025-03-26 13:58:21,659 [INFO] 127.0.0.1 - - [26/Mar/2025 13:58:21] "GET /display_create_user HTTP/1.1" 200 -
+2025-03-26 13:58:26,878 [INFO] BEGIN (implicit)
+2025-03-26 13:58:26,879 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-03-26 13:58:26,881 [INFO] [cached since 88.87s ago] ('6e91952159c94617a58938e0b8f93d05', 'amirirr', 10.0, 'salope')
+2025-03-26 13:58:26,885 [INFO] COMMIT
+2025-03-26 13:58:26,906 [INFO] 127.0.0.1 - - [26/Mar/2025 13:58:26] "[32mPOST /display_create_user HTTP/1.1[0m" 302 -
+2025-03-26 13:58:26,975 [INFO] 127.0.0.1 - - [26/Mar/2025 13:58:26] "GET /admin HTTP/1.1" 200 -
+2025-03-26 13:58:31,290 [INFO] BEGIN (implicit)
+2025-03-26 13:58:31,292 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-03-26 13:58:31,293 [INFO] [generated in 0.00182s] ()
+2025-03-26 13:58:31,294 [INFO] ROLLBACK
+2025-03-26 13:58:31,295 [INFO] 127.0.0.1 - - [26/Mar/2025 13:58:31] "GET /export_csv HTTP/1.1" 200 -
+2025-03-26 13:58:52,268 [INFO] 127.0.0.1 - - [26/Mar/2025 13:58:52] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 13:58:52,345 [INFO] 127.0.0.1 - - [26/Mar/2025 13:58:52] "GET /admin HTTP/1.1" 200 -
+2025-03-26 14:10:58,318 [INFO] 127.0.0.1 - - [26/Mar/2025 14:10:58] "[33mGET /api HTTP/1.1[0m" 404 -
+2025-03-26 14:11:05,522 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:11:07,233 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:11:07,249 [INFO] BEGIN (implicit)
+2025-03-26 14:11:07,249 [INFO] PRAGMA main.table_info("profile")
+2025-03-26 14:11:07,249 [INFO] [raw sql] ()
+2025-03-26 14:11:07,249 [INFO] COMMIT
+2025-03-26 14:11:07,265 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-26 14:11:07,265 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-26 14:11:19,156 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:11:20,754 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:11:20,770 [INFO] BEGIN (implicit)
+2025-03-26 14:11:20,770 [INFO] PRAGMA main.table_info("profile")
+2025-03-26 14:11:20,770 [INFO] [raw sql] ()
+2025-03-26 14:11:20,770 [INFO] COMMIT
+2025-03-26 14:11:20,854 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-26 14:11:20,864 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-26 14:11:20,864 [INFO]  * Restarting with stat
+2025-03-26 14:11:21,878 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:11:23,096 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:11:23,112 [INFO] BEGIN (implicit)
+2025-03-26 14:11:23,112 [INFO] PRAGMA main.table_info("profile")
+2025-03-26 14:11:23,112 [INFO] [raw sql] ()
+2025-03-26 14:11:23,112 [INFO] COMMIT
+2025-03-26 14:11:23,175 [WARNING]  * Debugger is active!
+2025-03-26 14:11:23,191 [INFO]  * Debugger PIN: 113-308-523
+2025-03-26 14:11:32,368 [INFO]  * Detected change in '\\\\192.168.24.10\\STUDENTS\\22304035\\Archilog\\src\\archilog\\views\\web_ui.py', reloading
+2025-03-26 14:11:32,401 [INFO]  * Restarting with stat
+2025-03-26 14:11:33,452 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:11:34,764 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:11:34,780 [INFO] BEGIN (implicit)
+2025-03-26 14:11:34,780 [INFO] PRAGMA main.table_info("profile")
+2025-03-26 14:11:34,780 [INFO] [raw sql] ()
+2025-03-26 14:11:34,780 [INFO] COMMIT
+2025-03-26 14:11:34,852 [WARNING]  * Debugger is active!
+2025-03-26 14:11:34,859 [INFO]  * Debugger PIN: 113-308-523
+2025-03-26 14:11:35,286 [INFO] 127.0.0.1 - - [26/Mar/2025 14:11:35] "GET /api HTTP/1.1" 200 -
+2025-03-26 14:14:30,466 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:14:32,109 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:14:32,125 [INFO] BEGIN (implicit)
+2025-03-26 14:14:32,125 [INFO] PRAGMA main.table_info("profile")
+2025-03-26 14:14:32,125 [INFO] [raw sql] ()
+2025-03-26 14:14:32,125 [INFO] COMMIT
+2025-03-26 14:14:32,204 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-26 14:14:32,204 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-26 14:14:32,220 [INFO]  * Restarting with stat
+2025-03-26 14:14:33,233 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:14:34,535 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:14:34,536 [INFO] BEGIN (implicit)
+2025-03-26 14:14:34,546 [INFO] PRAGMA main.table_info("profile")
+2025-03-26 14:14:34,546 [INFO] [raw sql] ()
+2025-03-26 14:14:34,546 [INFO] COMMIT
+2025-03-26 14:14:34,606 [WARNING]  * Debugger is active!
+2025-03-26 14:14:34,611 [INFO]  * Debugger PIN: 113-308-523
+2025-03-26 14:25:56,273 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:25:58,037 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:25:58,069 [INFO] BEGIN (implicit)
+2025-03-26 14:25:58,069 [INFO] PRAGMA main.table_info("profile")
+2025-03-26 14:25:58,069 [INFO] [raw sql] ()
+2025-03-26 14:25:58,069 [INFO] COMMIT
+2025-03-26 14:25:58,163 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-26 14:25:58,163 [INFO] [33mPress CTRL+C to quit[0m
+2025-03-26 14:25:58,180 [INFO]  * Restarting with stat
+2025-03-26 14:25:59,146 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:26:00,354 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:26:00,354 [INFO] BEGIN (implicit)
+2025-03-26 14:26:00,354 [INFO] PRAGMA main.table_info("profile")
+2025-03-26 14:26:00,370 [INFO] [raw sql] ()
+2025-03-26 14:26:00,370 [INFO] COMMIT
+2025-03-26 14:26:00,429 [WARNING]  * Debugger is active!
+2025-03-26 14:26:00,433 [INFO]  * Debugger PIN: 113-308-523
+2025-03-26 14:26:00,875 [INFO] 127.0.0.1 - - [26/Mar/2025 14:26:00] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-26 14:26:00,971 [INFO] 127.0.0.1 - - [26/Mar/2025 14:26:00] "GET /admin HTTP/1.1" 200 -
+2025-03-26 14:26:05,025 [INFO] 127.0.0.1 - - [26/Mar/2025 14:26:05] "GET /api HTTP/1.1" 200 -
+2025-03-26 14:26:42,123 [INFO]  * Detected change in '\\\\192.168.24.10\\STUDENTS\\22304035\\Archilog\\src\\archilog\\views\\web_ui.py', reloading
+2025-03-26 14:26:42,157 [INFO]  * Restarting with stat
+2025-03-26 14:26:43,495 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:26:45,136 [WARNING]  * Debugger is active!
+2025-03-26 14:26:45,147 [INFO]  * Debugger PIN: 104-554-704
+2025-03-26 14:26:53,807 [INFO]  * Detected change in '\\\\192.168.24.10\\STUDENTS\\22304035\\Archilog\\src\\archilog\\views\\web_ui.py', reloading
+2025-03-26 14:26:53,861 [INFO]  * Restarting with stat
+2025-03-26 14:26:54,913 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:27:00,277 [WARNING]  * Debugger is active!
+2025-03-26 14:27:00,277 [INFO]  * Debugger PIN: 104-554-704
+2025-03-26 14:27:21,378 [INFO]  * Detected change in '\\\\192.168.24.10\\STUDENTS\\22304035\\Archilog\\src\\archilog\\views\\web_ui.py', reloading
+2025-03-26 14:27:21,411 [INFO]  * Restarting with stat
+2025-03-26 14:27:22,758 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:27:25,490 [WARNING]  * Debugger is active!
+2025-03-26 14:27:25,497 [INFO]  * Debugger PIN: 104-554-704
+2025-03-26 14:27:37,193 [INFO]  * Detected change in '\\\\192.168.24.10\\STUDENTS\\22304035\\Archilog\\src\\archilog\\views\\__init__.py', reloading
+2025-03-26 14:27:37,241 [INFO]  * Restarting with stat
+2025-03-26 14:27:38,493 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:27:41,155 [WARNING]  * Debugger is active!
+2025-03-26 14:27:41,160 [INFO]  * Debugger PIN: 104-554-704
+2025-03-26 14:39:11,672 [INFO]  * Detected change in '\\\\192.168.24.10\\STUDENTS\\22304035\\Archilog\\src\\archilog\\views\\web_ui.py', reloading
+2025-03-26 14:39:11,742 [INFO]  * Restarting with stat
+2025-03-26 14:39:13,961 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:39:18,988 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:39:19,175 [WARNING]  * Debugger is active!
+2025-03-26 14:39:19,193 [INFO]  * Debugger PIN: 104-554-704
+2025-03-26 14:40:12,227 [INFO]  * Detected change in '\\\\192.168.24.10\\STUDENTS\\22304035\\Archilog\\src\\archilog\\views\\web_ui.py', reloading
+2025-03-26 14:40:12,308 [INFO]  * Restarting with stat
+2025-03-26 14:40:13,859 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:40:17,859 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:40:17,968 [WARNING]  * Debugger is active!
+2025-03-26 14:40:17,975 [INFO]  * Debugger PIN: 104-554-704
+2025-03-26 14:45:05,326 [INFO]  * Detected change in '\\\\192.168.24.10\\STUDENTS\\22304035\\Archilog\\src\\archilog\\views\\web_ui.py', reloading
+2025-03-26 14:45:05,409 [INFO]  * Restarting with stat
+2025-03-26 14:45:06,723 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:45:09,692 [WARNING]  * Debugger is active!
+2025-03-26 14:45:09,700 [INFO]  * Debugger PIN: 104-554-704
+2025-03-26 14:45:29,329 [INFO]  * Detected change in '\\\\192.168.24.10\\STUDENTS\\22304035\\Archilog\\src\\archilog\\views\\web_ui.py', reloading
+2025-03-26 14:45:29,428 [INFO]  * Restarting with stat
+2025-03-26 14:45:30,677 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:45:33,402 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:45:33,500 [WARNING]  * Debugger is active!
+2025-03-26 14:45:33,507 [INFO]  * Debugger PIN: 104-554-704
+2025-03-26 14:46:06,245 [INFO]  * Detected change in '\\\\192.168.24.10\\STUDENTS\\22304035\\Archilog\\src\\archilog\\views\\web_ui.py', reloading
+2025-03-26 14:46:06,320 [INFO]  * Restarting with stat
+2025-03-26 14:46:07,600 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:46:10,372 [WARNING]  * Debugger is active!
+2025-03-26 14:46:10,381 [INFO]  * Debugger PIN: 104-554-704
+2025-03-26 14:47:01,999 [INFO]  * Detected change in '\\\\192.168.24.10\\STUDENTS\\22304035\\Archilog\\src\\archilog\\views\\web_ui.py', reloading
+2025-03-26 14:47:02,071 [INFO]  * Restarting with stat
+2025-03-26 14:47:03,327 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:47:06,244 [WARNING]  * Debugger is active!
+2025-03-26 14:47:06,260 [INFO]  * Debugger PIN: 104-554-704
+2025-03-26 14:47:11,350 [INFO]  * Detected change in '\\\\192.168.24.10\\STUDENTS\\22304035\\Archilog\\src\\archilog\\views\\web_ui.py', reloading
+2025-03-26 14:47:11,436 [INFO]  * Restarting with stat
+2025-03-26 14:47:12,392 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:47:14,337 [WARNING]  * Debugger is active!
+2025-03-26 14:47:14,347 [INFO]  * Debugger PIN: 104-554-704
+2025-03-26 14:47:21,103 [INFO]  * Detected change in '\\\\192.168.24.10\\STUDENTS\\22304035\\Archilog\\src\\archilog\\views\\web_ui.py', reloading
+2025-03-26 14:47:21,181 [INFO]  * Restarting with stat
+2025-03-26 14:47:22,259 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:47:24,209 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:47:24,303 [WARNING]  * Debugger is active!
+2025-03-26 14:47:24,310 [INFO]  * Debugger PIN: 104-554-704
+2025-03-26 14:48:30,077 [INFO]  * Detected change in '\\\\192.168.24.10\\STUDENTS\\22304035\\Archilog\\src\\archilog\\views\\web_ui.py', reloading
+2025-03-26 14:48:30,177 [INFO]  * Restarting with stat
+2025-03-26 14:48:31,675 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:48:34,524 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:48:34,634 [WARNING]  * Debugger is active!
+2025-03-26 14:48:34,634 [INFO]  * Debugger PIN: 104-554-704
+2025-03-26 14:49:29,327 [INFO] 127.0.0.1 - - [26/Mar/2025 14:49:29] "[35m[1mGET /admin/users/id HTTP/1.1[0m" 500 -
+2025-03-26 14:49:29,380 [INFO] 127.0.0.1 - - [26/Mar/2025 14:49:29] "GET /admin/users/id?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-26 14:49:29,387 [INFO] 127.0.0.1 - - [26/Mar/2025 14:49:29] "GET /admin/users/id?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-26 14:49:29,419 [INFO] 127.0.0.1 - - [26/Mar/2025 14:49:29] "GET /admin/users/id?__debugger__=yes&cmd=resource&f=console.png&s=0zRkC4L80z52MmHAQQRX HTTP/1.1" 200 -
+2025-03-26 14:49:29,431 [INFO] 127.0.0.1 - - [26/Mar/2025 14:49:29] "GET /admin/users/id?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-26 14:49:46,278 [INFO] 127.0.0.1 - - [26/Mar/2025 14:49:46] "[35m[1mGET /admin/users/c8f63e08917a496c991ae1b5eb216a82 HTTP/1.1[0m" 500 -
+2025-03-26 14:49:46,293 [INFO] 127.0.0.1 - - [26/Mar/2025 14:49:46] "GET /admin/users/c8f63e08917a496c991ae1b5eb216a82?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-26 14:49:46,311 [INFO] 127.0.0.1 - - [26/Mar/2025 14:49:46] "GET /admin/users/c8f63e08917a496c991ae1b5eb216a82?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-26 14:49:46,315 [INFO] 127.0.0.1 - - [26/Mar/2025 14:49:46] "GET /admin/users/c8f63e08917a496c991ae1b5eb216a82?__debugger__=yes&cmd=resource&f=console.png&s=0zRkC4L80z52MmHAQQRX HTTP/1.1" 200 -
+2025-03-26 14:49:46,334 [INFO] 127.0.0.1 - - [26/Mar/2025 14:49:46] "GET /admin/users/c8f63e08917a496c991ae1b5eb216a82?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-26 14:50:25,436 [INFO]  * Detected change in '\\\\192.168.24.10\\STUDENTS\\22304035\\Archilog\\src\\archilog\\views\\__init__.py', reloading
+2025-03-26 14:50:25,520 [INFO]  * Restarting with stat
+2025-03-26 14:50:26,743 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:50:29,562 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:50:29,660 [WARNING]  * Debugger is active!
+2025-03-26 14:50:29,660 [INFO]  * Debugger PIN: 104-554-704
+2025-03-26 14:50:32,116 [INFO]  * Detected change in '\\\\192.168.24.10\\STUDENTS\\22304035\\Archilog\\src\\archilog\\views\\__init__.py', reloading
+2025-03-26 14:50:32,177 [INFO]  * Restarting with stat
+2025-03-26 14:50:33,175 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:50:35,077 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:50:35,167 [WARNING]  * Debugger is active!
+2025-03-26 14:50:35,177 [INFO]  * Debugger PIN: 104-554-704
+2025-03-26 14:50:37,517 [INFO]  * Detected change in '\\\\192.168.24.10\\STUDENTS\\22304035\\Archilog\\src\\archilog\\views\\web_ui.py', reloading
+2025-03-26 14:50:37,574 [INFO]  * Restarting with stat
+2025-03-26 14:50:38,648 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:50:40,739 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:50:40,813 [WARNING]  * Debugger is active!
+2025-03-26 14:50:40,813 [INFO]  * Debugger PIN: 104-554-704
+2025-03-26 14:50:42,810 [INFO]  * Detected change in '\\\\192.168.24.10\\STUDENTS\\22304035\\Archilog\\src\\archilog\\views\\web_ui.py', reloading
+2025-03-26 14:50:42,868 [INFO]  * Restarting with stat
+2025-03-26 14:50:43,849 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:50:45,812 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-03-26 14:50:45,891 [WARNING]  * Debugger is active!
+2025-03-26 14:50:45,907 [INFO]  * Debugger PIN: 104-554-704
+2025-03-26 14:51:04,327 [INFO] 127.0.0.1 - - [26/Mar/2025 14:51:04] "[35m[1mGET /admin/id/c8f63e08917a496c991ae1b5eb216a82 HTTP/1.1[0m" 500 -
+2025-03-26 14:51:04,374 [INFO] 127.0.0.1 - - [26/Mar/2025 14:51:04] "GET /admin/id/c8f63e08917a496c991ae1b5eb216a82?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-26 14:51:04,402 [INFO] 127.0.0.1 - - [26/Mar/2025 14:51:04] "GET /admin/id/c8f63e08917a496c991ae1b5eb216a82?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-26 14:51:04,419 [INFO] 127.0.0.1 - - [26/Mar/2025 14:51:04] "GET /admin/id/c8f63e08917a496c991ae1b5eb216a82?__debugger__=yes&cmd=resource&f=console.png&s=PvI0CAdA4EMosSLIAlKd HTTP/1.1" 200 -
+2025-03-26 14:51:04,427 [INFO] 127.0.0.1 - - [26/Mar/2025 14:51:04] "GET /admin/id/c8f63e08917a496c991ae1b5eb216a82?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -

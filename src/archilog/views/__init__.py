@@ -5,13 +5,16 @@ from archilog.models import init_db
 from archilog.__init__ import config  # Assure-toi d'importer la bonne config
 from archilog.cli import cli  # 🔹 Ajout de l'import du CLI
 from flask_wtf import CSRFProtect
+from spectree import SpecTree
+
 
 def create_app():
     # Création de l'instance de l'application Flask
     app = Flask(__name__)
     app.config['SECRET_KEY'] = config.SECRET_KEY 
 
-    csrf = CSRFProtect(app)
+    api = SpecTree(app, title="API User Management", version="1.0.0")
+
     # 🔹 Enregistrer les handlers d'erreur
     register_error_handlers(app)  
     
@@ -20,5 +23,6 @@ def create_app():
 
     # Enregistrement des blueprints
     app.register_blueprint(web_ui)
+    app.register_api(api)
 
     return app
