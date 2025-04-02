@@ -1,5 +1,5 @@
 from flask import Flask
-from archilog.views.web_ui import web_ui
+from archilog.views.web_ui import web_ui, api
 from archilog.views.error_handler import register_error_handlers
 from archilog.models import init_db
 from archilog.__init__ import config  # Assure-toi d'importer la bonne config
@@ -13,7 +13,7 @@ def create_app():
     app = Flask(__name__)
     app.config['SECRET_KEY'] = config.SECRET_KEY 
 
-    api = SpecTree(app, title="API User Management", version="1.0.0")
+    spec = SpecTree("flask")  # Initialisation de SpecTree (Swagger)
 
     # 🔹 Enregistrer les handlers d'erreur
     register_error_handlers(app)  
@@ -23,6 +23,11 @@ def create_app():
 
     # Enregistrement des blueprints
     app.register_blueprint(web_ui)
-    app.register_api(api)
+    app.register_blueprint(api)
+  # Enregistrer le Swagger avec l'application
+    spec.register(app)
+
+   
+    #app.register_api(api)
 
     return app

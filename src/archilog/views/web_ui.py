@@ -4,11 +4,12 @@ import io
 from flask import Flask, Blueprint, render_template, request, send_file, redirect, url_for, flash,jsonify
 from flask_httpauth import HTTPBasicAuth
 from werkzeug.security import generate_password_hash, check_password_hash
-from archilog.models import create_entry, delete_entry, update_entry, CreateUserForm, DeleteUserForm, UpdateUserForm,ImportCSVForm
+from archilog.models import create_entry, delete_entry, update_entry, CreateUserForm, DeleteUserForm, UpdateUserForm,ImportCSVForm, get_entry
 from archilog.services import export_to_csv, import_from_csv
 from flask import request
 from flask_wtf import CSRFProtect
 from spectree import SpecTree
+
 
 
 auth = HTTPBasicAuth()  
@@ -31,6 +32,8 @@ web_ui = Blueprint(
     url_prefix='/',
     template_folder=template_path
 )
+
+api = Blueprint('api', __name__, url_prefix='/api')
 
 
 
@@ -205,30 +208,97 @@ from pydantic import ValidationError
 
 from pydantic import BaseModel, Field
 
-class UserData(BaseModel):
-    id: int
-    name: str = Field(..., min_length=2, max_length=40)
-    age: int = Field(..., gt=0, lt=150)
-    role: str = Field(..., min_length=2, max_length=20)
 
 
-spec = SpecTree("flask")
 
 api = Blueprint('api', __name__, url_prefix='/api')
 
-@api.route("/users/<int:user_id>", methods=["GET"])
-@spec.validate(tags=["api"], resp=Response(HTTP_200=UserData))
-def get_user(user_id: int):
-    """
-    Récupère un utilisateur depuis la base de données par ID.
-    """
-    user = UserData.query.get(user_id)
-    if user:
-        # Valider les données avec Pydantic avant de renvoyer la réponse
-        try:
-            user_data = UserData(id=user.id, name=user.name, age=user.age, role=user.role)
-            return jsonify(user_data.dict())
-        except ValidationError as e:
-            return jsonify({"error": e.errors()}), 400
-    else:
+
+
+class UserData(BaseModel):
+    id: uuid.UUID  # Change 'int' ou 'uuid' en 'str'
+    name: str
+    amount: float
+    category: str | None  # Nullable (en fonction de la structure de ta base de données)
+
+# Modèle pour la création d'un utilisateur
+
+from flask import request, jsonify
+import uuid
+from archilog.models import create_entry, get_entry, update_entry, delete_entry
+
+@api.route("/users", methods=["POST"])
+def create_user():
+    try:
+        # Récupération des données envoyées dans la requête
+        user_data = UserData(**request.json)
+
+        # Appel à la fonction de création d'utilisateur dans la base de données
+        user_id = create_entry(user_data.name, user_data.amount, user_data.category)
+
+        return jsonify({"message": "Utilisateur créé avec succès", "user_id": str(user_id)}), 201
+    except ValidationError as e:
+        return jsonify({"error": e.errors()}), 400
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+# Route: GET /users - Récupérer tous les utilisateurs
+@api.route("/users", methods=["GET"])
+
+def get_users():
+    try:
+        users_list = get_entry()
+        return jsonify([user.to_dict() for user in users_list]), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+# Route: GET /users/<user_id> - Récupérer un utilisateur par ID
+@api.route("/users/<user_id>", methods=["GET"])
+
+def get_user(user_id: str):
+    try:
+        user_uuid = uuid.UUID(user_id)
+    except ValueError:
+        return jsonify({"error": "UUID invalide"}), 400
+
+    user = get_entry(user_uuid)
+    
+    if not user:
         return jsonify({"error": "Utilisateur non trouvé"}), 404
+
+    return jsonify(user.to_dict()), 200
+
+# Route: PUT /users/<user_id> - Mettre à jour un utilisateur par ID (complet)
+@api.route("/users/<user_id>", methods=["PUT"])
+
+def update_user(user_id: str):
+    try:
+        user_uuid = uuid.UUID(user_id)
+    except ValueError:
+        return jsonify({"error": "UUID invalide"}), 400
+
+    update_data = UserData(**request.json)
+    updated_user = update_entry(user_uuid, update_data.name, update_data.amount, update_data.category)
+
+    if not updated_user:
+        return jsonify({"error": "Utilisateur non trouvé"}), 404
+
+    return jsonify({"message": "Utilisateur mis à jour avec succès", "user": updated_user.to_dict()}), 200
+
+# Route: DELETE /users/<user_id> - Supprimer un utilisateur par ID
+@api.route("/users/<user_id>", methods=["DELETE"])
+
+def delete_user(user_id: str):
+    try:
+        user_uuid = uuid.UUID(user_id)
+    except ValueError:
+        return jsonify({"error": "UUID invalide"}), 400
+
+    success = delete_entry(user_uuid)
+
+    if not success:
+        return jsonify({"error": "Utilisateur non trouvé"}), 404
+
+    return jsonify({"message": "Utilisateur supprimé avec succès"}), 200
+
