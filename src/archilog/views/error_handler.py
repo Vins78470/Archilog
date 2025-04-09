@@ -18,4 +18,6 @@ def register_error_handlers(app):
         """Gérer les erreurs 500 et logguer l'événement"""
         logging.critical(f"🔥 Erreur interne du serveur : {error}", exc_info=True)
         flash("Erreur interne du serveur", "error")  # Message utilisateur
-        return redirect(url_for("index.html"))  # Redirection vers la page d'accueil
+  
+        return redirect(url_for("web_ui.index")) 
+

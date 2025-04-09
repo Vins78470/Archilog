@@ -30,12 +30,22 @@ engine = create_engine(config.DATABASE_URL, echo=config.DEBUG)
 def init_db():
     metadata.create_all(engine)
 
-@dataclass
+# archilog/models.py
+
 class Entry:
-    id: uuid.UUID
-    name: str
-    amount: float
-    category: str
+    def __init__(self, id, name, amount, category):
+        self.id = id
+        self.name = name
+        self.amount = amount
+        self.category = category
+
+    def to_dict(self):
+        return {
+            "id": str(self.id),
+            "name": self.name,
+            "amount": self.amount,
+            "category": self.category
+        }
 
     @classmethod
     def from_db(cls, id: str, name: str, amount: float, category: str):
@@ -86,29 +96,3 @@ def delete_entry(id: uuid.UUID) -> None:
 
 
 
-class CreateUserForm(FlaskForm):
-    class Meta:
-        csrf = False  # Désactive la protection CSRF
-    name = StringField('Nom', validators=[DataRequired()])
-    amount = FloatField('Montant', validators=[DataRequired()])
-    category = StringField('Catégorie', validators=[Optional()])
-
-    
-class DeleteUserForm(FlaskForm):
-    class Meta:
-        csrf = False  # Désactive la protection CSRF
-    user_id = StringField('ID Utilisateur', validators=[DataRequired()])
-
-class UpdateUserForm(FlaskForm):
-    class Meta:
-        csrf = False  # Désactive la protection CSRF
-    id = StringField('ID de l\'utilisateur', validators=[DataRequired()])
-    name = StringField('Nouveau nom', validators=[DataRequired()])
-    amount = FloatField('Nouveau montant', validators=[DataRequired()])
-    category = StringField('Nouvelle catégorie', validators=[DataRequired()])
-
-
-class ImportCSVForm(FlaskForm):
-    class Meta:
-        csrf = False  # Désactive la protection CSRF
-    csv_file = FileField('Fichier CSV', validators=[DataRequired()])

@@ -33,7 +33,6 @@ def export_to_csv(write_to_file=False):
     return output  # Retourne l'objet `StringIO` pour Flask
 
 
-
 def import_from_csv(csv_file, is_flask=False) -> None:
     """ Importe des entrées depuis un fichier CSV. """
 
