@@ -23,18 +23,26 @@ def create(name: str, amount: float, category: str | None):
 
 
 @cli.command()
-@click.option("--id", required=True, type=click.UUID)
-def get(id: uuid.UUID):
-    click.echo(models.get_entry(id))
+@click.option("--id", "entry_id", required=True, help="ID de l'entrée à récupérer")
+def get(entry_id: str):
+    
+    try:
+        entry = models.get_entry(uuid.UUID(entry_id))
+        click.echo(f"ID: {entry.id}, Name: {entry.name}, Amount: {entry.amount}, Category: {entry.category}")
+    except Exception as e:
+        click.echo(f"Erreur lors de la récupération de l'entrée : {str(e)}")
+        
+        
 
 
 @cli.command()
-@click.option("--as-csv", is_flag=True, help="Ouput a CSV string.")
-def get_all(as_csv: bool):
-    if as_csv:
-        click.echo(services.export_to_csv().getvalue())
-    else:
-        click.echo(models.get_all_entries())
+def get_all():
+    try:
+        entries = models.get_all_entries()
+        for entry in entries:
+            click.echo(f"ID: {entry.id}, Name: {entry.name}, Amount: {entry.amount}, Category: {entry.category}")
+    except Exception as e:
+        click.echo(f"Erreur lors de la récupération des entrées : {str(e)}")
 
 
 @cli.command()

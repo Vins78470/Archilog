@@ -116,7 +116,10 @@ def display_create_user():
     return render_template('form.html', form=form)
 
 @web_ui.route('/display_delete_user_page', methods=['GET', 'POST'])
+@auth.login_required
 def display_delete_user_page():
+    if not check_admin():
+        return "Accès refusé - Réservé aux administrateurs", 403
     form = DeleteUserForm()
     if form.validate_on_submit():
         try:
