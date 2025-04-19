@@ -4,6 +4,7 @@ import sys
 from io import StringIO
 
 from archilog.models import create_entry, get_all_entries, Entry
+from dataclasses import dataclass
 
 
 
@@ -17,11 +18,14 @@ def export_to_csv(write_to_file=False):
     fieldnames = [f.name for f in dataclasses.fields(Entry)]
 
     output = StringIO()
-    csv_writer = csv.DictWriter(output, fieldnames=fieldnames)
+    csv_writer = csv.DictWriter(output, fieldnames=["id", "name", "amount", "category"], extrasaction='raise')
 
     csv_writer.writeheader()
     for entry in entries:
-        csv_writer.writerow(dataclasses.asdict(entry))
+        row = entry.to_dict()
+        filtered_row = {key: row.get(key, "") for key in csv_writer.fieldnames}
+        csv_writer.writerow(filtered_row)
+
 
     output.seek(0)  # Revenir au début pour lecture
 

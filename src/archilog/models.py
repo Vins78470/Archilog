@@ -31,7 +31,7 @@ def init_db():
     metadata.create_all(engine)
 
 # archilog/models.py
-
+@dataclass
 class Entry:
     def __init__(self, id, name, amount, category):
         self.id = id
