@@ -3,60 +3,105 @@ import uuid
 import io
 import logging
 from flask import (
-    Flask, Blueprint, render_template, request, send_file,
-    redirect, url_for, flash, jsonify
+    Blueprint, request,
+    jsonify, abort
 )
-from flask_httpauth import HTTPBasicAuth
-from werkzeug.security import generate_password_hash, check_password_hash
-from flask_wtf import CSRFProtect
+from flask_httpauth import HTTPTokenAuth
+from functools import wraps
+
 from spectree import SpecTree, Response, SecurityScheme
 from pydantic import BaseModel, ValidationError
 from archilog.models import (
-    create_entry, delete_entry, update_entry, get_entry,
-   
+    create_entry, delete_entry, update_entry, get_entry,get_all_entries
 )
 from archilog.services import export_to_csv, import_from_csv
-from flask import Response, jsonify
+
 from spectree.models import BaseFile
 
 # --- Blueprints ---
 api = Blueprint('api', __name__, url_prefix='/api')
 
-# --- API Routes ---
+# --- Auth Setup ---
+token_auth = HTTPTokenAuth(scheme='Bearer')
+
+# Dictionnaire de tokens : token -> rôle
+valid_tokens = {
+    "admin_token": "admin",
+    "user_token": "user"
+}
+
+@token_auth.verify_token
+def verify_token(token):
+    return valid_tokens.get(token)
+
+# Décorateur pour vérifier les rôles
+def role_required(role):
+    def wrapper(func):
+        @wraps(func)
+        def decorated(*args, **kwargs):
+            current_role = token_auth.current_user()
+            logging.info(f"Rôle actuel : {current_role}, rôle requis : {role}")  # Log ajouté
+            if current_role != role:
+                logging.error(f"Accès interdit, rôle requis : {role}, rôle actuel : {current_role}")
+                abort(403, description=f"Accès interdit, rôle requis : {role}")
+            return func(*args, **kwargs)
+        return decorated
+    return wrapper
+
+
+# --- Swagger / Spectree ---
+spec = SpecTree(
+    "flask",
+    security_schemes=[SecurityScheme(name="bearer_token", data={"type": "http", "scheme": "bearer"})],
+    security=[{"bearer_token": []}]
+)
+
+# --- Modèles ---
 class UserData(BaseModel):
     id: uuid.UUID
     name: str
     amount: float
     category: str | None
 
-spec = SpecTree("flask", security_schemes=[SecurityScheme(name="bearer_token", data={"type": "http", "scheme": "bearer"})], security=[{"bearer_token": []}])
+class CSVFileUpload(BaseModel):
+    file: BaseFile  # pour validation spectree
 
-# Route pour créer un utilisateur
+# --- Routes API Utilisateurs ---
+
 @api.route("/users", methods=["POST"])
-@spec.validate(json=UserData, resp=Response(HTTP_201=UserData), tags=["api"])
+@spec.validate(json=UserData, tags=["api"])  # Validation du JSON via Pydantic
+@token_auth.login_required  # Vérification que l'utilisateur est authentifié
+@role_required("admin")  # Vérification que l'utilisateur est un admin
 def create_user():
     try:
-        user_data = UserData(**request.json)
-        user_id = create_entry(user_data.name, user_data.amount, user_data.category)
+        user_data = UserData(**request.json)  # Valide et crée un objet UserData
+        user_id = create_entry(user_data.name, user_data.amount, user_data.category)  # Appel à la fonction de création
         return jsonify({"message": "Utilisateur créé avec succès", "user_id": str(user_id)}), 201
     except ValidationError as e:
-        return jsonify({"error": e.errors()}), 400
+        # Si la validation échoue, on retourne une erreur avec les détails
+        return jsonify({"error": "Données invalides", "details": e.errors()}), 422
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        # Gestion des erreurs générales
+        return jsonify({"error": "Erreur interne", "message": str(e)}), 500
 
-# Route pour récupérer tous les utilisateurs
+
+# Cette route est accessible aux admin et aux users (lecture uniquement)
 @api.route("/users", methods=["GET"])
 @spec.validate(tags=["api"])
+@token_auth.login_required
+@role_required("admin")
 def get_users():
     try:
-        users_list = get_entry()
+        users_list = get_all_entries()
         return jsonify([user.to_dict() for user in users_list]), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-# Route pour récupérer un utilisateur spécifique
+# Cette route est accessible aux admin et aux users (lecture uniquement)
 @api.route("/users/<user_id>", methods=["GET"])
 @spec.validate(tags=["api"])
+@token_auth.login_required
+@role_required("admin")
 def get_user(user_id: str):
     try:
         user_uuid = uuid.UUID(user_id)
@@ -67,9 +112,11 @@ def get_user(user_id: str):
     except ValueError:
         return jsonify({"error": "UUID invalide"}), 400
 
-# Route pour mettre à jour un utilisateur
+# Cette route est réservée à l'admin
 @api.route("/users/<user_id>", methods=["PUT"])
 @spec.validate(json=UserData, resp=Response(HTTP_200=UserData), tags=["api"])
+@token_auth.login_required
+@role_required("admin")
 def update_user(user_id: str):
     try:
         user_uuid = uuid.UUID(user_id)
@@ -84,19 +131,22 @@ def update_user(user_id: str):
     except ValidationError as e:
         return jsonify({"error": e.errors()}), 400
 
-# Route pour supprimer un utilisateur
+# Cette route est réservée à l'admin
 @api.route("/users/<user_id>", methods=["DELETE"])
 @spec.validate(tags=["api"])
+@token_auth.login_required
+@role_required("admin")
 def delete_user(user_id: str):
+    try:
         user_uuid = uuid.UUID(user_id)
         success = delete_entry(user_uuid)
         return jsonify({"message": "Utilisateur supprimé"}), 200
-   
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
-
-# --- Routes pour Exporter et Importer des CSV --- #
-
-
+# --- Routes Export / Import CSV ---
+from flask import Response
+# Route d'export, accessible par tous les utilisateurs (admin et user)
 @api.route("/export_csv", methods=["GET"])
 @spec.validate(tags=["csv"])
 def export_csv_api():
@@ -111,38 +161,28 @@ def export_csv_api():
         csv_content = output.getvalue()
 
         return Response(
-            csv_content,  # Envoie le contenu CSV
-            mimetype="text/csv",
-            headers={
-                "Content-Disposition": "attachment; filename=entries.csv"
-            }
-        )
+        csv_content,
+        mimetype="text/csv",
+        headers={"Content-Disposition": "attachment; filename=entries.csv"}
+)
     except Exception as e:
         # Capture l'exception et log l'erreur
         logging.exception("Erreur lors de l'export CSV")
         return jsonify({"error": "Erreur lors de l'export"}), 500
 
-
-
-
-# Modèle de validation pour l'importation de fichier CSV
-class CSVFileUpload(BaseModel):
-    file: BaseFile  # Remplace BaseFile() par str car c'est plus adapté pour l'upload de fichiers
-
-# Route pour importer un fichier CSV
+# Route d'import, réservée à l'admin
 @api.route("/import_csv", methods=["POST"])
 @spec.validate(form=CSVFileUpload, tags=["csv"])
+@token_auth.login_required
+@role_required("admin")
 def import_csv_api():
     try:
-        # Récupération du fichier via request.files
         file = request.files.get("file")
-
         if not file:
             return jsonify({"error": "Fichier manquant"}), 400
-
-        # Traitement du fichier CSV
-        import_from_csv(file.stream,True)
+        import_from_csv(file.stream, True)
         return jsonify({"message": "Import réussi"}), 200
     except Exception as e:
         logging.exception("Erreur lors de l'import CSV")
         return jsonify({"error": "Erreur lors de l'import"}), 500
+ 

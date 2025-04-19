@@ -467,3 +467,1061 @@ FROM profile
 2025-04-19 12:12:26,982 [INFO] COMMIT
 2025-04-19 12:12:26,991 [INFO] 127.0.0.1 - - [19/Apr/2025 12:12:26] "[32mPOST /display_create_user HTTP/1.1[0m" 302 -
 2025-04-19 12:12:27,068 [INFO] 127.0.0.1 - - [19/Apr/2025 12:12:27] "GET /admin HTTP/1.1" 200 -
+2025-04-19 12:53:45,692 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 12:55:08,531 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 12:55:56,397 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 12:56:16,868 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 12:57:09,292 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 12:57:29,463 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 12:57:49,887 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 12:58:06,421 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 12:58:46,755 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 12:59:28,489 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:00:02,473 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:01:16,342 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:01:44,941 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:02:57,436 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:03:17,124 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:03:31,481 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:04:42,623 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:04:43,182 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:07:49,636 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:07:50,048 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:07:50,060 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 13:07:50,060 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 13:07:52,287 [INFO] 127.0.0.1 - - [19/Apr/2025 13:07:52] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-04-19 13:07:54,169 [INFO] 127.0.0.1 - - [19/Apr/2025 13:07:54] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-04-19 13:08:01,102 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:08:01,641 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:15:06,442 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:15:06,860 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:15:06,870 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 13:15:06,871 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 13:15:15,295 [INFO] 127.0.0.1 - - [19/Apr/2025 13:15:15] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 13:15:15,357 [INFO] 127.0.0.1 - - [19/Apr/2025 13:15:15] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 13:26:00,970 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:26:01,378 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:26:01,388 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 13:26:01,388 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 13:26:05,475 [INFO] 127.0.0.1 - - [19/Apr/2025 13:26:05] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 13:26:05,525 [INFO] 127.0.0.1 - - [19/Apr/2025 13:26:05] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 13:27:30,953 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:27:31,362 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:27:31,372 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 13:27:31,372 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 13:27:34,578 [INFO] 127.0.0.1 - - [19/Apr/2025 13:27:34] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 13:27:34,638 [INFO] 127.0.0.1 - - [19/Apr/2025 13:27:34] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 13:28:53,943 [INFO] 127.0.0.1 - - [19/Apr/2025 13:28:53] "[35m[1mGET /api/users HTTP/1.1[0m" 500 -
+2025-04-19 13:29:08,922 [INFO] 127.0.0.1 - - [19/Apr/2025 13:29:08] "[31m[1mPOST /api/users HTTP/1.1[0m" 403 -
+2025-04-19 13:29:32,697 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:29:33,242 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:29:33,244 [INFO] BEGIN (implicit)
+2025-04-19 13:29:33,245 [INFO] PRAGMA main.table_info("profile")
+2025-04-19 13:29:33,245 [INFO] [raw sql] ()
+2025-04-19 13:29:33,245 [INFO] PRAGMA temp.table_info("profile")
+2025-04-19 13:29:33,245 [INFO] [raw sql] ()
+2025-04-19 13:29:33,246 [INFO] 
+CREATE TABLE profile (
+	id VARCHAR NOT NULL, 
+	name VARCHAR, 
+	amount FLOAT, 
+	category VARCHAR, 
+	PRIMARY KEY (id)
+)
+
+
+2025-04-19 13:29:33,246 [INFO] [no key 0.00008s] ()
+2025-04-19 13:29:33,251 [INFO] COMMIT
+2025-04-19 13:29:36,514 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:29:36,913 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:29:36,923 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 13:29:36,923 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 13:29:38,068 [INFO] 127.0.0.1 - - [19/Apr/2025 13:29:38] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 13:29:38,127 [INFO] 127.0.0.1 - - [19/Apr/2025 13:29:38] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 13:29:41,461 [INFO] 127.0.0.1 - - [19/Apr/2025 13:29:41] "[31m[1mGET /api/users HTTP/1.1[0m" 401 -
+2025-04-19 13:29:57,423 [ERROR] Exception on /api/users [POST]
+Traceback (most recent call last):
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\spec.py", line 192, in sync_validate
+    return self.backend.validate(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\plugins\flask_plugin.py", line 243, in validate
+    response = make_response(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\helpers.py", line 185, in make_response
+    return current_app.make_response(args)
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 1212, in make_response
+    raise TypeError(
+TypeError: The view function for 'api.create_user' did not return a valid response. The function either returned None or ended without a return statement.
+2025-04-19 13:29:57,428 [INFO] 127.0.0.1 - - [19/Apr/2025 13:29:57] "[32mPOST /api/users HTTP/1.1[0m" 302 -
+2025-04-19 13:29:57,674 [INFO] 127.0.0.1 - - [19/Apr/2025 13:29:57] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-04-19 13:30:04,364 [INFO] 127.0.0.1 - - [19/Apr/2025 13:30:04] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-04-19 13:30:08,105 [INFO] 127.0.0.1 - - [19/Apr/2025 13:30:08] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-04-19 13:30:24,351 [INFO] 127.0.0.1 - - [19/Apr/2025 13:30:24] "[31m[1mGET /display_create_user HTTP/1.1[0m" 401 -
+2025-04-19 13:30:28,131 [INFO] 127.0.0.1 - - [19/Apr/2025 13:30:28] "GET /display_create_user HTTP/1.1" 200 -
+2025-04-19 13:30:33,709 [INFO] BEGIN (implicit)
+2025-04-19 13:30:33,709 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 13:30:33,710 [INFO] [generated in 0.00030s] ('02903e2ad06340c0a2ba8eaca10a7009', 'carret', 500.0, 'fzfzfzf')
+2025-04-19 13:30:33,711 [INFO] COMMIT
+2025-04-19 13:30:33,720 [INFO] 127.0.0.1 - - [19/Apr/2025 13:30:33] "[32mPOST /display_create_user HTTP/1.1[0m" 302 -
+2025-04-19 13:30:33,803 [INFO] 127.0.0.1 - - [19/Apr/2025 13:30:33] "GET /admin HTTP/1.1" 200 -
+2025-04-19 13:30:35,452 [INFO] 127.0.0.1 - - [19/Apr/2025 13:30:35] "GET /display_create_user HTTP/1.1" 200 -
+2025-04-19 13:30:44,829 [INFO] 127.0.0.1 - - [19/Apr/2025 13:30:44] "[31m[1mDELETE /api/users/02903e2ad06340c0a2ba8eaca10a7009 HTTP/1.1[0m" 401 -
+2025-04-19 13:30:52,103 [INFO] 127.0.0.1 - - [19/Apr/2025 13:30:52] "[31m[1mGET /api/users/02903e2ad06340c0a2ba8eaca10a7009 HTTP/1.1[0m" 401 -
+2025-04-19 13:30:59,384 [ERROR] Exception on /api/users/02903e2ad06340c0a2ba8eaca10a7009 [PUT]
+Traceback (most recent call last):
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\spec.py", line 192, in sync_validate
+    return self.backend.validate(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\plugins\flask_plugin.py", line 243, in validate
+    response = make_response(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\helpers.py", line 185, in make_response
+    return current_app.make_response(args)
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 1212, in make_response
+    raise TypeError(
+TypeError: The view function for 'api.update_user' did not return a valid response. The function either returned None or ended without a return statement.
+2025-04-19 13:30:59,387 [INFO] 127.0.0.1 - - [19/Apr/2025 13:30:59] "[32mPUT /api/users/02903e2ad06340c0a2ba8eaca10a7009 HTTP/1.1[0m" 302 -
+2025-04-19 13:30:59,690 [INFO] 127.0.0.1 - - [19/Apr/2025 13:30:59] "[31m[1mPUT / HTTP/1.1[0m" 405 -
+2025-04-19 13:31:05,394 [INFO] 127.0.0.1 - - [19/Apr/2025 13:31:05] "[31m[1mGET /api/export_csv HTTP/1.1[0m" 401 -
+2025-04-19 13:31:06,900 [INFO] 127.0.0.1 - - [19/Apr/2025 13:31:06] "[31m[1mGET /api/export_csv HTTP/1.1[0m" 401 -
+2025-04-19 13:31:18,414 [INFO] 127.0.0.1 - - [19/Apr/2025 13:31:18] "[31m[1mPOST /api/import_csv HTTP/1.1[0m" 401 -
+2025-04-19 13:31:28,154 [INFO] 127.0.0.1 - - [19/Apr/2025 13:31:28] "[31m[1mGET /api/export_csv HTTP/1.1[0m" 401 -
+2025-04-19 13:31:55,092 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:31:55,494 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:31:55,504 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 13:31:55,504 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 13:31:58,449 [INFO] 127.0.0.1 - - [19/Apr/2025 13:31:58] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 13:31:58,510 [INFO] 127.0.0.1 - - [19/Apr/2025 13:31:58] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 13:32:03,850 [INFO] 127.0.0.1 - - [19/Apr/2025 13:32:03] "[31m[1mGET /api/users HTTP/1.1[0m" 401 -
+2025-04-19 13:32:08,578 [INFO] BEGIN (implicit)
+2025-04-19 13:32:08,578 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 13:32:08,579 [INFO] [generated in 0.00024s] ()
+2025-04-19 13:32:08,579 [INFO] ROLLBACK
+2025-04-19 13:32:08,579 [ERROR] Erreur lors de l'export CSV
+Traceback (most recent call last):
+  File "C:\Users\vincc\Documents\Archilog\src\archilog\views\api.py", line 163, in export_csv_api
+    return Response(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\response.py", line 66, in __init__
+    assert code in DEFAULT_CODE_DESC, "invalid HTTP status code"
+AssertionError: invalid HTTP status code
+2025-04-19 13:32:08,580 [INFO] 127.0.0.1 - - [19/Apr/2025 13:32:08] "[35m[1mGET /api/export_csv HTTP/1.1[0m" 500 -
+2025-04-19 13:32:10,872 [INFO] BEGIN (implicit)
+2025-04-19 13:32:10,873 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 13:32:10,873 [INFO] [cached since 2.295s ago] ()
+2025-04-19 13:32:10,873 [INFO] ROLLBACK
+2025-04-19 13:32:10,873 [ERROR] Erreur lors de l'export CSV
+Traceback (most recent call last):
+  File "C:\Users\vincc\Documents\Archilog\src\archilog\views\api.py", line 163, in export_csv_api
+    return Response(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\response.py", line 66, in __init__
+    assert code in DEFAULT_CODE_DESC, "invalid HTTP status code"
+AssertionError: invalid HTTP status code
+2025-04-19 13:32:10,874 [INFO] 127.0.0.1 - - [19/Apr/2025 13:32:10] "[35m[1mGET /api/export_csv HTTP/1.1[0m" 500 -
+2025-04-19 13:32:44,023 [INFO] 127.0.0.1 - - [19/Apr/2025 13:32:44] "[35m[1mGET /api/users HTTP/1.1[0m" 500 -
+2025-04-19 13:32:51,221 [INFO] BEGIN (implicit)
+2025-04-19 13:32:51,221 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 13:32:51,221 [INFO] [generated in 0.00034s] ('37a956b8c2d54ffbaa10d0694c8290d5', 'string', 0.0, 'string')
+2025-04-19 13:32:51,222 [INFO] COMMIT
+2025-04-19 13:32:51,232 [ERROR] 500 Response Validation Error: UserData - [{'type': 'missing', 'loc': ('id',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('name',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('amount',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('category',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}]
+2025-04-19 13:32:51,232 [INFO] 127.0.0.1 - - [19/Apr/2025 13:32:51] "[35m[1mPOST /api/users HTTP/1.1[0m" 500 -
+2025-04-19 13:32:52,435 [INFO] BEGIN (implicit)
+2025-04-19 13:32:52,435 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 13:32:52,435 [INFO] [cached since 1.214s ago] ('1804ae29a15441c2849bf2f3d4e4342f', 'string', 0.0, 'string')
+2025-04-19 13:32:52,436 [INFO] COMMIT
+2025-04-19 13:32:52,446 [ERROR] 500 Response Validation Error: UserData - [{'type': 'missing', 'loc': ('id',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('name',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('amount',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('category',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}]
+2025-04-19 13:32:52,446 [INFO] 127.0.0.1 - - [19/Apr/2025 13:32:52] "[35m[1mPOST /api/users HTTP/1.1[0m" 500 -
+2025-04-19 13:33:06,106 [INFO] BEGIN (implicit)
+2025-04-19 13:33:06,106 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 13:33:06,106 [INFO] [cached since 57.53s ago] ()
+2025-04-19 13:33:06,107 [INFO] ROLLBACK
+2025-04-19 13:33:06,107 [ERROR] Erreur lors de l'export CSV
+Traceback (most recent call last):
+  File "C:\Users\vincc\Documents\Archilog\src\archilog\views\api.py", line 163, in export_csv_api
+    return Response(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\response.py", line 66, in __init__
+    assert code in DEFAULT_CODE_DESC, "invalid HTTP status code"
+AssertionError: invalid HTTP status code
+2025-04-19 13:33:06,107 [INFO] 127.0.0.1 - - [19/Apr/2025 13:33:06] "[35m[1mGET /api/export_csv HTTP/1.1[0m" 500 -
+2025-04-19 13:34:06,338 [INFO] 127.0.0.1 - - [19/Apr/2025 13:34:06] "[35m[1mGET /api/users HTTP/1.1[0m" 500 -
+2025-04-19 13:36:29,623 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:36:30,032 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:36:30,043 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 13:36:30,043 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 13:36:30,104 [INFO] 127.0.0.1 - - [19/Apr/2025 13:36:30] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-04-19 13:36:33,088 [INFO] 127.0.0.1 - - [19/Apr/2025 13:36:33] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-19 13:36:33,164 [INFO] 127.0.0.1 - - [19/Apr/2025 13:36:33] "GET /admin HTTP/1.1" 200 -
+2025-04-19 13:36:33,520 [INFO] 127.0.0.1 - - [19/Apr/2025 13:36:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-19 13:36:34,613 [INFO] 127.0.0.1 - - [19/Apr/2025 13:36:34] "GET /display_create_user HTTP/1.1" 200 -
+2025-04-19 13:36:38,344 [INFO] BEGIN (implicit)
+2025-04-19 13:36:38,344 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 13:36:38,345 [INFO] [generated in 0.00036s] ()
+2025-04-19 13:36:38,345 [INFO] ROLLBACK
+2025-04-19 13:36:38,345 [INFO] 127.0.0.1 - - [19/Apr/2025 13:36:38] "GET /export_csv HTTP/1.1" 200 -
+2025-04-19 13:36:50,307 [INFO] 127.0.0.1 - - [19/Apr/2025 13:36:50] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 13:36:50,611 [INFO] 127.0.0.1 - - [19/Apr/2025 13:36:50] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 13:36:54,250 [INFO] 127.0.0.1 - - [19/Apr/2025 13:36:54] "[31m[1mGET /api/users HTTP/1.1[0m" 401 -
+2025-04-19 13:37:06,029 [ERROR] Exception on /api/users [POST]
+Traceback (most recent call last):
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\spec.py", line 192, in sync_validate
+    return self.backend.validate(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\plugins\flask_plugin.py", line 243, in validate
+    response = make_response(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\helpers.py", line 185, in make_response
+    return current_app.make_response(args)
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 1212, in make_response
+    raise TypeError(
+TypeError: The view function for 'api.create_user' did not return a valid response. The function either returned None or ended without a return statement.
+2025-04-19 13:37:06,033 [INFO] 127.0.0.1 - - [19/Apr/2025 13:37:06] "[32mPOST /api/users HTTP/1.1[0m" 302 -
+2025-04-19 13:37:06,338 [INFO] 127.0.0.1 - - [19/Apr/2025 13:37:06] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-04-19 13:37:30,354 [INFO] 127.0.0.1 - - [19/Apr/2025 13:37:30] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-04-19 13:37:35,028 [INFO] 127.0.0.1 - - [19/Apr/2025 13:37:35] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-19 13:37:35,280 [INFO] 127.0.0.1 - - [19/Apr/2025 13:37:35] "GET /admin HTTP/1.1" 200 -
+2025-04-19 13:38:38,909 [INFO] 127.0.0.1 - - [19/Apr/2025 13:38:38] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 13:38:39,013 [INFO] 127.0.0.1 - - [19/Apr/2025 13:38:39] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 13:38:47,464 [INFO] 127.0.0.1 - - [19/Apr/2025 13:38:47] "[35m[1mGET /api/users HTTP/1.1[0m" 500 -
+2025-04-19 13:40:30,629 [INFO] 127.0.0.1 - - [19/Apr/2025 13:40:30] "[35m[1mGET /api/users HTTP/1.1[0m" 500 -
+2025-04-19 13:42:04,374 [INFO] 127.0.0.1 - - [19/Apr/2025 13:42:04] "GET /admin HTTP/1.1" 200 -
+2025-04-19 13:42:05,390 [INFO] 127.0.0.1 - - [19/Apr/2025 13:42:05] "GET /display_create_user HTTP/1.1" 200 -
+2025-04-19 13:42:09,376 [INFO] BEGIN (implicit)
+2025-04-19 13:42:09,376 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 13:42:09,376 [INFO] [generated in 0.00032s] ('a2b8fdcaa7a24c0f87351ad1e79b9026', 'carret', 500.0, 'zfzfzf')
+2025-04-19 13:42:09,377 [INFO] COMMIT
+2025-04-19 13:42:09,387 [INFO] 127.0.0.1 - - [19/Apr/2025 13:42:09] "[32mPOST /display_create_user HTTP/1.1[0m" 302 -
+2025-04-19 13:42:09,460 [INFO] 127.0.0.1 - - [19/Apr/2025 13:42:09] "GET /admin HTTP/1.1" 200 -
+2025-04-19 13:42:13,503 [INFO] 127.0.0.1 - - [19/Apr/2025 13:42:13] "GET /display_delete_user_page HTTP/1.1" 200 -
+2025-04-19 13:42:16,256 [INFO] BEGIN (implicit)
+2025-04-19 13:42:16,256 [INFO] DELETE FROM profile WHERE profile.id = ?
+2025-04-19 13:42:16,256 [INFO] [generated in 0.00034s] ('a2b8fdcaa7a24c0f87351ad1e79b9026',)
+2025-04-19 13:42:16,257 [INFO] COMMIT
+2025-04-19 13:42:16,266 [INFO] 127.0.0.1 - - [19/Apr/2025 13:42:16] "[32mPOST /display_delete_user_page HTTP/1.1[0m" 302 -
+2025-04-19 13:42:16,338 [INFO] 127.0.0.1 - - [19/Apr/2025 13:42:16] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-19 13:42:16,411 [INFO] 127.0.0.1 - - [19/Apr/2025 13:42:16] "GET /admin HTTP/1.1" 200 -
+2025-04-19 13:42:20,409 [INFO] 127.0.0.1 - - [19/Apr/2025 13:42:20] "GET /display_update_user_page HTTP/1.1" 200 -
+2025-04-19 13:42:26,847 [INFO] BEGIN (implicit)
+2025-04-19 13:42:26,847 [INFO] UPDATE profile SET name=?, amount=?, category=? WHERE profile.id = ?
+2025-04-19 13:42:26,847 [INFO] [generated in 0.00030s] ('carret', 500.0, 'zfzf', '1804ae29a15441c2849bf2f3d4e4342f')
+2025-04-19 13:42:26,848 [INFO] COMMIT
+2025-04-19 13:42:26,858 [INFO] 127.0.0.1 - - [19/Apr/2025 13:42:26] "[32mPOST /display_update_user_page HTTP/1.1[0m" 302 -
+2025-04-19 13:42:26,932 [INFO] 127.0.0.1 - - [19/Apr/2025 13:42:26] "GET /admin HTTP/1.1" 200 -
+2025-04-19 13:42:29,470 [INFO] BEGIN (implicit)
+2025-04-19 13:42:29,471 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 13:42:29,471 [INFO] [cached since 351.1s ago] ()
+2025-04-19 13:42:29,471 [INFO] ROLLBACK
+2025-04-19 13:42:29,471 [INFO] 127.0.0.1 - - [19/Apr/2025 13:42:29] "GET /export_csv HTTP/1.1" 200 -
+2025-04-19 13:42:33,518 [INFO] BEGIN (implicit)
+2025-04-19 13:42:33,518 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 13:42:33,518 [INFO] [cached since 24.14s ago] ('bfb4fb6317064ab480d1564f6da59940', 'zffff', 500.0, 'fzzfzfzfzfzfzf')
+2025-04-19 13:42:33,519 [INFO] COMMIT
+2025-04-19 13:42:33,528 [INFO] BEGIN (implicit)
+2025-04-19 13:42:33,528 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 13:42:33,528 [INFO] [cached since 24.15s ago] ('98d1e453b71a4c14939817c4566f8170', 'carret', 5.0, 'ezg')
+2025-04-19 13:42:33,529 [INFO] COMMIT
+2025-04-19 13:42:33,538 [INFO] BEGIN (implicit)
+2025-04-19 13:42:33,538 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 13:42:33,538 [INFO] [cached since 24.16s ago] ('49a91717485f49b2b3b64b1c473274fc', 'zfzfzf', 520.0, 'zfzzzz')
+2025-04-19 13:42:33,539 [INFO] COMMIT
+2025-04-19 13:42:33,549 [INFO] BEGIN (implicit)
+2025-04-19 13:42:33,549 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 13:42:33,549 [INFO] [cached since 24.17s ago] ('3f56d26bb9984117bf62d5e2b21c54b2', 'vvv', 500.0, 'zfzfzfzf')
+2025-04-19 13:42:33,550 [INFO] COMMIT
+2025-04-19 13:42:33,559 [INFO] BEGIN (implicit)
+2025-04-19 13:42:33,559 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 13:42:33,559 [INFO] [cached since 24.18s ago] ('94d93b5ad63f4d16af50762f090b565f', 'vvv', 500.0, 'zfzfzfzf')
+2025-04-19 13:42:33,560 [INFO] COMMIT
+2025-04-19 13:42:33,569 [INFO] BEGIN (implicit)
+2025-04-19 13:42:33,569 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 13:42:33,569 [INFO] [cached since 24.19s ago] ('65b49b7d28b24449a41dbbdcd4304aab', 'zffff', 500.0, 'fzzfzfzfzfzfzf')
+2025-04-19 13:42:33,570 [INFO] COMMIT
+2025-04-19 13:42:33,579 [INFO] BEGIN (implicit)
+2025-04-19 13:42:33,579 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 13:42:33,579 [INFO] [cached since 24.2s ago] ('ba45d86b249446ca97ac426f77c7fba5', 'vvv', 500.0, 'zfzfzfzf')
+2025-04-19 13:42:33,580 [INFO] COMMIT
+2025-04-19 13:42:33,590 [INFO] 127.0.0.1 - - [19/Apr/2025 13:42:33] "[32mPOST /import_csv HTTP/1.1[0m" 302 -
+2025-04-19 13:42:33,663 [INFO] 127.0.0.1 - - [19/Apr/2025 13:42:33] "GET /admin HTTP/1.1" 200 -
+2025-04-19 13:42:45,339 [INFO] 127.0.0.1 - - [19/Apr/2025 13:42:45] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 13:42:45,424 [INFO] 127.0.0.1 - - [19/Apr/2025 13:42:45] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 13:42:49,586 [INFO] 127.0.0.1 - - [19/Apr/2025 13:42:49] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 13:42:49,889 [INFO] 127.0.0.1 - - [19/Apr/2025 13:42:49] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 13:42:52,496 [INFO] 127.0.0.1 - - [19/Apr/2025 13:42:52] "[31m[1mGET /api/users HTTP/1.1[0m" 401 -
+2025-04-19 13:42:57,514 [ERROR] Exception on /api/users [POST]
+Traceback (most recent call last):
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\spec.py", line 192, in sync_validate
+    return self.backend.validate(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\plugins\flask_plugin.py", line 243, in validate
+    response = make_response(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\helpers.py", line 185, in make_response
+    return current_app.make_response(args)
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 1212, in make_response
+    raise TypeError(
+TypeError: The view function for 'api.create_user' did not return a valid response. The function either returned None or ended without a return statement.
+2025-04-19 13:42:57,517 [INFO] 127.0.0.1 - - [19/Apr/2025 13:42:57] "[32mPOST /api/users HTTP/1.1[0m" 302 -
+2025-04-19 13:42:57,822 [INFO] 127.0.0.1 - - [19/Apr/2025 13:42:57] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-04-19 13:43:01,737 [INFO] 127.0.0.1 - - [19/Apr/2025 13:43:01] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-19 13:43:02,109 [INFO] 127.0.0.1 - - [19/Apr/2025 13:43:02] "GET /admin HTTP/1.1" 200 -
+2025-04-19 13:43:23,098 [INFO] 127.0.0.1 - - [19/Apr/2025 13:43:23] "[31m[1mDELETE /api/users/ba45d86b249446ca97ac426f77c7fba5 HTTP/1.1[0m" 401 -
+2025-04-19 13:43:24,516 [INFO] 127.0.0.1 - - [19/Apr/2025 13:43:24] "[31m[1mDELETE /api/users/ba45d86b249446ca97ac426f77c7fba5 HTTP/1.1[0m" 401 -
+2025-04-19 13:44:45,085 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:44:45,493 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 13:44:45,504 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 13:44:45,504 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 13:44:49,155 [INFO] 127.0.0.1 - - [19/Apr/2025 13:44:49] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 13:44:49,220 [INFO] 127.0.0.1 - - [19/Apr/2025 13:44:49] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 13:44:52,289 [INFO] 127.0.0.1 - - [19/Apr/2025 13:44:52] "[31m[1mGET /api/users HTTP/1.1[0m" 401 -
+2025-04-19 13:44:53,999 [INFO] 127.0.0.1 - - [19/Apr/2025 13:44:53] "[31m[1mGET /api/users HTTP/1.1[0m" 401 -
+2025-04-19 13:44:57,627 [ERROR] Exception on /api/users [POST]
+Traceback (most recent call last):
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\spec.py", line 192, in sync_validate
+    return self.backend.validate(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\plugins\flask_plugin.py", line 243, in validate
+    response = make_response(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\helpers.py", line 185, in make_response
+    return current_app.make_response(args)
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 1212, in make_response
+    raise TypeError(
+TypeError: The view function for 'api.create_user' did not return a valid response. The function either returned None or ended without a return statement.
+2025-04-19 13:44:57,633 [INFO] 127.0.0.1 - - [19/Apr/2025 13:44:57] "[32mPOST /api/users HTTP/1.1[0m" 302 -
+2025-04-19 13:44:57,937 [INFO] 127.0.0.1 - - [19/Apr/2025 13:44:57] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-04-19 13:45:01,741 [INFO] 127.0.0.1 - - [19/Apr/2025 13:45:01] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-19 13:45:02,117 [INFO] 127.0.0.1 - - [19/Apr/2025 13:45:02] "GET /admin HTTP/1.1" 200 -
+2025-04-19 13:45:18,962 [INFO] 127.0.0.1 - - [19/Apr/2025 13:45:18] "[31m[1mGET /api/users/ba45d86b249446ca97ac426f77c7fba5 HTTP/1.1[0m" 401 -
+2025-04-19 13:45:36,828 [INFO] BEGIN (implicit)
+2025-04-19 13:45:36,828 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile 
+WHERE profile.id = ?
+2025-04-19 13:45:36,828 [INFO] [generated in 0.00029s] ('ba45d86b249446ca97ac426f77c7fba5',)
+2025-04-19 13:45:36,829 [INFO] ROLLBACK
+2025-04-19 13:45:36,829 [INFO] 127.0.0.1 - - [19/Apr/2025 13:45:36] "GET /api/users/ba45d86b249446ca97ac426f77c7fba5 HTTP/1.1" 200 -
+2025-04-19 13:45:57,727 [INFO] BEGIN (implicit)
+2025-04-19 13:45:57,727 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile 
+WHERE profile.id = ?
+2025-04-19 13:45:57,727 [INFO] [cached since 20.9s ago] ('ba45d86b249446ca97ac426f77c7fba5',)
+2025-04-19 13:45:57,728 [INFO] ROLLBACK
+2025-04-19 13:45:57,729 [INFO] BEGIN (implicit)
+2025-04-19 13:45:57,729 [INFO] UPDATE profile SET name=?, amount=?, category=? WHERE profile.id = ?
+2025-04-19 13:45:57,729 [INFO] [generated in 0.00031s] ('string', 0.0, 'string', 'ba45d86b249446ca97ac426f77c7fba5')
+2025-04-19 13:45:57,730 [INFO] COMMIT
+2025-04-19 13:45:57,740 [ERROR] 500 Response Validation Error: UserData - [{'type': 'missing', 'loc': ('id',), 'msg': 'Field required', 'input': {'message': 'Utilisateur mis à jour', 'user': {'amount': 0.0, 'category': 'string', 'id': '3fa85f64-5717-4562-b3fc-2c963f66afa6', 'name': 'string'}}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('name',), 'msg': 'Field required', 'input': {'message': 'Utilisateur mis à jour', 'user': {'amount': 0.0, 'category': 'string', 'id': '3fa85f64-5717-4562-b3fc-2c963f66afa6', 'name': 'string'}}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('amount',), 'msg': 'Field required', 'input': {'message': 'Utilisateur mis à jour', 'user': {'amount': 0.0, 'category': 'string', 'id': '3fa85f64-5717-4562-b3fc-2c963f66afa6', 'name': 'string'}}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('category',), 'msg': 'Field required', 'input': {'message': 'Utilisateur mis à jour', 'user': {'amount': 0.0, 'category': 'string', 'id': '3fa85f64-5717-4562-b3fc-2c963f66afa6', 'name': 'string'}}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}]
+2025-04-19 13:45:57,740 [INFO] 127.0.0.1 - - [19/Apr/2025 13:45:57] "[35m[1mPUT /api/users/ba45d86b249446ca97ac426f77c7fba5 HTTP/1.1[0m" 500 -
+2025-04-19 13:45:59,129 [INFO] BEGIN (implicit)
+2025-04-19 13:45:59,129 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile 
+WHERE profile.id = ?
+2025-04-19 13:45:59,129 [INFO] [cached since 22.3s ago] ('ba45d86b249446ca97ac426f77c7fba5',)
+2025-04-19 13:45:59,129 [INFO] ROLLBACK
+2025-04-19 13:45:59,130 [INFO] BEGIN (implicit)
+2025-04-19 13:45:59,130 [INFO] UPDATE profile SET name=?, amount=?, category=? WHERE profile.id = ?
+2025-04-19 13:45:59,130 [INFO] [cached since 1.401s ago] ('string', 0.0, 'string', 'ba45d86b249446ca97ac426f77c7fba5')
+2025-04-19 13:45:59,130 [INFO] COMMIT
+2025-04-19 13:45:59,130 [ERROR] 500 Response Validation Error: UserData - [{'type': 'missing', 'loc': ('id',), 'msg': 'Field required', 'input': {'message': 'Utilisateur mis à jour', 'user': {'amount': 0.0, 'category': 'string', 'id': '3fa85f64-5717-4562-b3fc-2c963f66afa6', 'name': 'string'}}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('name',), 'msg': 'Field required', 'input': {'message': 'Utilisateur mis à jour', 'user': {'amount': 0.0, 'category': 'string', 'id': '3fa85f64-5717-4562-b3fc-2c963f66afa6', 'name': 'string'}}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('amount',), 'msg': 'Field required', 'input': {'message': 'Utilisateur mis à jour', 'user': {'amount': 0.0, 'category': 'string', 'id': '3fa85f64-5717-4562-b3fc-2c963f66afa6', 'name': 'string'}}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('category',), 'msg': 'Field required', 'input': {'message': 'Utilisateur mis à jour', 'user': {'amount': 0.0, 'category': 'string', 'id': '3fa85f64-5717-4562-b3fc-2c963f66afa6', 'name': 'string'}}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}]
+2025-04-19 13:45:59,130 [INFO] 127.0.0.1 - - [19/Apr/2025 13:45:59] "[35m[1mPUT /api/users/ba45d86b249446ca97ac426f77c7fba5 HTTP/1.1[0m" 500 -
+2025-04-19 14:24:46,281 [INFO] BEGIN (implicit)
+2025-04-19 14:24:46,281 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 14:24:46,281 [INFO] [generated in 0.00035s] ()
+2025-04-19 14:24:46,281 [INFO] ROLLBACK
+2025-04-19 14:24:46,282 [ERROR] Erreur lors de l'export CSV
+Traceback (most recent call last):
+  File "C:\Users\vincc\Documents\Archilog\src\archilog\views\api.py", line 164, in export_csv_api
+    return Response(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\response.py", line 66, in __init__
+    assert code in DEFAULT_CODE_DESC, "invalid HTTP status code"
+AssertionError: invalid HTTP status code
+2025-04-19 14:24:46,282 [INFO] 127.0.0.1 - - [19/Apr/2025 14:24:46] "[35m[1mGET /api/export_csv HTTP/1.1[0m" 500 -
+2025-04-19 14:24:55,369 [INFO] BEGIN (implicit)
+2025-04-19 14:24:55,369 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 14:24:55,369 [INFO] [generated in 0.00030s] ('673b691ad91440ae90102c7225a91410', 'carret', 500.0, 'fzfzfzf')
+2025-04-19 14:24:55,370 [INFO] COMMIT
+2025-04-19 14:24:55,380 [INFO] BEGIN (implicit)
+2025-04-19 14:24:55,380 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 14:24:55,380 [INFO] [cached since 0.01166s ago] ('83b91e5fb7e34f3fbc0bc0c64ec8b134', 'string', 0.0, 'string')
+2025-04-19 14:24:55,381 [INFO] COMMIT
+2025-04-19 14:24:55,390 [INFO] BEGIN (implicit)
+2025-04-19 14:24:55,390 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 14:24:55,391 [INFO] [cached since 0.02172s ago] ('26ad0e4d677045689a24cb75f2c559e1', 'carret', 500.0, 'zfzf')
+2025-04-19 14:24:55,391 [INFO] COMMIT
+2025-04-19 14:24:55,403 [INFO] 127.0.0.1 - - [19/Apr/2025 14:24:55] "POST /api/import_csv HTTP/1.1" 200 -
+2025-04-19 14:25:25,181 [ERROR] 422 Request Validation Error: UserData - [{'type': 'missing', 'loc': ('id',), 'msg': 'Field required', 'input': {}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('name',), 'msg': 'Field required', 'input': {}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('amount',), 'msg': 'Field required', 'input': {}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('category',), 'msg': 'Field required', 'input': {}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}]
+2025-04-19 14:25:25,182 [INFO] 127.0.0.1 - - [19/Apr/2025 14:25:25] "[31m[1mPOST /api/users HTTP/1.1[0m" 422 -
+2025-04-19 14:26:05,336 [INFO] BEGIN (implicit)
+2025-04-19 14:26:05,336 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 14:26:05,336 [INFO] [cached since 69.97s ago] ('630a34f2d8f843c783f0217b8044f098', 'zfzfzffzzfzfzfzfzf', 50.0, 'zzf')
+2025-04-19 14:26:05,337 [INFO] COMMIT
+2025-04-19 14:26:05,347 [ERROR] 500 Response Validation Error: UserData - [{'type': 'missing', 'loc': ('id',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('name',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('amount',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('category',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}]
+2025-04-19 14:26:05,348 [INFO] 127.0.0.1 - - [19/Apr/2025 14:26:05] "[35m[1mPOST /api/users HTTP/1.1[0m" 500 -
+2025-04-19 14:26:07,179 [INFO] BEGIN (implicit)
+2025-04-19 14:26:07,179 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 14:26:07,179 [INFO] [cached since 71.81s ago] ('133331aa55e847d29e7fd843987fc952', 'zfzfzffzzfzfzfzfzf', 50.0, 'zzf')
+2025-04-19 14:26:07,180 [INFO] COMMIT
+2025-04-19 14:26:07,189 [ERROR] 500 Response Validation Error: UserData - [{'type': 'missing', 'loc': ('id',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('name',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('amount',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('category',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}]
+2025-04-19 14:26:07,189 [INFO] 127.0.0.1 - - [19/Apr/2025 14:26:07] "[35m[1mPOST /api/users HTTP/1.1[0m" 500 -
+2025-04-19 14:26:26,404 [INFO] BEGIN (implicit)
+2025-04-19 14:26:26,405 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 14:26:26,405 [INFO] [cached since 91.04s ago] ('32fe4964b8414a5fb7e8a22f77ac0fd0', 'string', 0.0, 'string')
+2025-04-19 14:26:26,406 [INFO] COMMIT
+2025-04-19 14:26:26,416 [ERROR] 500 Response Validation Error: UserData - [{'type': 'missing', 'loc': ('id',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('name',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('amount',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('category',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}]
+2025-04-19 14:26:26,416 [INFO] 127.0.0.1 - - [19/Apr/2025 14:26:26] "[35m[1mPOST /api/users HTTP/1.1[0m" 500 -
+2025-04-19 14:26:45,520 [INFO] 127.0.0.1 - - [19/Apr/2025 14:26:45] "[35m[1mGET /api/users HTTP/1.1[0m" 500 -
+2025-04-19 14:27:31,201 [INFO] 127.0.0.1 - - [19/Apr/2025 14:27:31] "[33mGET /users/02903e2ad06340c0a2ba8eaca10a7009 HTTP/1.1[0m" 404 -
+2025-04-19 14:27:35,913 [INFO] 127.0.0.1 - - [19/Apr/2025 14:27:35] "[31m[1mGET /api/users/02903e2ad06340c0a2ba8eaca10a7009 HTTP/1.1[0m" 401 -
+2025-04-19 14:27:40,372 [INFO] 127.0.0.1 - - [19/Apr/2025 14:27:40] "[33mGET /users/02903e2ad06340c0a2ba8eaca10a7009 HTTP/1.1[0m" 404 -
+2025-04-19 14:27:45,356 [INFO] 127.0.0.1 - - [19/Apr/2025 14:27:45] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 14:27:45,659 [INFO] 127.0.0.1 - - [19/Apr/2025 14:27:45] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 14:27:55,309 [INFO] 127.0.0.1 - - [19/Apr/2025 14:27:55] "[35m[1mGET /api/users HTTP/1.1[0m" 500 -
+2025-04-19 14:30:07,705 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:30:08,119 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:30:08,129 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 14:30:08,130 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 14:30:11,783 [INFO] 127.0.0.1 - - [19/Apr/2025 14:30:11] "GET /admin HTTP/1.1" 200 -
+2025-04-19 14:30:16,306 [INFO] 127.0.0.1 - - [19/Apr/2025 14:30:16] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 14:30:16,372 [INFO] 127.0.0.1 - - [19/Apr/2025 14:30:16] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 14:30:18,768 [INFO] 127.0.0.1 - - [19/Apr/2025 14:30:18] "[31m[1mGET /api/users HTTP/1.1[0m" 401 -
+2025-04-19 14:30:28,212 [INFO] 127.0.0.1 - - [19/Apr/2025 14:30:28] "[35m[1mGET /api/users HTTP/1.1[0m" 500 -
+2025-04-19 14:32:26,282 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:32:26,698 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:32:26,709 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 14:32:26,709 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 14:32:32,683 [INFO] 127.0.0.1 - - [19/Apr/2025 14:32:32] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 14:32:32,744 [INFO] 127.0.0.1 - - [19/Apr/2025 14:32:32] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 14:32:35,866 [INFO] 127.0.0.1 - - [19/Apr/2025 14:32:35] "[31m[1mGET /api/users HTTP/1.1[0m" 401 -
+2025-04-19 14:32:43,495 [INFO] BEGIN (implicit)
+2025-04-19 14:32:43,496 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 14:32:43,496 [INFO] [generated in 0.00026s] ()
+2025-04-19 14:32:43,496 [INFO] ROLLBACK
+2025-04-19 14:32:43,497 [INFO] 127.0.0.1 - - [19/Apr/2025 14:32:43] "GET /api/users HTTP/1.1" 200 -
+2025-04-19 14:33:17,835 [INFO] BEGIN (implicit)
+2025-04-19 14:33:17,835 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 14:33:17,835 [INFO] [generated in 0.00035s] ('87f77445e5fd41de9a41b662c20160b9', 'stzfzfring', 200.0, 'strifzzfng')
+2025-04-19 14:33:17,836 [INFO] COMMIT
+2025-04-19 14:33:17,846 [ERROR] 500 Response Validation Error: UserData - [{'type': 'missing', 'loc': ('id',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('name',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('amount',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('category',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}]
+2025-04-19 14:33:17,846 [INFO] 127.0.0.1 - - [19/Apr/2025 14:33:17] "[35m[1mPOST /api/users HTTP/1.1[0m" 500 -
+2025-04-19 14:33:54,402 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:33:54,815 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:33:54,826 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 14:33:54,826 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 14:33:59,261 [INFO] 127.0.0.1 - - [19/Apr/2025 14:33:59] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 14:33:59,349 [INFO] 127.0.0.1 - - [19/Apr/2025 14:33:59] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 14:34:11,321 [ERROR] Exception on /api/users [POST]
+Traceback (most recent call last):
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\spec.py", line 192, in sync_validate
+    return self.backend.validate(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\plugins\flask_plugin.py", line 243, in validate
+    response = make_response(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\helpers.py", line 185, in make_response
+    return current_app.make_response(args)
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 1212, in make_response
+    raise TypeError(
+TypeError: The view function for 'api.create_user' did not return a valid response. The function either returned None or ended without a return statement.
+2025-04-19 14:34:11,327 [INFO] 127.0.0.1 - - [19/Apr/2025 14:34:11] "[32mPOST /api/users HTTP/1.1[0m" 302 -
+2025-04-19 14:34:11,631 [INFO] 127.0.0.1 - - [19/Apr/2025 14:34:11] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-04-19 14:34:27,624 [INFO] BEGIN (implicit)
+2025-04-19 14:34:27,624 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 14:34:27,624 [INFO] [generated in 0.00035s] ('a25e63681f8c479b841cb7f08ec8756a', 'strizfzfzfng', 500000.0, 'strizfzfzng')
+2025-04-19 14:34:27,625 [INFO] COMMIT
+2025-04-19 14:34:27,635 [ERROR] 500 Response Validation Error: UserData - [{'type': 'missing', 'loc': ('id',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('name',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('amount',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('category',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}]
+2025-04-19 14:34:27,635 [INFO] 127.0.0.1 - - [19/Apr/2025 14:34:27] "[35m[1mPOST /api/users HTTP/1.1[0m" 500 -
+2025-04-19 14:34:48,278 [INFO] BEGIN (implicit)
+2025-04-19 14:34:48,279 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 14:34:48,279 [INFO] [generated in 0.00029s] ()
+2025-04-19 14:34:48,279 [INFO] ROLLBACK
+2025-04-19 14:34:48,279 [ERROR] Erreur lors de l'export CSV
+Traceback (most recent call last):
+  File "C:\Users\vincc\Documents\Archilog\src\archilog\views\api.py", line 162, in export_csv_api
+    return Response(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\response.py", line 66, in __init__
+    assert code in DEFAULT_CODE_DESC, "invalid HTTP status code"
+AssertionError: invalid HTTP status code
+2025-04-19 14:34:48,280 [INFO] 127.0.0.1 - - [19/Apr/2025 14:34:48] "[35m[1mGET /api/export_csv HTTP/1.1[0m" 500 -
+2025-04-19 14:36:23,740 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:36:24,147 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:36:24,157 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 14:36:24,157 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 14:36:25,659 [INFO] 127.0.0.1 - - [19/Apr/2025 14:36:25] "GET /admin HTTP/1.1" 200 -
+2025-04-19 14:36:28,464 [INFO] 127.0.0.1 - - [19/Apr/2025 14:36:28] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 14:36:28,553 [INFO] 127.0.0.1 - - [19/Apr/2025 14:36:28] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 14:36:35,690 [INFO] BEGIN (implicit)
+2025-04-19 14:36:35,691 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 14:36:35,691 [INFO] [generated in 0.00029s] ()
+2025-04-19 14:36:35,691 [INFO] ROLLBACK
+2025-04-19 14:36:35,691 [ERROR] Erreur lors de l'export CSV
+Traceback (most recent call last):
+  File "C:\Users\vincc\Documents\Archilog\src\archilog\views\api.py", line 154, in export_csv_api
+    return Response(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\response.py", line 66, in __init__
+    assert code in DEFAULT_CODE_DESC, "invalid HTTP status code"
+AssertionError: invalid HTTP status code
+2025-04-19 14:36:35,692 [INFO] 127.0.0.1 - - [19/Apr/2025 14:36:35] "[35m[1mGET /api/export_csv HTTP/1.1[0m" 500 -
+2025-04-19 14:37:16,416 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:37:16,837 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:37:16,848 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 14:37:16,848 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 14:37:20,879 [INFO] 127.0.0.1 - - [19/Apr/2025 14:37:20] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 14:37:20,942 [INFO] 127.0.0.1 - - [19/Apr/2025 14:37:20] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 14:37:24,553 [INFO] BEGIN (implicit)
+2025-04-19 14:37:24,553 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 14:37:24,553 [INFO] [generated in 0.00026s] ()
+2025-04-19 14:37:24,554 [INFO] ROLLBACK
+2025-04-19 14:37:24,554 [ERROR] Erreur lors de l'export CSV
+Traceback (most recent call last):
+  File "C:\Users\vincc\Documents\Archilog\src\archilog\views\api.py", line 154, in export_csv_api
+    return Response(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\response.py", line 66, in __init__
+    assert code in DEFAULT_CODE_DESC, "invalid HTTP status code"
+AssertionError: invalid HTTP status code
+2025-04-19 14:37:24,555 [INFO] 127.0.0.1 - - [19/Apr/2025 14:37:24] "[35m[1mGET /api/export_csv HTTP/1.1[0m" 500 -
+2025-04-19 14:38:44,867 [INFO] 127.0.0.1 - - [19/Apr/2025 14:38:44] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 14:38:44,930 [INFO] 127.0.0.1 - - [19/Apr/2025 14:38:44] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 14:38:50,275 [INFO] 127.0.0.1 - - [19/Apr/2025 14:38:50] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 14:38:50,578 [INFO] 127.0.0.1 - - [19/Apr/2025 14:38:50] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 14:38:58,626 [INFO] BEGIN (implicit)
+2025-04-19 14:38:58,627 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 14:38:58,627 [INFO] [cached since 94.07s ago] ()
+2025-04-19 14:38:58,627 [INFO] ROLLBACK
+2025-04-19 14:38:58,627 [ERROR] Erreur lors de l'export CSV
+Traceback (most recent call last):
+  File "C:\Users\vincc\Documents\Archilog\src\archilog\views\api.py", line 154, in export_csv_api
+    return Response(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\response.py", line 66, in __init__
+    assert code in DEFAULT_CODE_DESC, "invalid HTTP status code"
+AssertionError: invalid HTTP status code
+2025-04-19 14:38:58,628 [INFO] 127.0.0.1 - - [19/Apr/2025 14:38:58] "[35m[1mGET /api/export_csv HTTP/1.1[0m" 500 -
+2025-04-19 14:39:43,937 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:39:44,333 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:39:44,343 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 14:39:44,343 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 14:39:46,532 [INFO] 127.0.0.1 - - [19/Apr/2025 14:39:46] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 14:39:46,571 [INFO] 127.0.0.1 - - [19/Apr/2025 14:39:46] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 14:39:50,538 [INFO] BEGIN (implicit)
+2025-04-19 14:39:50,538 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 14:39:50,538 [INFO] [generated in 0.00028s] ()
+2025-04-19 14:39:50,539 [INFO] ROLLBACK
+2025-04-19 14:39:50,539 [ERROR] Erreur lors de l'export CSV
+Traceback (most recent call last):
+  File "C:\Users\vincc\Documents\Archilog\src\archilog\views\api.py", line 154, in export_csv_api
+    return Response(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\response.py", line 66, in __init__
+    assert code in DEFAULT_CODE_DESC, "invalid HTTP status code"
+AssertionError: invalid HTTP status code
+2025-04-19 14:39:50,540 [INFO] 127.0.0.1 - - [19/Apr/2025 14:39:50] "[35m[1mGET /api/export_csv HTTP/1.1[0m" 500 -
+2025-04-19 14:40:24,948 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:40:25,362 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:40:25,372 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 14:40:25,373 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 14:40:27,339 [INFO] 127.0.0.1 - - [19/Apr/2025 14:40:27] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 14:40:27,398 [INFO] 127.0.0.1 - - [19/Apr/2025 14:40:27] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 14:40:31,707 [INFO] BEGIN (implicit)
+2025-04-19 14:40:31,707 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 14:40:31,707 [INFO] [generated in 0.00029s] ()
+2025-04-19 14:40:31,708 [INFO] ROLLBACK
+2025-04-19 14:40:31,708 [INFO] 127.0.0.1 - - [19/Apr/2025 14:40:31] "GET /api/export_csv HTTP/1.1" 200 -
+2025-04-19 14:40:53,976 [INFO] 127.0.0.1 - - [19/Apr/2025 14:40:53] "[31m[1mGET /api/users HTTP/1.1[0m" 401 -
+2025-04-19 14:40:58,801 [ERROR] Exception on /api/users [POST]
+Traceback (most recent call last):
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\spec.py", line 192, in sync_validate
+    return self.backend.validate(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\plugins\flask_plugin.py", line 243, in validate
+    response = make_response(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\helpers.py", line 185, in make_response
+    return current_app.make_response(args)
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 1212, in make_response
+    raise TypeError(
+TypeError: The view function for 'api.create_user' did not return a valid response. The function either returned None or ended without a return statement.
+2025-04-19 14:40:58,806 [INFO] 127.0.0.1 - - [19/Apr/2025 14:40:58] "[32mPOST /api/users HTTP/1.1[0m" 302 -
+2025-04-19 14:40:59,109 [INFO] 127.0.0.1 - - [19/Apr/2025 14:40:59] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-04-19 14:41:49,302 [INFO] 127.0.0.1 - - [19/Apr/2025 14:41:49] "[31m[1mDELETE /api/users/02903e2ad06340c0a2ba8eaca10a7009 HTTP/1.1[0m" 401 -
+2025-04-19 14:41:54,775 [ERROR] Exception on /api/users [POST]
+Traceback (most recent call last):
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\spec.py", line 192, in sync_validate
+    return self.backend.validate(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\plugins\flask_plugin.py", line 243, in validate
+    response = make_response(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\helpers.py", line 185, in make_response
+    return current_app.make_response(args)
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 1212, in make_response
+    raise TypeError(
+TypeError: The view function for 'api.create_user' did not return a valid response. The function either returned None or ended without a return statement.
+2025-04-19 14:41:54,777 [INFO] 127.0.0.1 - - [19/Apr/2025 14:41:54] "[32mPOST /api/users HTTP/1.1[0m" 302 -
+2025-04-19 14:41:55,027 [INFO] 127.0.0.1 - - [19/Apr/2025 14:41:55] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-04-19 14:42:14,239 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:42:14,657 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:42:14,668 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 14:42:14,668 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 14:42:16,778 [INFO] 127.0.0.1 - - [19/Apr/2025 14:42:16] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 14:42:16,858 [INFO] 127.0.0.1 - - [19/Apr/2025 14:42:16] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 14:42:19,067 [INFO] 127.0.0.1 - - [19/Apr/2025 14:42:19] "[31m[1mGET /api/users HTTP/1.1[0m" 401 -
+2025-04-19 14:42:22,523 [INFO] 127.0.0.1 - - [19/Apr/2025 14:42:22] "[31m[1mPOST /api/users HTTP/1.1[0m" 403 -
+2025-04-19 14:42:38,658 [INFO] 127.0.0.1 - - [19/Apr/2025 14:42:38] "[31m[1mDELETE /api/users/a25e63681f8c479b841cb7f08ec8756a HTTP/1.1[0m" 401 -
+2025-04-19 14:42:47,979 [INFO] 127.0.0.1 - - [19/Apr/2025 14:42:47] "[31m[1mGET /api/users/a25e63681f8c479b841cb7f08ec8756a HTTP/1.1[0m" 401 -
+2025-04-19 14:42:55,883 [ERROR] Exception on /api/users/a25e63681f8c479b841cb7f08ec8756a [PUT]
+Traceback (most recent call last):
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\spec.py", line 192, in sync_validate
+    return self.backend.validate(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\plugins\flask_plugin.py", line 243, in validate
+    response = make_response(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\helpers.py", line 185, in make_response
+    return current_app.make_response(args)
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 1212, in make_response
+    raise TypeError(
+TypeError: The view function for 'api.update_user' did not return a valid response. The function either returned None or ended without a return statement.
+2025-04-19 14:42:55,887 [INFO] 127.0.0.1 - - [19/Apr/2025 14:42:55] "[32mPUT /api/users/a25e63681f8c479b841cb7f08ec8756a HTTP/1.1[0m" 302 -
+2025-04-19 14:42:56,191 [INFO] 127.0.0.1 - - [19/Apr/2025 14:42:56] "[31m[1mPUT / HTTP/1.1[0m" 405 -
+2025-04-19 14:43:03,226 [INFO] BEGIN (implicit)
+2025-04-19 14:43:03,226 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 14:43:03,227 [INFO] [generated in 0.00032s] ()
+2025-04-19 14:43:03,227 [INFO] ROLLBACK
+2025-04-19 14:43:03,228 [INFO] 127.0.0.1 - - [19/Apr/2025 14:43:03] "GET /api/export_csv HTTP/1.1" 200 -
+2025-04-19 14:43:12,314 [INFO] 127.0.0.1 - - [19/Apr/2025 14:43:12] "[31m[1mPOST /api/import_csv HTTP/1.1[0m" 401 -
+2025-04-19 14:43:32,095 [INFO] 127.0.0.1 - - [19/Apr/2025 14:43:32] "[31m[1mGET /api/users HTTP/1.1[0m" 403 -
+2025-04-19 14:43:33,650 [INFO] 127.0.0.1 - - [19/Apr/2025 14:43:33] "[31m[1mGET /api/users HTTP/1.1[0m" 403 -
+2025-04-19 14:43:42,666 [INFO] 127.0.0.1 - - [19/Apr/2025 14:43:42] "[31m[1mPOST /api/users HTTP/1.1[0m" 403 -
+2025-04-19 14:43:48,483 [INFO] 127.0.0.1 - - [19/Apr/2025 14:43:48] "[31m[1mDELETE /api/users/a25e63681f8c479b841cb7f08ec8756a HTTP/1.1[0m" 403 -
+2025-04-19 14:43:52,865 [INFO] 127.0.0.1 - - [19/Apr/2025 14:43:52] "[31m[1mGET /api/users/a25e63681f8c479b841cb7f08ec8756a HTTP/1.1[0m" 403 -
+2025-04-19 14:43:56,853 [INFO] 127.0.0.1 - - [19/Apr/2025 14:43:56] "[31m[1mPUT /api/users/a25e63681f8c479b841cb7f08ec8756a HTTP/1.1[0m" 403 -
+2025-04-19 14:44:01,409 [INFO] BEGIN (implicit)
+2025-04-19 14:44:01,409 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 14:44:01,409 [INFO] [cached since 58.18s ago] ()
+2025-04-19 14:44:01,410 [INFO] ROLLBACK
+2025-04-19 14:44:01,410 [INFO] 127.0.0.1 - - [19/Apr/2025 14:44:01] "GET /api/export_csv HTTP/1.1" 200 -
+2025-04-19 14:44:08,837 [INFO] 127.0.0.1 - - [19/Apr/2025 14:44:08] "[31m[1mPOST /api/import_csv HTTP/1.1[0m" 403 -
+2025-04-19 14:44:22,761 [INFO] BEGIN (implicit)
+2025-04-19 14:44:22,761 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 14:44:22,761 [INFO] [cached since 79.53s ago] ()
+2025-04-19 14:44:22,761 [INFO] ROLLBACK
+2025-04-19 14:44:22,762 [INFO] 127.0.0.1 - - [19/Apr/2025 14:44:22] "GET /api/users HTTP/1.1" 200 -
+2025-04-19 14:44:34,554 [INFO] 127.0.0.1 - - [19/Apr/2025 14:44:34] "[31m[1mPOST /api/users HTTP/1.1[0m" 403 -
+2025-04-19 14:45:10,756 [INFO] 127.0.0.1 - - [19/Apr/2025 14:45:10] "[31m[1mPOST /api/users HTTP/1.1[0m" 403 -
+2025-04-19 14:45:26,319 [INFO] 127.0.0.1 - - [19/Apr/2025 14:45:26] "[31m[1mPOST /api/users HTTP/1.1[0m" 403 -
+2025-04-19 14:45:35,486 [INFO] BEGIN (implicit)
+2025-04-19 14:45:35,486 [INFO] DELETE FROM profile WHERE profile.id = ?
+2025-04-19 14:45:35,486 [INFO] [generated in 0.00034s] ('a25e63681f8c479b841cb7f08ec8756a',)
+2025-04-19 14:45:35,487 [INFO] COMMIT
+2025-04-19 14:45:35,497 [INFO] 127.0.0.1 - - [19/Apr/2025 14:45:35] "DELETE /api/users/a25e63681f8c479b841cb7f08ec8756a HTTP/1.1" 200 -
+2025-04-19 14:45:43,634 [INFO] BEGIN (implicit)
+2025-04-19 14:45:43,634 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile 
+WHERE profile.id = ?
+2025-04-19 14:45:43,634 [INFO] [generated in 0.00028s] ('87f77445e5fd41de9a41b662c20160b9',)
+2025-04-19 14:45:43,634 [INFO] ROLLBACK
+2025-04-19 14:45:43,635 [INFO] 127.0.0.1 - - [19/Apr/2025 14:45:43] "GET /api/users/87f77445e5fd41de9a41b662c20160b9 HTTP/1.1" 200 -
+2025-04-19 14:45:58,956 [INFO] BEGIN (implicit)
+2025-04-19 14:45:58,956 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile 
+WHERE profile.id = ?
+2025-04-19 14:45:58,956 [INFO] [cached since 15.32s ago] ('87f77445e5fd41de9a41b662c20160b9',)
+2025-04-19 14:45:58,956 [INFO] ROLLBACK
+2025-04-19 14:45:58,958 [INFO] BEGIN (implicit)
+2025-04-19 14:45:58,958 [INFO] UPDATE profile SET name=?, amount=?, category=? WHERE profile.id = ?
+2025-04-19 14:45:58,958 [INFO] [generated in 0.00026s] ('string', 5000.0, 'strzfzfzfing', '87f77445e5fd41de9a41b662c20160b9')
+2025-04-19 14:45:58,959 [INFO] COMMIT
+2025-04-19 14:45:58,968 [ERROR] 500 Response Validation Error: UserData - [{'type': 'missing', 'loc': ('id',), 'msg': 'Field required', 'input': {'message': 'Utilisateur mis à jour', 'user': {'amount': 5000.0, 'category': 'strzfzfzfing', 'id': '3fa85f64-5717-4562-b3fc-2c963f66afa6', 'name': 'string'}}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('name',), 'msg': 'Field required', 'input': {'message': 'Utilisateur mis à jour', 'user': {'amount': 5000.0, 'category': 'strzfzfzfing', 'id': '3fa85f64-5717-4562-b3fc-2c963f66afa6', 'name': 'string'}}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('amount',), 'msg': 'Field required', 'input': {'message': 'Utilisateur mis à jour', 'user': {'amount': 5000.0, 'category': 'strzfzfzfing', 'id': '3fa85f64-5717-4562-b3fc-2c963f66afa6', 'name': 'string'}}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('category',), 'msg': 'Field required', 'input': {'message': 'Utilisateur mis à jour', 'user': {'amount': 5000.0, 'category': 'strzfzfzfing', 'id': '3fa85f64-5717-4562-b3fc-2c963f66afa6', 'name': 'string'}}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}]
+2025-04-19 14:45:58,968 [INFO] 127.0.0.1 - - [19/Apr/2025 14:45:58] "[35m[1mPUT /api/users/87f77445e5fd41de9a41b662c20160b9 HTTP/1.1[0m" 500 -
+2025-04-19 14:46:00,533 [INFO] BEGIN (implicit)
+2025-04-19 14:46:00,533 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile 
+WHERE profile.id = ?
+2025-04-19 14:46:00,533 [INFO] [cached since 16.9s ago] ('87f77445e5fd41de9a41b662c20160b9',)
+2025-04-19 14:46:00,533 [INFO] ROLLBACK
+2025-04-19 14:46:00,533 [INFO] BEGIN (implicit)
+2025-04-19 14:46:00,534 [INFO] UPDATE profile SET name=?, amount=?, category=? WHERE profile.id = ?
+2025-04-19 14:46:00,534 [INFO] [cached since 1.576s ago] ('string', 5000.0, 'strzfzfzfing', '87f77445e5fd41de9a41b662c20160b9')
+2025-04-19 14:46:00,534 [INFO] COMMIT
+2025-04-19 14:46:00,534 [ERROR] 500 Response Validation Error: UserData - [{'type': 'missing', 'loc': ('id',), 'msg': 'Field required', 'input': {'message': 'Utilisateur mis à jour', 'user': {'amount': 5000.0, 'category': 'strzfzfzfing', 'id': '3fa85f64-5717-4562-b3fc-2c963f66afa6', 'name': 'string'}}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('name',), 'msg': 'Field required', 'input': {'message': 'Utilisateur mis à jour', 'user': {'amount': 5000.0, 'category': 'strzfzfzfing', 'id': '3fa85f64-5717-4562-b3fc-2c963f66afa6', 'name': 'string'}}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('amount',), 'msg': 'Field required', 'input': {'message': 'Utilisateur mis à jour', 'user': {'amount': 5000.0, 'category': 'strzfzfzfing', 'id': '3fa85f64-5717-4562-b3fc-2c963f66afa6', 'name': 'string'}}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('category',), 'msg': 'Field required', 'input': {'message': 'Utilisateur mis à jour', 'user': {'amount': 5000.0, 'category': 'strzfzfzfing', 'id': '3fa85f64-5717-4562-b3fc-2c963f66afa6', 'name': 'string'}}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}]
+2025-04-19 14:46:00,534 [INFO] 127.0.0.1 - - [19/Apr/2025 14:46:00] "[35m[1mPUT /api/users/87f77445e5fd41de9a41b662c20160b9 HTTP/1.1[0m" 500 -
+2025-04-19 14:46:08,800 [INFO] BEGIN (implicit)
+2025-04-19 14:46:08,800 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 14:46:08,800 [INFO] [cached since 185.6s ago] ()
+2025-04-19 14:46:08,800 [INFO] ROLLBACK
+2025-04-19 14:46:08,801 [INFO] 127.0.0.1 - - [19/Apr/2025 14:46:08] "GET /api/export_csv HTTP/1.1" 200 -
+2025-04-19 14:46:14,745 [INFO] BEGIN (implicit)
+2025-04-19 14:46:14,745 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 14:46:14,745 [INFO] [generated in 0.00027s] ('562edc83c80745cd80d669ba7337963a', 'carret', 500.0, 'fzfzfzf')
+2025-04-19 14:46:14,746 [INFO] COMMIT
+2025-04-19 14:46:14,756 [INFO] BEGIN (implicit)
+2025-04-19 14:46:14,756 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 14:46:14,756 [INFO] [cached since 0.01063s ago] ('06456282b6c44a5cb7e391462f808222', 'string', 0.0, 'string')
+2025-04-19 14:46:14,756 [INFO] COMMIT
+2025-04-19 14:46:14,766 [INFO] BEGIN (implicit)
+2025-04-19 14:46:14,766 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 14:46:14,766 [INFO] [cached since 0.02073s ago] ('e591af68dee642288719dd828d8d823a', 'carret', 500.0, 'zfzf')
+2025-04-19 14:46:14,767 [INFO] COMMIT
+2025-04-19 14:46:14,776 [INFO] BEGIN (implicit)
+2025-04-19 14:46:14,776 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 14:46:14,776 [INFO] [cached since 0.03073s ago] ('e9f6a3e90cf84c0783632b67e1db286c', 'zffff', 500.0, 'fzzfzfzfzfzfzf')
+2025-04-19 14:46:14,777 [INFO] COMMIT
+2025-04-19 14:46:14,786 [INFO] BEGIN (implicit)
+2025-04-19 14:46:14,786 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 14:46:14,786 [INFO] [cached since 0.04074s ago] ('0f3446fac8484d5d9f16418e6640f70a', 'carret', 5.0, 'ezg')
+2025-04-19 14:46:14,787 [INFO] COMMIT
+2025-04-19 14:46:14,796 [INFO] BEGIN (implicit)
+2025-04-19 14:46:14,796 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 14:46:14,796 [INFO] [cached since 0.05079s ago] ('d344e29bd13e45ea95c65031b8cef697', 'zfzfzf', 520.0, 'zfzzzz')
+2025-04-19 14:46:14,797 [INFO] COMMIT
+2025-04-19 14:46:14,807 [INFO] BEGIN (implicit)
+2025-04-19 14:46:14,807 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 14:46:14,807 [INFO] [cached since 0.0614s ago] ('d4a65f899a404849b31bd996630daa87', 'vvv', 500.0, 'zfzfzfzf')
+2025-04-19 14:46:14,808 [INFO] COMMIT
+2025-04-19 14:46:14,817 [INFO] BEGIN (implicit)
+2025-04-19 14:46:14,817 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 14:46:14,817 [INFO] [cached since 0.07173s ago] ('caf85f98207a43d2814ad9ae69e09a84', 'vvv', 500.0, 'zfzfzfzf')
+2025-04-19 14:46:14,818 [INFO] COMMIT
+2025-04-19 14:46:14,827 [INFO] BEGIN (implicit)
+2025-04-19 14:46:14,827 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 14:46:14,827 [INFO] [cached since 0.08202s ago] ('b170c56f7c784984bb8a3f1362c7eb20', 'zffff', 500.0, 'fzzfzfzfzfzfzf')
+2025-04-19 14:46:14,828 [INFO] COMMIT
+2025-04-19 14:46:14,837 [INFO] BEGIN (implicit)
+2025-04-19 14:46:14,838 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 14:46:14,838 [INFO] [cached since 0.0924s ago] ('c2f743d6c0754fd5a89417bf6eb39b47', 'string', 0.0, 'string')
+2025-04-19 14:46:14,838 [INFO] COMMIT
+2025-04-19 14:46:14,848 [INFO] BEGIN (implicit)
+2025-04-19 14:46:14,848 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 14:46:14,848 [INFO] [cached since 0.1026s ago] ('c7845c31d72042ed91b9675832b0868e', 'carret', 500.0, 'fzfzfzf')
+2025-04-19 14:46:14,849 [INFO] COMMIT
+2025-04-19 14:46:14,858 [INFO] BEGIN (implicit)
+2025-04-19 14:46:14,859 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 14:46:14,859 [INFO] [cached since 0.1132s ago] ('ae3461dafc7b4859bebe57e78491f2f1', 'string', 0.0, 'string')
+2025-04-19 14:46:14,859 [INFO] COMMIT
+2025-04-19 14:46:14,868 [INFO] BEGIN (implicit)
+2025-04-19 14:46:14,869 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 14:46:14,869 [INFO] [cached since 0.1232s ago] ('0fd3e5a1d3594cb7965af6fbb823bfc3', 'carret', 500.0, 'zfzf')
+2025-04-19 14:46:14,869 [INFO] COMMIT
+2025-04-19 14:46:14,879 [INFO] BEGIN (implicit)
+2025-04-19 14:46:14,879 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 14:46:14,879 [INFO] [cached since 0.1334s ago] ('309b6453537e45f1b98d4efe67820664', 'zfzfzffzzfzfzfzfzf', 50.0, 'zzf')
+2025-04-19 14:46:14,879 [INFO] COMMIT
+2025-04-19 14:46:14,889 [INFO] BEGIN (implicit)
+2025-04-19 14:46:14,889 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 14:46:14,889 [INFO] [cached since 0.1435s ago] ('2386af2ea1ee4fa78e2c1d184e32a5d1', 'zfzfzffzzfzfzfzfzf', 50.0, 'zzf')
+2025-04-19 14:46:14,889 [INFO] COMMIT
+2025-04-19 14:46:14,899 [INFO] BEGIN (implicit)
+2025-04-19 14:46:14,899 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 14:46:14,899 [INFO] [cached since 0.1537s ago] ('253312bfe5424f46a53799daf5f655e6', 'string', 0.0, 'string')
+2025-04-19 14:46:14,900 [INFO] COMMIT
+2025-04-19 14:46:14,909 [INFO] BEGIN (implicit)
+2025-04-19 14:46:14,909 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 14:46:14,909 [INFO] [cached since 0.1639s ago] ('91798666a3034906941210ab0e7d99ef', 'stzfzfring', 200.0, 'strifzzfng')
+2025-04-19 14:46:14,910 [INFO] COMMIT
+2025-04-19 14:46:14,919 [INFO] BEGIN (implicit)
+2025-04-19 14:46:14,920 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 14:46:14,920 [INFO] [cached since 0.1743s ago] ('2a54a50134384572a5f2cdcb9dc0db25', 'strizfzfzfng', 500000.0, 'strizfzfzng')
+2025-04-19 14:46:14,920 [INFO] COMMIT
+2025-04-19 14:46:14,930 [INFO] 127.0.0.1 - - [19/Apr/2025 14:46:14] "POST /api/import_csv HTTP/1.1" 200 -
+2025-04-19 14:46:33,203 [INFO] 127.0.0.1 - - [19/Apr/2025 14:46:33] "[31m[1mPOST /api/users HTTP/1.1[0m" 403 -
+2025-04-19 14:47:28,815 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:47:29,228 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:47:29,239 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 14:47:29,239 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 14:47:30,980 [INFO] 127.0.0.1 - - [19/Apr/2025 14:47:30] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 14:47:31,061 [INFO] 127.0.0.1 - - [19/Apr/2025 14:47:31] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 14:47:41,241 [INFO] 127.0.0.1 - - [19/Apr/2025 14:47:41] "[31m[1mPOST /api/users HTTP/1.1[0m" 403 -
+2025-04-19 14:47:43,522 [INFO] 127.0.0.1 - - [19/Apr/2025 14:47:43] "[31m[1mPOST /api/users HTTP/1.1[0m" 403 -
+2025-04-19 14:48:26,022 [INFO] 127.0.0.1 - - [19/Apr/2025 14:48:26] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 14:48:26,322 [INFO] 127.0.0.1 - - [19/Apr/2025 14:48:26] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 14:48:35,634 [INFO] 127.0.0.1 - - [19/Apr/2025 14:48:35] "[31m[1mGET /api/users HTTP/1.1[0m" 401 -
+2025-04-19 14:48:40,778 [INFO] 127.0.0.1 - - [19/Apr/2025 14:48:40] "[31m[1mPOST /api/users HTTP/1.1[0m" 403 -
+2025-04-19 14:48:53,629 [INFO] 127.0.0.1 - - [19/Apr/2025 14:48:53] "[31m[1mPOST /api/users HTTP/1.1[0m" 403 -
+2025-04-19 14:50:26,574 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:50:26,985 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:50:26,995 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 14:50:26,995 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 14:50:31,841 [INFO] 127.0.0.1 - - [19/Apr/2025 14:50:31] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 14:50:31,927 [INFO] 127.0.0.1 - - [19/Apr/2025 14:50:31] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 14:50:59,683 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:51:00,084 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:51:00,094 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 14:51:00,094 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 14:51:03,237 [INFO] 127.0.0.1 - - [19/Apr/2025 14:51:03] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 14:51:03,300 [INFO] 127.0.0.1 - - [19/Apr/2025 14:51:03] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 14:51:12,649 [INFO] 127.0.0.1 - - [19/Apr/2025 14:51:12] "[31m[1mPOST /api/users HTTP/1.1[0m" 403 -
+2025-04-19 14:52:09,424 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:52:09,849 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:52:09,860 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 14:52:09,860 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 14:52:11,305 [INFO] 127.0.0.1 - - [19/Apr/2025 14:52:11] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 14:52:11,367 [INFO] 127.0.0.1 - - [19/Apr/2025 14:52:11] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 14:52:16,486 [INFO] Rôle actuel : None, rôle requis : admin
+2025-04-19 14:52:16,487 [ERROR] Accès interdit, rôle requis : admin, rôle actuel : None
+2025-04-19 14:52:16,487 [INFO] 127.0.0.1 - - [19/Apr/2025 14:52:16] "[31m[1mPOST /api/users HTTP/1.1[0m" 403 -
+2025-04-19 14:53:00,197 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:53:00,632 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:53:00,642 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 14:53:00,642 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 14:53:07,586 [INFO] 127.0.0.1 - - [19/Apr/2025 14:53:07] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 14:53:07,648 [INFO] 127.0.0.1 - - [19/Apr/2025 14:53:07] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 14:53:18,517 [INFO] Rôle actuel : None, rôle requis : admin
+2025-04-19 14:53:18,517 [ERROR] Accès interdit, rôle requis : admin, rôle actuel : None
+2025-04-19 14:53:18,518 [INFO] 127.0.0.1 - - [19/Apr/2025 14:53:18] "[31m[1mPOST /api/users HTTP/1.1[0m" 403 -
+2025-04-19 14:53:37,711 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:53:38,109 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:53:38,119 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 14:53:38,119 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 14:53:47,297 [INFO] 127.0.0.1 - - [19/Apr/2025 14:53:47] "[31m[1mGET /api/users HTTP/1.1[0m" 401 -
+2025-04-19 14:53:53,970 [INFO] Rôle actuel : admin, rôle requis : admin
+2025-04-19 14:53:53,972 [INFO] BEGIN (implicit)
+2025-04-19 14:53:53,972 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 14:53:53,972 [INFO] [generated in 0.00024s] ()
+2025-04-19 14:53:53,973 [INFO] ROLLBACK
+2025-04-19 14:53:53,973 [INFO] 127.0.0.1 - - [19/Apr/2025 14:53:53] "GET /api/users HTTP/1.1" 200 -
+2025-04-19 14:54:08,158 [INFO] Rôle actuel : None, rôle requis : admin
+2025-04-19 14:54:08,158 [ERROR] Accès interdit, rôle requis : admin, rôle actuel : None
+2025-04-19 14:54:08,158 [INFO] 127.0.0.1 - - [19/Apr/2025 14:54:08] "[31m[1mPOST /api/users HTTP/1.1[0m" 403 -
+2025-04-19 14:54:33,043 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:54:33,455 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:54:33,466 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 14:54:33,466 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 14:54:39,955 [INFO] 127.0.0.1 - - [19/Apr/2025 14:54:39] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 14:54:40,041 [INFO] 127.0.0.1 - - [19/Apr/2025 14:54:40] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 14:54:49,852 [INFO] Rôle actuel : admin, rôle requis : admin
+2025-04-19 14:54:49,852 [INFO] 127.0.0.1 - - [19/Apr/2025 14:54:49] "[31m[1mPOST /api/users HTTP/1.1[0m" 415 -
+2025-04-19 14:55:43,964 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:55:44,388 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:55:44,400 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 14:55:44,400 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 14:55:48,672 [INFO] 127.0.0.1 - - [19/Apr/2025 14:55:48] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 14:55:48,768 [INFO] 127.0.0.1 - - [19/Apr/2025 14:55:48] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 14:56:02,049 [ERROR] 422 Request Validation Error: UserData - [{'type': 'missing', 'loc': ('id',), 'msg': 'Field required', 'input': {}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('name',), 'msg': 'Field required', 'input': {}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('amount',), 'msg': 'Field required', 'input': {}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('category',), 'msg': 'Field required', 'input': {}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}]
+2025-04-19 14:56:02,049 [INFO] 127.0.0.1 - - [19/Apr/2025 14:56:02] "[31m[1mPOST /api/users HTTP/1.1[0m" 422 -
+2025-04-19 14:58:10,607 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:58:11,036 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:58:11,047 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 14:58:11,047 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 14:58:13,726 [INFO] 127.0.0.1 - - [19/Apr/2025 14:58:13] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 14:58:13,827 [INFO] 127.0.0.1 - - [19/Apr/2025 14:58:13] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 14:58:28,162 [INFO] Rôle actuel : admin, rôle requis : admin
+2025-04-19 14:58:28,165 [INFO] BEGIN (implicit)
+2025-04-19 14:58:28,165 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 14:58:28,165 [INFO] [generated in 0.00023s] ('98179b4bcd904e23a1e9db58bf13cab5', 'string', 5000.0, 'string')
+2025-04-19 14:58:28,166 [INFO] COMMIT
+2025-04-19 14:58:28,173 [INFO] 127.0.0.1 - - [19/Apr/2025 14:58:28] "[35m[1mPOST /api/users HTTP/1.1[0m" 201 -
+2025-04-19 14:59:10,069 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:59:10,473 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 14:59:10,484 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 14:59:10,484 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 14:59:15,974 [INFO] 127.0.0.1 - - [19/Apr/2025 14:59:15] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 14:59:16,049 [INFO] 127.0.0.1 - - [19/Apr/2025 14:59:16] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 14:59:24,437 [INFO] 127.0.0.1 - - [19/Apr/2025 14:59:24] "[31m[1mGET /api/users HTTP/1.1[0m" 401 -
+2025-04-19 14:59:38,697 [INFO] 127.0.0.1 - - [19/Apr/2025 14:59:38] "[31m[1mPOST /api/users HTTP/1.1[0m" 401 -
+2025-04-19 14:59:51,889 [INFO] 127.0.0.1 - - [19/Apr/2025 14:59:51] "[31m[1mDELETE /api/users/98179b4bcd904e23a1e9db58bf13cab5 HTTP/1.1[0m" 401 -
+2025-04-19 14:59:59,738 [INFO] 127.0.0.1 - - [19/Apr/2025 14:59:59] "[31m[1mGET /api/users/98179b4bcd904e23a1e9db58bf13cab5 HTTP/1.1[0m" 401 -
+2025-04-19 15:00:07,690 [ERROR] Exception on /api/users/98179b4bcd904e23a1e9db58bf13cab5 [PUT]
+Traceback (most recent call last):
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\spec.py", line 192, in sync_validate
+    return self.backend.validate(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\spectree\plugins\flask_plugin.py", line 243, in validate
+    response = make_response(
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\helpers.py", line 185, in make_response
+    return current_app.make_response(args)
+  File "C:\Users\vincc\Documents\Archilog\.venv\lib\site-packages\flask\app.py", line 1212, in make_response
+    raise TypeError(
+TypeError: The view function for 'api.update_user' did not return a valid response. The function either returned None or ended without a return statement.
+2025-04-19 15:00:07,695 [INFO] 127.0.0.1 - - [19/Apr/2025 15:00:07] "[32mPUT /api/users/98179b4bcd904e23a1e9db58bf13cab5 HTTP/1.1[0m" 302 -
+2025-04-19 15:00:07,999 [INFO] 127.0.0.1 - - [19/Apr/2025 15:00:07] "[31m[1mPUT / HTTP/1.1[0m" 405 -
+2025-04-19 15:00:12,417 [INFO] BEGIN (implicit)
+2025-04-19 15:00:12,417 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 15:00:12,417 [INFO] [generated in 0.00029s] ()
+2025-04-19 15:00:12,418 [INFO] ROLLBACK
+2025-04-19 15:00:12,419 [INFO] 127.0.0.1 - - [19/Apr/2025 15:00:12] "GET /api/export_csv HTTP/1.1" 200 -
+2025-04-19 15:00:29,709 [INFO] 127.0.0.1 - - [19/Apr/2025 15:00:29] "[31m[1mPOST /api/import_csv HTTP/1.1[0m" 401 -
+2025-04-19 15:00:47,660 [INFO] Rôle actuel : user, rôle requis : admin
+2025-04-19 15:00:47,660 [ERROR] Accès interdit, rôle requis : admin, rôle actuel : user
+2025-04-19 15:00:47,661 [INFO] 127.0.0.1 - - [19/Apr/2025 15:00:47] "[31m[1mGET /api/users HTTP/1.1[0m" 403 -
+2025-04-19 15:00:50,902 [INFO] Rôle actuel : user, rôle requis : admin
+2025-04-19 15:00:50,902 [ERROR] Accès interdit, rôle requis : admin, rôle actuel : user
+2025-04-19 15:00:50,902 [INFO] 127.0.0.1 - - [19/Apr/2025 15:00:50] "[31m[1mPOST /api/users HTTP/1.1[0m" 403 -
+2025-04-19 15:00:53,781 [INFO] Rôle actuel : user, rôle requis : admin
+2025-04-19 15:00:53,781 [ERROR] Accès interdit, rôle requis : admin, rôle actuel : user
+2025-04-19 15:00:53,782 [INFO] 127.0.0.1 - - [19/Apr/2025 15:00:53] "[31m[1mDELETE /api/users/98179b4bcd904e23a1e9db58bf13cab5 HTTP/1.1[0m" 403 -
+2025-04-19 15:00:56,624 [INFO] Rôle actuel : user, rôle requis : admin
+2025-04-19 15:00:56,624 [ERROR] Accès interdit, rôle requis : admin, rôle actuel : user
+2025-04-19 15:00:56,624 [INFO] 127.0.0.1 - - [19/Apr/2025 15:00:56] "[31m[1mGET /api/users/98179b4bcd904e23a1e9db58bf13cab5 HTTP/1.1[0m" 403 -
+2025-04-19 15:00:59,787 [INFO] Rôle actuel : user, rôle requis : admin
+2025-04-19 15:00:59,787 [ERROR] Accès interdit, rôle requis : admin, rôle actuel : user
+2025-04-19 15:00:59,787 [INFO] 127.0.0.1 - - [19/Apr/2025 15:00:59] "[31m[1mPUT /api/users/98179b4bcd904e23a1e9db58bf13cab5 HTTP/1.1[0m" 403 -
+2025-04-19 15:01:03,511 [INFO] BEGIN (implicit)
+2025-04-19 15:01:03,512 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 15:01:03,512 [INFO] [cached since 51.09s ago] ()
+2025-04-19 15:01:03,512 [INFO] ROLLBACK
+2025-04-19 15:01:03,512 [INFO] 127.0.0.1 - - [19/Apr/2025 15:01:03] "GET /api/export_csv HTTP/1.1" 200 -
+2025-04-19 15:01:09,172 [INFO] Rôle actuel : user, rôle requis : admin
+2025-04-19 15:01:09,173 [ERROR] Accès interdit, rôle requis : admin, rôle actuel : user
+2025-04-19 15:01:09,173 [INFO] 127.0.0.1 - - [19/Apr/2025 15:01:09] "[31m[1mPOST /api/import_csv HTTP/1.1[0m" 403 -
+2025-04-19 15:01:21,361 [INFO] Rôle actuel : admin, rôle requis : admin
+2025-04-19 15:01:21,362 [INFO] BEGIN (implicit)
+2025-04-19 15:01:21,362 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 15:01:21,362 [INFO] [cached since 68.95s ago] ()
+2025-04-19 15:01:21,362 [INFO] ROLLBACK
+2025-04-19 15:01:21,363 [INFO] 127.0.0.1 - - [19/Apr/2025 15:01:21] "GET /api/users HTTP/1.1" 200 -
+2025-04-19 15:01:37,593 [INFO] Rôle actuel : admin, rôle requis : admin
+2025-04-19 15:01:37,594 [INFO] BEGIN (implicit)
+2025-04-19 15:01:37,594 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 15:01:37,594 [INFO] [generated in 0.00028s] ('b181c837b73448d182bcd2097b38ff57', 'strzfzfxxxxxing', 5000.0, 'string')
+2025-04-19 15:01:37,595 [INFO] COMMIT
+2025-04-19 15:01:37,602 [INFO] 127.0.0.1 - - [19/Apr/2025 15:01:37] "[35m[1mPOST /api/users HTTP/1.1[0m" 201 -
+2025-04-19 15:01:50,539 [INFO] Rôle actuel : admin, rôle requis : admin
+2025-04-19 15:01:50,540 [INFO] BEGIN (implicit)
+2025-04-19 15:01:50,540 [INFO] DELETE FROM profile WHERE profile.id = ?
+2025-04-19 15:01:50,540 [INFO] [generated in 0.00020s] ('b181c837b73448d182bcd2097b38ff57',)
+2025-04-19 15:01:50,541 [INFO] COMMIT
+2025-04-19 15:01:50,549 [INFO] 127.0.0.1 - - [19/Apr/2025 15:01:50] "DELETE /api/users/b181c837b73448d182bcd2097b38ff57 HTTP/1.1" 200 -
+2025-04-19 15:01:59,932 [INFO] Rôle actuel : admin, rôle requis : admin
+2025-04-19 15:01:59,933 [INFO] BEGIN (implicit)
+2025-04-19 15:01:59,933 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile 
+WHERE profile.id = ?
+2025-04-19 15:01:59,933 [INFO] [generated in 0.00020s] ('98179b4bcd904e23a1e9db58bf13cab5',)
+2025-04-19 15:01:59,934 [INFO] ROLLBACK
+2025-04-19 15:01:59,934 [INFO] 127.0.0.1 - - [19/Apr/2025 15:01:59] "GET /api/users/98179b4bcd904e23a1e9db58bf13cab5 HTTP/1.1" 200 -
+2025-04-19 15:02:10,048 [INFO] Rôle actuel : admin, rôle requis : admin
+2025-04-19 15:02:10,048 [INFO] BEGIN (implicit)
+2025-04-19 15:02:10,048 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile 
+WHERE profile.id = ?
+2025-04-19 15:02:10,048 [INFO] [cached since 10.12s ago] ('98179b4bcd904e23a1e9db58bf13cab5',)
+2025-04-19 15:02:10,049 [INFO] ROLLBACK
+2025-04-19 15:02:10,050 [INFO] BEGIN (implicit)
+2025-04-19 15:02:10,050 [INFO] UPDATE profile SET name=?, amount=?, category=? WHERE profile.id = ?
+2025-04-19 15:02:10,050 [INFO] [generated in 0.00020s] ('string', 0.0, 'string', '98179b4bcd904e23a1e9db58bf13cab5')
+2025-04-19 15:02:10,050 [INFO] COMMIT
+2025-04-19 15:02:10,060 [ERROR] 500 Response Validation Error: UserData - [{'type': 'missing', 'loc': ('id',), 'msg': 'Field required', 'input': {'message': 'Utilisateur mis à jour', 'user': {'amount': 0.0, 'category': 'string', 'id': '3fa85f64-5717-4562-b3fc-2c963f66afa6', 'name': 'string'}}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('name',), 'msg': 'Field required', 'input': {'message': 'Utilisateur mis à jour', 'user': {'amount': 0.0, 'category': 'string', 'id': '3fa85f64-5717-4562-b3fc-2c963f66afa6', 'name': 'string'}}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('amount',), 'msg': 'Field required', 'input': {'message': 'Utilisateur mis à jour', 'user': {'amount': 0.0, 'category': 'string', 'id': '3fa85f64-5717-4562-b3fc-2c963f66afa6', 'name': 'string'}}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('category',), 'msg': 'Field required', 'input': {'message': 'Utilisateur mis à jour', 'user': {'amount': 0.0, 'category': 'string', 'id': '3fa85f64-5717-4562-b3fc-2c963f66afa6', 'name': 'string'}}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}]
+2025-04-19 15:02:10,060 [INFO] 127.0.0.1 - - [19/Apr/2025 15:02:10] "[35m[1mPUT /api/users/98179b4bcd904e23a1e9db58bf13cab5 HTTP/1.1[0m" 500 -
+2025-04-19 15:02:23,753 [INFO] BEGIN (implicit)
+2025-04-19 15:02:23,753 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 15:02:23,753 [INFO] [cached since 131.3s ago] ()
+2025-04-19 15:02:23,754 [INFO] ROLLBACK
+2025-04-19 15:02:23,754 [INFO] 127.0.0.1 - - [19/Apr/2025 15:02:23] "GET /api/export_csv HTTP/1.1" 200 -
+2025-04-19 15:02:33,578 [INFO] Rôle actuel : admin, rôle requis : admin
+2025-04-19 15:02:33,579 [INFO] BEGIN (implicit)
+2025-04-19 15:02:33,579 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 15:02:33,579 [INFO] [cached since 55.98s ago] ('219fbb1946ba4c4fa319959ad5b7cc02', 'carret', 500.0, 'fzfzfzf')
+2025-04-19 15:02:33,580 [INFO] COMMIT
+2025-04-19 15:02:33,590 [INFO] BEGIN (implicit)
+2025-04-19 15:02:33,590 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 15:02:33,590 [INFO] [cached since 56s ago] ('510868c0af3b424f87c0398abaaa41ad', 'string', 0.0, 'string')
+2025-04-19 15:02:33,591 [INFO] COMMIT
+2025-04-19 15:02:33,600 [INFO] BEGIN (implicit)
+2025-04-19 15:02:33,600 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 15:02:33,601 [INFO] [cached since 56.01s ago] ('d56942a4c9044a8383c0bf2e868b8598', 'carret', 500.0, 'zfzf')
+2025-04-19 15:02:33,601 [INFO] COMMIT
+2025-04-19 15:02:33,611 [INFO] 127.0.0.1 - - [19/Apr/2025 15:02:33] "POST /api/import_csv HTTP/1.1" 200 -
