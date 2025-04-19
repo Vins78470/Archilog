@@ -1,14 +1,8 @@
 import uuid
 from dataclasses import dataclass
 from archilog import config
-from sqlalchemy import create_engine, Column, String, Float, MetaData, Table, insert, update, delete
-from flask_wtf import FlaskForm
-from wtforms import StringField, FloatField, SelectField
-from wtforms.validators import DataRequired, Optional
+from sqlalchemy import create_engine, Column,String, Float, MetaData, Table, insert, update, delete
 
-
-from wtforms import FileField
-from wtforms.validators import DataRequired
 
 # Initialize global metadata
 metadata = MetaData()

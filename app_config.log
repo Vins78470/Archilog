@@ -15,3 +15,455 @@
 2025-04-19 11:34:52,405 [INFO] 127.0.0.1 - - [19/Apr/2025 11:34:52] "[32mPOST /display_create_user HTTP/1.1[0m" 302 -
 2025-04-19 11:34:52,478 [INFO] 127.0.0.1 - - [19/Apr/2025 11:34:52] "GET /admin HTTP/1.1" 200 -
 2025-04-19 11:34:53,981 [INFO] 127.0.0.1 - - [19/Apr/2025 11:34:53] "GET /admin HTTP/1.1" 200 -
+2025-04-19 11:37:27,163 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 11:37:27,585 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 11:37:27,606 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 11:37:27,606 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 11:37:30,809 [INFO] 127.0.0.1 - - [19/Apr/2025 11:37:30] "GET /admin HTTP/1.1" 200 -
+2025-04-19 11:40:36,178 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 11:40:36,589 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 11:40:36,609 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 11:40:36,609 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 11:40:39,338 [INFO] 127.0.0.1 - - [19/Apr/2025 11:40:39] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-19 11:40:39,417 [INFO] 127.0.0.1 - - [19/Apr/2025 11:40:39] "GET /admin HTTP/1.1" 200 -
+2025-04-19 11:40:40,475 [INFO] 127.0.0.1 - - [19/Apr/2025 11:40:40] "GET /display_create_user HTTP/1.1" 200 -
+2025-04-19 11:40:45,195 [INFO] BEGIN (implicit)
+2025-04-19 11:40:45,195 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 11:40:45,195 [INFO] [generated in 0.00035s] ('d4e07e3eeb144559a46031ed11898116', 'carret', 500.0, 'fzfzf')
+2025-04-19 11:40:45,196 [INFO] COMMIT
+2025-04-19 11:40:45,206 [INFO] 127.0.0.1 - - [19/Apr/2025 11:40:45] "[32mPOST /display_create_user HTTP/1.1[0m" 302 -
+2025-04-19 11:40:45,279 [INFO] 127.0.0.1 - - [19/Apr/2025 11:40:45] "GET /admin HTTP/1.1" 200 -
+2025-04-19 11:40:50,951 [INFO] 127.0.0.1 - - [19/Apr/2025 11:40:50] "GET /display_delete_user_page HTTP/1.1" 200 -
+2025-04-19 11:40:54,376 [INFO] BEGIN (implicit)
+2025-04-19 11:40:54,376 [INFO] DELETE FROM profile WHERE profile.id = ?
+2025-04-19 11:40:54,376 [INFO] [generated in 0.00030s] ('2884143c3ac84e9dba06291cefa3775f',)
+2025-04-19 11:40:54,379 [INFO] COMMIT
+2025-04-19 11:40:54,391 [INFO] 127.0.0.1 - - [19/Apr/2025 11:40:54] "[32mPOST /display_delete_user_page HTTP/1.1[0m" 302 -
+2025-04-19 11:40:54,463 [INFO] 127.0.0.1 - - [19/Apr/2025 11:40:54] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-19 11:40:54,538 [INFO] 127.0.0.1 - - [19/Apr/2025 11:40:54] "GET /admin HTTP/1.1" 200 -
+2025-04-19 11:40:57,665 [INFO] 127.0.0.1 - - [19/Apr/2025 11:40:57] "GET /display_update_user_page HTTP/1.1" 200 -
+2025-04-19 11:41:05,956 [INFO] BEGIN (implicit)
+2025-04-19 11:41:05,957 [INFO] UPDATE profile SET name=?, amount=?, category=? WHERE profile.id = ?
+2025-04-19 11:41:05,957 [INFO] [generated in 0.00030s] ('zfzfzf', 520.0, 'zfzzzz', 'd4e07e3eeb144559a46031ed11898116')
+2025-04-19 11:41:05,958 [INFO] COMMIT
+2025-04-19 11:41:05,967 [INFO] 127.0.0.1 - - [19/Apr/2025 11:41:05] "[32mPOST /display_update_user_page HTTP/1.1[0m" 302 -
+2025-04-19 11:41:06,041 [INFO] 127.0.0.1 - - [19/Apr/2025 11:41:06] "GET /admin HTTP/1.1" 200 -
+2025-04-19 11:41:12,480 [INFO] BEGIN (implicit)
+2025-04-19 11:41:12,480 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 11:41:12,480 [INFO] [cached since 27.29s ago] ('aea435015302459b9c9655b714c1a638', 'vvv', 500.0, 'zfzfzfzf')
+2025-04-19 11:41:12,481 [INFO] COMMIT
+2025-04-19 11:41:12,490 [INFO] 127.0.0.1 - - [19/Apr/2025 11:41:12] "[32mPOST /import_csv HTTP/1.1[0m" 302 -
+2025-04-19 11:41:12,561 [INFO] 127.0.0.1 - - [19/Apr/2025 11:41:12] "GET /admin HTTP/1.1" 200 -
+2025-04-19 11:41:18,023 [INFO] 127.0.0.1 - - [19/Apr/2025 11:41:18] "[32mPOST /import_csv HTTP/1.1[0m" 302 -
+2025-04-19 11:41:18,093 [INFO] 127.0.0.1 - - [19/Apr/2025 11:41:18] "GET /admin HTTP/1.1" 200 -
+2025-04-19 11:41:24,070 [INFO] 127.0.0.1 - - [19/Apr/2025 11:41:24] "[32mPOST /import_csv HTTP/1.1[0m" 302 -
+2025-04-19 11:41:24,142 [INFO] 127.0.0.1 - - [19/Apr/2025 11:41:24] "GET /admin HTTP/1.1" 200 -
+2025-04-19 11:41:28,310 [INFO] BEGIN (implicit)
+2025-04-19 11:41:28,310 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 11:41:28,310 [INFO] [cached since 43.12s ago] ('dbdcfbd2860a484fa2fee36e426baea6', 'vvv', 500.0, 'zfzfzfzf')
+2025-04-19 11:41:28,311 [INFO] COMMIT
+2025-04-19 11:41:28,321 [INFO] BEGIN (implicit)
+2025-04-19 11:41:28,321 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 11:41:28,321 [INFO] [cached since 43.13s ago] ('6af02193ee4942f6a7f3deacc371b061', 'zffff', 500.0, 'fzzfzfzfzfzfzf')
+2025-04-19 11:41:28,322 [INFO] COMMIT
+2025-04-19 11:41:28,331 [INFO] 127.0.0.1 - - [19/Apr/2025 11:41:28] "[32mPOST /import_csv HTTP/1.1[0m" 302 -
+2025-04-19 11:41:28,402 [INFO] 127.0.0.1 - - [19/Apr/2025 11:41:28] "GET /admin HTTP/1.1" 200 -
+2025-04-19 11:41:30,358 [INFO] BEGIN (implicit)
+2025-04-19 11:41:30,358 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 11:41:30,359 [INFO] [generated in 0.00033s] ()
+2025-04-19 11:41:30,359 [INFO] ROLLBACK
+2025-04-19 11:41:30,359 [INFO] 127.0.0.1 - - [19/Apr/2025 11:41:30] "GET /export_csv HTTP/1.1" 200 -
+2025-04-19 11:41:40,834 [INFO] 127.0.0.1 - - [19/Apr/2025 11:41:40] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 11:41:40,907 [INFO] 127.0.0.1 - - [19/Apr/2025 11:41:40] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 11:41:49,558 [INFO] 127.0.0.1 - - [19/Apr/2025 11:41:49] "[35m[1mGET /api/users HTTP/1.1[0m" 500 -
+2025-04-19 11:42:46,697 [INFO] BEGIN (implicit)
+2025-04-19 11:42:46,697 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 11:42:46,697 [INFO] [cached since 121.5s ago] ('70a7cd7dd7984f2eb8691cfe5c03e18b', 'ef', 50.0, 'zzzf')
+2025-04-19 11:42:46,698 [INFO] COMMIT
+2025-04-19 11:42:46,708 [ERROR] 500 Response Validation Error: UserData - [{'type': 'missing', 'loc': ('id',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('name',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('amount',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}, {'type': 'missing', 'loc': ('category',), 'msg': 'Field required', 'input': {'message': 'Utilisateur créé avec succès', 'user_id': 'None'}, 'url': 'https://errors.pydantic.dev/2.10/v/missing'}]
+2025-04-19 11:42:46,708 [INFO] 127.0.0.1 - - [19/Apr/2025 11:42:46] "[35m[1mPOST /api/users HTTP/1.1[0m" 500 -
+2025-04-19 11:43:18,397 [INFO] BEGIN (implicit)
+2025-04-19 11:43:18,397 [INFO] DELETE FROM profile WHERE profile.id = ?
+2025-04-19 11:43:18,397 [INFO] [cached since 144s ago] ('70a7cd7dd7984f2eb8691cfe5c03e18b',)
+2025-04-19 11:43:18,398 [INFO] COMMIT
+2025-04-19 11:43:18,408 [INFO] 127.0.0.1 - - [19/Apr/2025 11:43:18] "[33mDELETE /api/users/70a7cd7dd7984f2eb8691cfe5c03e18b HTTP/1.1[0m" 404 -
+2025-04-19 11:43:20,170 [INFO] BEGIN (implicit)
+2025-04-19 11:43:20,170 [INFO] DELETE FROM profile WHERE profile.id = ?
+2025-04-19 11:43:20,170 [INFO] [cached since 145.8s ago] ('70a7cd7dd7984f2eb8691cfe5c03e18b',)
+2025-04-19 11:43:20,171 [INFO] COMMIT
+2025-04-19 11:43:20,171 [INFO] 127.0.0.1 - - [19/Apr/2025 11:43:20] "[33mDELETE /api/users/70a7cd7dd7984f2eb8691cfe5c03e18b HTTP/1.1[0m" 404 -
+2025-04-19 11:44:22,930 [INFO] BEGIN (implicit)
+2025-04-19 11:44:22,930 [INFO] DELETE FROM profile WHERE profile.id = ?
+2025-04-19 11:44:22,930 [INFO] [cached since 208.6s ago] ('6af02193ee4942f6a7f3deacc371b061',)
+2025-04-19 11:44:22,931 [INFO] COMMIT
+2025-04-19 11:44:22,941 [INFO] 127.0.0.1 - - [19/Apr/2025 11:44:22] "[33mDELETE /api/users/6af02193ee4942f6a7f3deacc371b061 HTTP/1.1[0m" 404 -
+2025-04-19 11:45:10,825 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 11:45:11,230 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 11:45:11,241 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 11:45:11,241 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 11:45:15,376 [INFO] 127.0.0.1 - - [19/Apr/2025 11:45:15] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 11:45:15,450 [INFO] 127.0.0.1 - - [19/Apr/2025 11:45:15] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 11:45:24,003 [INFO] BEGIN (implicit)
+2025-04-19 11:45:24,003 [INFO] DELETE FROM profile WHERE profile.id = ?
+2025-04-19 11:45:24,003 [INFO] [generated in 0.00038s] ('dbdcfbd2860a484fa2fee36e426baea6',)
+2025-04-19 11:45:24,004 [INFO] COMMIT
+2025-04-19 11:45:24,014 [INFO] 127.0.0.1 - - [19/Apr/2025 11:45:24] "DELETE /api/users/dbdcfbd2860a484fa2fee36e426baea6 HTTP/1.1" 200 -
+2025-04-19 11:45:38,510 [INFO] BEGIN (implicit)
+2025-04-19 11:45:38,510 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile 
+WHERE profile.id = ?
+2025-04-19 11:45:38,510 [INFO] [generated in 0.00028s] ('36d5e009aa794de9b4d724ba25154aa0',)
+2025-04-19 11:45:38,510 [INFO] ROLLBACK
+2025-04-19 11:45:38,510 [INFO] 127.0.0.1 - - [19/Apr/2025 11:45:38] "GET /api/users/36d5e009aa794de9b4d724ba25154aa0 HTTP/1.1" 200 -
+2025-04-19 11:47:56,611 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 11:47:57,023 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 11:47:57,033 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 11:47:57,034 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 11:47:59,360 [INFO] 127.0.0.1 - - [19/Apr/2025 11:47:59] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-19 11:47:59,442 [INFO] 127.0.0.1 - - [19/Apr/2025 11:47:59] "GET /admin HTTP/1.1" 200 -
+2025-04-19 11:48:03,887 [INFO] 127.0.0.1 - - [19/Apr/2025 11:48:03] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 11:48:03,947 [INFO] 127.0.0.1 - - [19/Apr/2025 11:48:03] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 11:48:12,128 [INFO] BEGIN (implicit)
+2025-04-19 11:48:12,129 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile 
+WHERE profile.id = ?
+2025-04-19 11:48:12,129 [INFO] [generated in 0.00028s] ('d4e07e3eeb144559a46031ed11898116',)
+2025-04-19 11:48:12,129 [INFO] ROLLBACK
+2025-04-19 11:48:12,129 [INFO] 127.0.0.1 - - [19/Apr/2025 11:48:12] "GET /api/users/d4e07e3eeb144559a46031ed11898116 HTTP/1.1" 200 -
+2025-04-19 11:49:28,731 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 11:49:29,142 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 11:49:29,153 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 11:49:29,153 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 11:49:31,336 [INFO] 127.0.0.1 - - [19/Apr/2025 11:49:31] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 11:49:31,371 [INFO] 127.0.0.1 - - [19/Apr/2025 11:49:31] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 11:49:39,814 [INFO] BEGIN (implicit)
+2025-04-19 11:49:39,814 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile 
+WHERE profile.id = ?
+2025-04-19 11:49:39,814 [INFO] [generated in 0.00026s] ('aea435015302459b9c9655b714c1a638',)
+2025-04-19 11:49:39,814 [INFO] ROLLBACK
+2025-04-19 11:49:39,815 [INFO] 127.0.0.1 - - [19/Apr/2025 11:49:39] "GET /api/users/aea435015302459b9c9655b714c1a638 HTTP/1.1" 200 -
+2025-04-19 11:50:13,222 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 11:50:13,634 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 11:50:13,644 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 11:50:13,645 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 11:50:15,945 [INFO] 127.0.0.1 - - [19/Apr/2025 11:50:15] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 11:50:15,983 [INFO] 127.0.0.1 - - [19/Apr/2025 11:50:15] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 11:50:22,204 [INFO] BEGIN (implicit)
+2025-04-19 11:50:22,204 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile 
+WHERE profile.id = ?
+2025-04-19 11:50:22,205 [INFO] [generated in 0.00031s] ('aea435015302459b9c9655b714c1a638',)
+2025-04-19 11:50:22,205 [INFO] ROLLBACK
+2025-04-19 11:50:22,205 [INFO] 127.0.0.1 - - [19/Apr/2025 11:50:22] "GET /api/users/aea435015302459b9c9655b714c1a638 HTTP/1.1" 200 -
+2025-04-19 11:51:36,394 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 11:51:36,801 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 11:51:36,812 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 11:51:36,812 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 11:51:38,892 [INFO] 127.0.0.1 - - [19/Apr/2025 11:51:38] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 11:51:38,925 [INFO] 127.0.0.1 - - [19/Apr/2025 11:51:38] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 11:51:45,989 [INFO] BEGIN (implicit)
+2025-04-19 11:51:45,989 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile 
+WHERE profile.id = ?
+2025-04-19 11:51:45,989 [INFO] [generated in 0.00031s] ('aea435015302459b9c9655b714c1a638',)
+2025-04-19 11:51:45,990 [INFO] ROLLBACK
+2025-04-19 11:51:45,990 [INFO] 127.0.0.1 - - [19/Apr/2025 11:51:45] "GET /api/users/aea435015302459b9c9655b714c1a638 HTTP/1.1" 200 -
+2025-04-19 11:52:19,954 [ERROR] Erreur lors de l'import CSV
+Traceback (most recent call last):
+  File "C:\Users\vincc\Documents\Archilog\src\archilog\views\api.py", line 143, in import_csv_api
+  File "C:\Users\vincc\Documents\Archilog\src\archilog\services.py", line 48, in import_from_csv
+    for row in csv_reader:
+  File "C:\Users\vincc\AppData\Local\Programs\Python\Python310\lib\csv.py", line 110, in __next__
+    self.fieldnames
+  File "C:\Users\vincc\AppData\Local\Programs\Python\Python310\lib\csv.py", line 97, in fieldnames
+    self._fieldnames = next(self.reader)
+_csv.Error: iterator should return strings, not bytes (the file should be opened in text mode)
+2025-04-19 11:52:19,971 [INFO] 127.0.0.1 - - [19/Apr/2025 11:52:19] "[35m[1mPOST /api/import_csv HTTP/1.1[0m" 500 -
+2025-04-19 11:52:41,132 [ERROR] Erreur lors de l'import CSV
+Traceback (most recent call last):
+  File "C:\Users\vincc\Documents\Archilog\src\archilog\views\api.py", line 143, in import_csv_api
+  File "C:\Users\vincc\Documents\Archilog\src\archilog\services.py", line 48, in import_from_csv
+    for row in csv_reader:
+  File "C:\Users\vincc\AppData\Local\Programs\Python\Python310\lib\csv.py", line 110, in __next__
+    self.fieldnames
+  File "C:\Users\vincc\AppData\Local\Programs\Python\Python310\lib\csv.py", line 97, in fieldnames
+    self._fieldnames = next(self.reader)
+_csv.Error: iterator should return strings, not bytes (the file should be opened in text mode)
+2025-04-19 11:52:41,133 [INFO] 127.0.0.1 - - [19/Apr/2025 11:52:41] "[35m[1mPOST /api/import_csv HTTP/1.1[0m" 500 -
+2025-04-19 11:52:42,872 [ERROR] Erreur lors de l'import CSV
+Traceback (most recent call last):
+  File "C:\Users\vincc\Documents\Archilog\src\archilog\views\api.py", line 143, in import_csv_api
+  File "C:\Users\vincc\Documents\Archilog\src\archilog\services.py", line 48, in import_from_csv
+    for row in csv_reader:
+  File "C:\Users\vincc\AppData\Local\Programs\Python\Python310\lib\csv.py", line 110, in __next__
+    self.fieldnames
+  File "C:\Users\vincc\AppData\Local\Programs\Python\Python310\lib\csv.py", line 97, in fieldnames
+    self._fieldnames = next(self.reader)
+_csv.Error: iterator should return strings, not bytes (the file should be opened in text mode)
+2025-04-19 11:52:42,872 [INFO] 127.0.0.1 - - [19/Apr/2025 11:52:42] "[35m[1mPOST /api/import_csv HTTP/1.1[0m" 500 -
+2025-04-19 11:56:45,392 [INFO] 127.0.0.1 - - [19/Apr/2025 11:56:45] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 11:56:45,466 [INFO] 127.0.0.1 - - [19/Apr/2025 11:56:45] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 11:56:50,272 [INFO] BEGIN (implicit)
+2025-04-19 11:56:50,273 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 11:56:50,273 [INFO] [generated in 0.00046s] ()
+2025-04-19 11:56:50,273 [INFO] ROLLBACK
+2025-04-19 11:56:50,274 [INFO] 127.0.0.1 - - [19/Apr/2025 11:56:50] "[35m[1mGET /api/export_csv HTTP/1.1[0m" 500 -
+2025-04-19 11:57:29,787 [INFO] BEGIN (implicit)
+2025-04-19 11:57:29,787 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 11:57:29,787 [INFO] [cached since 39.52s ago] ()
+2025-04-19 11:57:29,788 [INFO] ROLLBACK
+2025-04-19 11:57:29,788 [INFO] 127.0.0.1 - - [19/Apr/2025 11:57:29] "[35m[1mGET /api/export_csv HTTP/1.1[0m" 500 -
+2025-04-19 11:58:35,659 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 11:58:36,103 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 11:58:36,115 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 11:58:36,115 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 11:58:36,439 [INFO] 127.0.0.1 - - [19/Apr/2025 11:58:36] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 11:58:36,497 [INFO] 127.0.0.1 - - [19/Apr/2025 11:58:36] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 11:58:43,801 [ERROR] Erreur lors de l'import CSV
+Traceback (most recent call last):
+  File "C:\Users\vincc\Documents\Archilog\src\archilog\views\api.py", line 132, in import_csv_api
+    import_from_csv(file.stream)
+  File "C:\Users\vincc\Documents\Archilog\src\archilog\services.py", line 49, in import_from_csv
+    for row in csv_reader:
+  File "C:\Users\vincc\AppData\Local\Programs\Python\Python310\lib\csv.py", line 110, in __next__
+    self.fieldnames
+  File "C:\Users\vincc\AppData\Local\Programs\Python\Python310\lib\csv.py", line 97, in fieldnames
+    self._fieldnames = next(self.reader)
+_csv.Error: iterator should return strings, not bytes (the file should be opened in text mode)
+2025-04-19 11:58:43,803 [INFO] 127.0.0.1 - - [19/Apr/2025 11:58:43] "[35m[1mPOST /api/import_csv HTTP/1.1[0m" 500 -
+2025-04-19 11:59:14,831 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 11:59:15,250 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 11:59:15,261 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 11:59:15,261 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 11:59:17,049 [INFO] 127.0.0.1 - - [19/Apr/2025 11:59:17] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 11:59:17,083 [INFO] 127.0.0.1 - - [19/Apr/2025 11:59:17] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 11:59:26,590 [ERROR] Erreur lors de l'import CSV
+Traceback (most recent call last):
+  File "C:\Users\vincc\Documents\Archilog\src\archilog\views\api.py", line 132, in import_csv_api
+    import_from_csv(file.stream)
+  File "C:\Users\vincc\Documents\Archilog\src\archilog\services.py", line 49, in import_from_csv
+    for row in csv_reader:
+  File "C:\Users\vincc\AppData\Local\Programs\Python\Python310\lib\csv.py", line 110, in __next__
+    self.fieldnames
+  File "C:\Users\vincc\AppData\Local\Programs\Python\Python310\lib\csv.py", line 97, in fieldnames
+    self._fieldnames = next(self.reader)
+_csv.Error: iterator should return strings, not bytes (the file should be opened in text mode)
+2025-04-19 11:59:26,592 [INFO] 127.0.0.1 - - [19/Apr/2025 11:59:26] "[35m[1mPOST /api/import_csv HTTP/1.1[0m" 500 -
+2025-04-19 11:59:59,969 [INFO] BEGIN (implicit)
+2025-04-19 11:59:59,969 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 11:59:59,969 [INFO] [generated in 0.00026s] ('02f13375189d458192432bf38792051d', 'vvv', 500.0, 'zfzfzfzf')
+2025-04-19 11:59:59,970 [INFO] COMMIT
+2025-04-19 11:59:59,979 [INFO] BEGIN (implicit)
+2025-04-19 11:59:59,979 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 11:59:59,979 [INFO] [cached since 0.01088s ago] ('e452c848722a4302b238aec90279e722', 'zffff', 500.0, 'fzzfzfzfzfzfzf')
+2025-04-19 11:59:59,980 [INFO] COMMIT
+2025-04-19 11:59:59,989 [INFO] 127.0.0.1 - - [19/Apr/2025 11:59:59] "[32mPOST /import_csv HTTP/1.1[0m" 302 -
+2025-04-19 12:00:00,064 [INFO] 127.0.0.1 - - [19/Apr/2025 12:00:00] "GET /admin HTTP/1.1" 200 -
+2025-04-19 12:00:10,064 [INFO] 127.0.0.1 - - [19/Apr/2025 12:00:10] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 12:00:10,138 [INFO] 127.0.0.1 - - [19/Apr/2025 12:00:10] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 12:02:00,870 [INFO] 127.0.0.1 - - [19/Apr/2025 12:02:00] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 12:02:00,904 [INFO] 127.0.0.1 - - [19/Apr/2025 12:02:00] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 12:02:04,210 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 12:02:32,693 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 12:02:33,115 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 12:02:33,125 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 12:02:33,125 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 12:02:35,047 [INFO] 127.0.0.1 - - [19/Apr/2025 12:02:35] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 12:02:35,081 [INFO] 127.0.0.1 - - [19/Apr/2025 12:02:35] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 12:02:42,977 [ERROR] Erreur lors de l'import CSV
+Traceback (most recent call last):
+  File "C:\Users\vincc\Documents\Archilog\src\archilog\views\api.py", line 136, in import_csv_api
+    file_stream = TextIOWrapper(file.stream, encoding='utf-8')
+AttributeError: 'SpooledTemporaryFile' object has no attribute 'readable'
+2025-04-19 12:02:42,979 [INFO] 127.0.0.1 - - [19/Apr/2025 12:02:42] "[35m[1mPOST /api/import_csv HTTP/1.1[0m" 500 -
+2025-04-19 12:02:51,842 [INFO] 127.0.0.1 - - [19/Apr/2025 12:02:51] "GET /admin HTTP/1.1" 200 -
+2025-04-19 12:04:14,961 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 12:04:15,371 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 12:04:15,382 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 12:04:15,382 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 12:04:21,964 [ERROR] Erreur lors de l'import CSV
+Traceback (most recent call last):
+  File "C:\Users\vincc\Documents\Archilog\src\archilog\views\api.py", line 138, in import_csv_api
+    file_stream = TextIOWrapper(file.stream, encoding='utf-8', newline='')
+AttributeError: 'SpooledTemporaryFile' object has no attribute 'readable'
+2025-04-19 12:04:21,964 [INFO] 127.0.0.1 - - [19/Apr/2025 12:04:21] "[35m[1mPOST /api/import_csv HTTP/1.1[0m" 500 -
+2025-04-19 12:05:21,901 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 12:05:22,321 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 12:05:22,332 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 12:05:22,332 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 12:05:24,083 [INFO] 127.0.0.1 - - [19/Apr/2025 12:05:24] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 12:05:24,144 [INFO] 127.0.0.1 - - [19/Apr/2025 12:05:24] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 12:05:30,622 [INFO] BEGIN (implicit)
+2025-04-19 12:05:30,623 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 12:05:30,623 [INFO] [generated in 0.00033s] ('9be7bcc7f99a4e0ba0a9023a4f0f9efa', 'vvv', 500.0, 'zfzfzfzf')
+2025-04-19 12:05:30,624 [INFO] COMMIT
+2025-04-19 12:05:30,633 [INFO] 127.0.0.1 - - [19/Apr/2025 12:05:30] "POST /api/import_csv HTTP/1.1" 200 -
+2025-04-19 12:05:51,148 [INFO] BEGIN (implicit)
+2025-04-19 12:05:51,148 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 12:05:51,148 [INFO] [generated in 0.00032s] ()
+2025-04-19 12:05:51,149 [INFO] ROLLBACK
+2025-04-19 12:05:51,149 [INFO] 127.0.0.1 - - [19/Apr/2025 12:05:51] "[35m[1mGET /api/export_csv HTTP/1.1[0m" 500 -
+2025-04-19 12:06:43,531 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 12:06:43,933 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 12:06:43,943 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 12:06:43,943 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 12:06:46,231 [INFO] BEGIN (implicit)
+2025-04-19 12:06:46,231 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 12:06:46,231 [INFO] [generated in 0.00025s] ()
+2025-04-19 12:06:46,231 [INFO] ROLLBACK
+2025-04-19 12:06:46,233 [INFO] 127.0.0.1 - - [19/Apr/2025 12:06:46] "[35m[1mGET /api/export_csv HTTP/1.1[0m" 500 -
+2025-04-19 12:07:46,985 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 12:07:47,393 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 12:07:47,403 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 12:07:47,403 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 12:07:48,751 [INFO] 127.0.0.1 - - [19/Apr/2025 12:07:48] "GET /admin HTTP/1.1" 200 -
+2025-04-19 12:07:50,968 [INFO] 127.0.0.1 - - [19/Apr/2025 12:07:50] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 12:07:51,042 [INFO] 127.0.0.1 - - [19/Apr/2025 12:07:51] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 12:07:54,569 [INFO] BEGIN (implicit)
+2025-04-19 12:07:54,569 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 12:07:54,569 [INFO] [generated in 0.00031s] ()
+2025-04-19 12:07:54,570 [INFO] ROLLBACK
+2025-04-19 12:07:54,571 [INFO] 127.0.0.1 - - [19/Apr/2025 12:07:54] "[35m[1mGET /api/export_csv HTTP/1.1[0m" 500 -
+2025-04-19 12:09:54,109 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 12:09:54,530 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 12:09:54,541 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 12:09:54,541 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 12:09:56,752 [INFO] 127.0.0.1 - - [19/Apr/2025 12:09:56] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 12:09:56,802 [INFO] 127.0.0.1 - - [19/Apr/2025 12:09:56] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 12:10:02,073 [INFO] BEGIN (implicit)
+2025-04-19 12:10:02,074 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 12:10:02,074 [INFO] [generated in 0.00045s] ()
+2025-04-19 12:10:02,075 [INFO] ROLLBACK
+2025-04-19 12:10:02,075 [INFO] 127.0.0.1 - - [19/Apr/2025 12:10:02] "GET /api/export_csv HTTP/1.1" 200 -
+2025-04-19 12:10:52,124 [INFO] 127.0.0.1 - - [19/Apr/2025 12:10:52] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 12:10:52,158 [INFO] 127.0.0.1 - - [19/Apr/2025 12:10:52] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 12:10:58,819 [INFO] BEGIN (implicit)
+2025-04-19 12:10:58,819 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 12:10:58,819 [INFO] [generated in 0.00034s] ('b4fb4d0a52c146a0a847517c8ed6b7e9', 'zffff', 500.0, 'fzzfzfzfzfzfzf')
+2025-04-19 12:10:58,820 [INFO] COMMIT
+2025-04-19 12:10:58,830 [INFO] BEGIN (implicit)
+2025-04-19 12:10:58,830 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 12:10:58,830 [INFO] [cached since 0.01126s ago] ('dd3d0a2b1c814c709dd880231b9995c8', 'carret', 5.0, 'ezg')
+2025-04-19 12:10:58,831 [INFO] COMMIT
+2025-04-19 12:10:58,840 [INFO] BEGIN (implicit)
+2025-04-19 12:10:58,840 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 12:10:58,840 [INFO] [cached since 0.02162s ago] ('4fbed8639c494967b86cb90948c43522', 'zfzfzf', 520.0, 'zfzzzz')
+2025-04-19 12:10:58,841 [INFO] COMMIT
+2025-04-19 12:10:58,850 [INFO] BEGIN (implicit)
+2025-04-19 12:10:58,850 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 12:10:58,850 [INFO] [cached since 0.03193s ago] ('72fe8e240abf4631963d70f95d33b429', 'vvv', 500.0, 'zfzfzfzf')
+2025-04-19 12:10:58,851 [INFO] COMMIT
+2025-04-19 12:10:58,861 [INFO] BEGIN (implicit)
+2025-04-19 12:10:58,861 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 12:10:58,861 [INFO] [cached since 0.04257s ago] ('78ce8046179043ebb46b641e2453a2be', 'vvv', 500.0, 'zfzfzfzf')
+2025-04-19 12:10:58,862 [INFO] COMMIT
+2025-04-19 12:10:58,871 [INFO] BEGIN (implicit)
+2025-04-19 12:10:58,871 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 12:10:58,871 [INFO] [cached since 0.05279s ago] ('e58f757fa6f94b3182ec23e66cb986fa', 'zffff', 500.0, 'fzzfzfzfzfzfzf')
+2025-04-19 12:10:58,872 [INFO] COMMIT
+2025-04-19 12:10:58,881 [INFO] BEGIN (implicit)
+2025-04-19 12:10:58,881 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 12:10:58,881 [INFO] [cached since 0.06293s ago] ('59490ce39ac24c83a610dc9a80b94fdd', 'vvv', 500.0, 'zfzfzfzf')
+2025-04-19 12:10:58,882 [INFO] COMMIT
+2025-04-19 12:10:58,892 [INFO] 127.0.0.1 - - [19/Apr/2025 12:10:58] "POST /api/import_csv HTTP/1.1" 200 -
+2025-04-19 12:11:37,527 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 12:11:37,963 [INFO] Configuration chargée : Config(DATABASE_URL='sqlite:///data.db', DEBUG=True, SECRET_KEY='ma_super_cle_secrete')
+2025-04-19 12:11:37,973 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 12:11:37,973 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-19 12:11:39,636 [INFO] 127.0.0.1 - - [19/Apr/2025 12:11:39] "GET /apidoc/swagger/ HTTP/1.1" 200 -
+2025-04-19 12:11:39,671 [INFO] 127.0.0.1 - - [19/Apr/2025 12:11:39] "GET /apidoc/openapi.json HTTP/1.1" 200 -
+2025-04-19 12:11:43,158 [INFO] BEGIN (implicit)
+2025-04-19 12:11:43,158 [INFO] SELECT profile.id, profile.name, profile.amount, profile.category 
+FROM profile
+2025-04-19 12:11:43,158 [INFO] [generated in 0.00037s] ()
+2025-04-19 12:11:43,159 [INFO] ROLLBACK
+2025-04-19 12:11:43,159 [INFO] 127.0.0.1 - - [19/Apr/2025 12:11:43] "GET /api/export_csv HTTP/1.1" 200 -
+2025-04-19 12:12:10,766 [INFO] BEGIN (implicit)
+2025-04-19 12:12:10,766 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 12:12:10,766 [INFO] [generated in 0.00028s] ('d1932b564939458dbb9ca9ae59ba4d8b', 'zffff', 500.0, 'fzzfzfzfzfzfzf')
+2025-04-19 12:12:10,767 [INFO] COMMIT
+2025-04-19 12:12:10,776 [INFO] BEGIN (implicit)
+2025-04-19 12:12:10,777 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 12:12:10,777 [INFO] [cached since 0.01145s ago] ('788a5165a33d44c68965bb1134549791', 'carret', 5.0, 'ezg')
+2025-04-19 12:12:10,777 [INFO] COMMIT
+2025-04-19 12:12:10,787 [INFO] BEGIN (implicit)
+2025-04-19 12:12:10,787 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 12:12:10,787 [INFO] [cached since 0.02181s ago] ('416fa6d69b9f4c93852fc60e145c7f6d', 'zfzfzf', 520.0, 'zfzzzz')
+2025-04-19 12:12:10,788 [INFO] COMMIT
+2025-04-19 12:12:10,797 [INFO] BEGIN (implicit)
+2025-04-19 12:12:10,797 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 12:12:10,798 [INFO] [cached since 0.03231s ago] ('dfc18533d253405eb5fe68e3931ab789', 'vvv', 500.0, 'zfzfzfzf')
+2025-04-19 12:12:10,798 [INFO] COMMIT
+2025-04-19 12:12:10,808 [INFO] BEGIN (implicit)
+2025-04-19 12:12:10,808 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 12:12:10,808 [INFO] [cached since 0.04259s ago] ('8a318f21842b4ad1a9363a4a1431e0a7', 'vvv', 500.0, 'zfzfzfzf')
+2025-04-19 12:12:10,809 [INFO] COMMIT
+2025-04-19 12:12:10,818 [INFO] BEGIN (implicit)
+2025-04-19 12:12:10,818 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 12:12:10,818 [INFO] [cached since 0.05269s ago] ('23086e578396415a89e6f864830a3245', 'zffff', 500.0, 'fzzfzfzfzfzfzf')
+2025-04-19 12:12:10,819 [INFO] COMMIT
+2025-04-19 12:12:10,828 [INFO] BEGIN (implicit)
+2025-04-19 12:12:10,828 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 12:12:10,828 [INFO] [cached since 0.0627s ago] ('52a717a34a43481c9e3a1b4b1260f19d', 'vvv', 500.0, 'zfzfzfzf')
+2025-04-19 12:12:10,829 [INFO] COMMIT
+2025-04-19 12:12:10,838 [INFO] BEGIN (implicit)
+2025-04-19 12:12:10,838 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 12:12:10,838 [INFO] [cached since 0.07325s ago] ('88a1c69a08874127893ba02fd0836ca5', 'zffff', 500.0, 'fzzfzfzfzfzfzf')
+2025-04-19 12:12:10,839 [INFO] COMMIT
+2025-04-19 12:12:10,849 [INFO] BEGIN (implicit)
+2025-04-19 12:12:10,849 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 12:12:10,849 [INFO] [cached since 0.0837s ago] ('3b9dc2ce49e44cbb8456fbce3baef286', 'carret', 5.0, 'ezg')
+2025-04-19 12:12:10,850 [INFO] COMMIT
+2025-04-19 12:12:10,859 [INFO] BEGIN (implicit)
+2025-04-19 12:12:10,859 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 12:12:10,859 [INFO] [cached since 0.09391s ago] ('080e12119cf24b33a1fe8cc621936aba', 'zfzfzf', 520.0, 'zfzzzz')
+2025-04-19 12:12:10,860 [INFO] COMMIT
+2025-04-19 12:12:10,869 [INFO] BEGIN (implicit)
+2025-04-19 12:12:10,869 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 12:12:10,869 [INFO] [cached since 0.1041s ago] ('f5b90f6bcb2b4b05b16a72a08e4d404b', 'vvv', 500.0, 'zfzfzfzf')
+2025-04-19 12:12:10,870 [INFO] COMMIT
+2025-04-19 12:12:10,879 [INFO] BEGIN (implicit)
+2025-04-19 12:12:10,880 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 12:12:10,880 [INFO] [cached since 0.1144s ago] ('bf1fe0f4610e41009c3ebd617b4340c4', 'vvv', 500.0, 'zfzfzfzf')
+2025-04-19 12:12:10,880 [INFO] COMMIT
+2025-04-19 12:12:10,890 [INFO] BEGIN (implicit)
+2025-04-19 12:12:10,890 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 12:12:10,890 [INFO] [cached since 0.125s ago] ('ca148e2d6e8341d0bb0afddd8e113155', 'zffff', 500.0, 'fzzfzfzfzfzfzf')
+2025-04-19 12:12:10,891 [INFO] COMMIT
+2025-04-19 12:12:10,900 [INFO] BEGIN (implicit)
+2025-04-19 12:12:10,901 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 12:12:10,901 [INFO] [cached since 0.1352s ago] ('b6c7a97973474f849ca88ccadfbef3f0', 'vvv', 500.0, 'zfzfzfzf')
+2025-04-19 12:12:10,901 [INFO] COMMIT
+2025-04-19 12:12:10,910 [INFO] 127.0.0.1 - - [19/Apr/2025 12:12:10] "POST /api/import_csv HTTP/1.1" 200 -
+2025-04-19 12:12:21,322 [INFO] 127.0.0.1 - - [19/Apr/2025 12:12:21] "GET /admin HTTP/1.1" 200 -
+2025-04-19 12:12:22,001 [INFO] 127.0.0.1 - - [19/Apr/2025 12:12:22] "GET /display_create_user HTTP/1.1" 200 -
+2025-04-19 12:12:26,980 [INFO] BEGIN (implicit)
+2025-04-19 12:12:26,981 [INFO] INSERT INTO profile (id, name, amount, category) VALUES (?, ?, ?, ?)
+2025-04-19 12:12:26,981 [INFO] [cached since 16.22s ago] ('6ee283ea0df946ad95aec303e538d941', 'carret', 500.0, 'fzzfzf')
+2025-04-19 12:12:26,982 [INFO] COMMIT
+2025-04-19 12:12:26,991 [INFO] 127.0.0.1 - - [19/Apr/2025 12:12:26] "[32mPOST /display_create_user HTTP/1.1[0m" 302 -
+2025-04-19 12:12:27,068 [INFO] 127.0.0.1 - - [19/Apr/2025 12:12:27] "GET /admin HTTP/1.1" 200 -

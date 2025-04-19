@@ -23,6 +23,7 @@ def export_to_csv(write_to_file=False):
     csv_writer.writeheader()
     for entry in entries:
         row = entry.to_dict()
+      
         filtered_row = {key: row.get(key, "") for key in csv_writer.fieldnames}
         csv_writer.writerow(filtered_row)
 

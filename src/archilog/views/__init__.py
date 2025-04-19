@@ -2,11 +2,8 @@ from flask import Flask
 from archilog.views.web_ui import web_ui
 from archilog.views.api import api
 from archilog.views.error_handler import register_error_handlers
-from archilog.models import init_db
 from archilog.__init__ import config  # Assure-toi d'importer la bonne config
 from archilog.views.cli import cli  # 🔹 Ajout de l'import du CLI
-from flask_wtf import CSRFProtect
-from spectree import SpecTree
 from archilog.views.api import spec
 
 

@@ -16,6 +16,8 @@ from archilog.models import (
    
 )
 from archilog.services import export_to_csv, import_from_csv
+from flask import Response, jsonify
+from spectree.models import BaseFile
 
 # --- Blueprints ---
 api = Blueprint('api', __name__, url_prefix='/api')
@@ -86,36 +88,42 @@ def update_user(user_id: str):
 @api.route("/users/<user_id>", methods=["DELETE"])
 @spec.validate(tags=["api"])
 def delete_user(user_id: str):
-    try:
         user_uuid = uuid.UUID(user_id)
         success = delete_entry(user_uuid)
-        if not success:
-            return jsonify({"error": "Utilisateur non trouvé"}), 404
         return jsonify({"message": "Utilisateur supprimé"}), 200
-    except ValueError:
-        return jsonify({"error": "UUID invalide"}), 400
+   
 
 
 # --- Routes pour Exporter et Importer des CSV --- #
 
-# Route pour exporter un fichier CSV
+
 @api.route("/export_csv", methods=["GET"])
 @spec.validate(tags=["csv"])
 def export_csv_api():
     try:
-        output = export_to_csv()
+        # Appelle la fonction pour générer le CSV
+        output = export_to_csv(False)
+
+        if not output:
+            return jsonify({"error": "Aucune donnée à exporter"}), 500
+
+        # Assure-toi que le contenu est prêt pour être envoyé
+        csv_content = output.getvalue()
 
         return Response(
-            output.getvalue(),
+            csv_content,  # Envoie le contenu CSV
             mimetype="text/csv",
             headers={
                 "Content-Disposition": "attachment; filename=entries.csv"
             }
         )
     except Exception as e:
+        # Capture l'exception et log l'erreur
+        logging.exception("Erreur lors de l'export CSV")
         return jsonify({"error": "Erreur lors de l'export"}), 500
 
-from spectree.models import BaseFile
+
+
 
 # Modèle de validation pour l'importation de fichier CSV
 class CSVFileUpload(BaseModel):
@@ -133,7 +141,7 @@ def import_csv_api():
             return jsonify({"error": "Fichier manquant"}), 400
 
         # Traitement du fichier CSV
-        import_from_csv(file.stream)
+        import_from_csv(file.stream,True)
         return jsonify({"message": "Import réussi"}), 200
     except Exception as e:
         logging.exception("Erreur lors de l'import CSV")
